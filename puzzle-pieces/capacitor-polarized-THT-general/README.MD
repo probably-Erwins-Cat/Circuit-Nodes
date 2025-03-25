@@ -2,8 +2,6 @@
 A **polarized capacitor** is an electronic component that **stores and releases electrical energy**. It is used in circuits to smooth out voltage, filter signals, and store energy for brief periods.  
 Unlike regular capacitors, **polarized capacitors have a positive (+) and a negative (-) side**, meaning they must be connected in the correct orientation.  
 
----  
-
 # For What It Is Used  
 **Polarized capacitors are commonly used in:**  
 - **Power supplies:** Smoothing out fluctuations in voltage (e.g., after a rectifier).  
@@ -14,8 +12,6 @@ Unlike regular capacitors, **polarized capacitors have a positive (+) and a nega
 ✅ **High capacitance:** Can store more energy than non-polarized capacitors of the same size.  
 ✅ **Great for low-frequency applications:** Works well in power supplies and audio circuits.  
 ✅ **Reliable for energy buffering:** Helps stabilize voltage in circuits.  
-
----  
 
 # Functional Description  
 
@@ -35,15 +31,11 @@ A **capacitor stores electrical charge**, similar to how a **flexible membrane i
 - **Discharging:** When the voltage source is removed, the stored energy is released as current flows back out.  
 - **Blocking DC / Passing AC:** The capacitor **blocks direct current (DC)** because once charged, no more current flows. However, **alternating current (AC) can pass**, as the charge builds and releases in cycles.  
 
----
-
 # Important Considerations  
 
 ⚠️ **Polarity Matters!** If connected **backwards**, a polarized capacitor **may overheat, leak, or even explode**.  
 ⚠️ **Voltage Rating:** The capacitor’s voltage rating **must be higher than the circuit voltage** to avoid failure.  
 ⚠️ **ESR (Equivalent Series Resistance):** In high-frequency applications, lower ESR is preferred to reduce heat and losses.  
-
----
 
 # Compatible and Recommended Part(s)  
 For general-purpose use, the following THT electrolytic capacitors are widely available:  
