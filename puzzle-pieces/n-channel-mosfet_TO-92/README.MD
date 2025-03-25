@@ -39,7 +39,7 @@ While an **N-Channel MOSFET** and an **NPN Bipolar Junction Transistor (BJT)** c
 | **Control Signal**      | Voltage (Gate-Source) | Current (Base-Emitter) |
 | **Efficiency**         | Higher, almost no power wasted at Gate | Lower, Base consumes current |
 | **On-State Resistance, Heat** | Very low resistance (milliohms) and heat generation | higher resistance (ohms) and heat generation |
-| **Response Behavior**  | More binary: mostly ON or OFF | Linear: smooth amplification possible |
+| **Response Behavior**  | More binary: mostly ON or OFF | Linear: smooth amplification possible even at low voltages |
 | **Best For**           | High-power switching, efficiency-critical applications | Low-power analog amplification, simpler circuits |
 
 ### **Key Differences:**
