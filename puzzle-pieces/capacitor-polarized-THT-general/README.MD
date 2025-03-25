@@ -9,13 +9,12 @@ Unlike regular capacitors, **polarized capacitors have a positive (+) and a nega
 - **Energy storage:** Providing a quick burst of power when needed.  
 
 ## Advantages of Polarized Capacitors  
-✅ **High capacitance:** Can store more energy than non-polarized capacitors of the same size.  
-✅ **Great for low-frequency applications:** Works well in power supplies and audio circuits.  
-✅ **Reliable for energy buffering:** Helps stabilize voltage in circuits.  
+* **High capacitance:** Can store more energy than non-polarized capacitors of the same size.  
+* **Reliable for energy buffering:** Helps stabilize voltage in circuits.  
 
 # Functional Description  
 
-A **capacitor stores electrical charge**, similar to how a **flexible membrane inside a water pipe stores energy**.  
+A **capacitor stores electrical charge**, similar to how a **flexible membrane inside a water pipe stores energy**. The higher the applied voltage (pressure), the more charge (water) can be stored. When the voltage is higher than allowed, the capacitor insulation (membrane) will irreversibly break, destroying the capacitor.
 
 ## The Two Terminals and Their Roles  
 
@@ -34,16 +33,8 @@ A **capacitor stores electrical charge**, similar to how a **flexible membrane i
 # Important Considerations  
 
 ⚠️ **Polarity Matters!** If connected **backwards**, a polarized capacitor **may overheat, leak, or even explode**.  
-⚠️ **Voltage Rating:** The capacitor’s voltage rating **must be higher than the circuit voltage** to avoid failure.  
-⚠️ **ESR (Equivalent Series Resistance):** In high-frequency applications, lower ESR is preferred to reduce heat and losses.  
+⚠️ **Voltage Rating:** The capacitor’s voltage rating **must be higher than the circuit voltage** to avoid failure. 
 
 # Compatible and Recommended Part(s)  
-For general-purpose use, the following THT electrolytic capacitors are widely available:  
-- **1000µF, 25V** – Good for power supply filtering.  
-- **470µF, 16V** – Common in audio circuits.  
-- **10µF, 50V** – Useful for small signal applications.  
-
-When selecting a capacitor, always check:  
-- **Capacitance value (µF)**
-- **Voltage rating (V)**
-- **Size (to fit your circuit board)**
+Any standing THT capacitor will be compatible. However, **slow** charging and discharging is best to illustrate its functionality in school settings. Therefore, capacitors with large capacity and reasonable high voltage rating is preferred, which tpyically are rather large. Further, they should be charged with a high-ohmic resistor (high kOhm or perhaps even MOhm). Lastly, irrationally large capacitors pose a tiny danger in school settings as they store energy and can release all their energy rapidly when shorting the circuit.
+For that reason, I recommend capacitors arround **100µF**.
