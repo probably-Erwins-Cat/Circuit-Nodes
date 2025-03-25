@@ -2,7 +2,7 @@
 An **N-Channel MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor)** is an electronic component that works like a switch or amplifier. It controls the flow of electrical current in a circuit. Unlike mechanical switches, it has no moving parts and is controlled by a small voltage.
 This ability **to control a large current with a small voltage** is what makes MOSFETs so useful in modern electronics. 
 
-<img src="n-channel-mosfet_TO-92_TOP.jpg" alt="Circuit Diagram" width="400"> <img src="n-channel-mosfet_TO-92_BOTTOM.jpg" alt="Circuit Diagram" width="400">
+<img src="n-channel-mosfet_TO-92_TOP.png" alt="Circuit Diagram" width="400"> <img src="n-channel-mosfet_TO-92_BOTTOM.png" alt="Circuit Diagram" width="400">
 
 # For What It Is Used  
 **mosfets are used in many electronic applications, such as:**  
