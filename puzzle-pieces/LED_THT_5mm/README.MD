@@ -1,6 +1,8 @@
 # Intro  
 An **LED (Light-Emitting Diode)** is a special type of diode that emits light when electric current flows through it. Unlike regular light bulbs, LEDs are highly efficient and long-lasting.  
 
+<img src="LED_THT_5mm_TOP.png" alt="Circuit Diagram" width="400"> <img src="LED_THT_5mm_BOTTOM.png" alt="Circuit Diagram" width="400">
+
 LEDs only allow current to flow in **one direction** (from the **Anode (+)** to the **Cathode (-)**). They require **a resistor in series** to limit current and prevent damage.  
 
 ---
