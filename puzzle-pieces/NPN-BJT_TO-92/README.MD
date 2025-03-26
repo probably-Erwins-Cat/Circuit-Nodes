@@ -2,7 +2,7 @@
 An **NPN Bipolar Junction Transistor (BJT)** is an electronic component that **controls a large current using a small current**. It is often used as a switch or an amplifier.  
 Unlike MOSFETs, which are controlled by voltage, BJTs are **controlled by current** flowing into the **Base (B) terminal**.  
 
----
+<img src="n-channel-mosfet_TO-92_TOP.png" alt="Circuit Diagram" width="400"> <img src="n-channel-mosfet_TO-92_BOTTOM.png" alt="Circuit Diagram" width="400">
 
 # For What It Is Used  
 **NPN BJTs are commonly used in:**  
@@ -15,7 +15,6 @@ Unlike MOSFETs, which are controlled by voltage, BJTs are **controlled by curren
 ✅ **Easier to drive:** Works well with low-voltage control signals.  
 ✅ **Can amplify current:** Useful for weak signals that need boosting.  
 
----
 
 # Functional Description  
 
@@ -37,8 +36,6 @@ A **BJT behaves like a controllable water valve**, but instead of a voltage-cont
 
 Unlike MOSFETs, where a small **voltage** controls the switch, a BJT requires a small **current** at the Base terminal to turn on.  
 
----
-
 # Comparison: NPN BJT vs. N-Channel MOSFET  
 
 While an **N-Channel MOSFET** and an **NPN Bipolar Junction Transistor (BJT)** can both be used as switches, they operate differently:  
@@ -56,7 +53,6 @@ While an **N-Channel MOSFET** and an **NPN Bipolar Junction Transistor (BJT)** c
 - **MOSFETs are better for efficient switching** (e.g., power circuits, microcontrollers).  
 - **BJTs generate more heat** due to higher voltage drop (V_CE), while MOSFETs have much lower ON resistance (R_DS(on)).  
 
----
 
 # Compatible and Recommended Part(s)  
 All NPN BJTs with long and flexible enough legs are compatible TO-92 housing recommended. Vefore soldering, double check the pinout of the three legs so the NPN BJT is not accidentally soldered in the wrong way.
