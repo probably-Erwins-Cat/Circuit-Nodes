@@ -2,7 +2,7 @@
 An **NPN Bipolar Junction Transistor (BJT)** is an electronic component that **controls a large current using a small current**. It is often used as a switch or an amplifier.  
 Unlike MOSFETs, which are controlled by voltage, BJTs are **controlled by current** flowing into the **Base (B) terminal**.  
 
-<img src="n-channel-mosfet_TO-92_TOP.png" alt="Circuit Diagram" width="400"> <img src="n-channel-mosfet_TO-92_BOTTOM.png" alt="Circuit Diagram" width="400">
+<img src="NPN-BJT_TO-92_TOP.png" alt="Circuit Diagram" width="400"> <img src="NPN-BJT_TO-92__BOTTOM.png" alt="Circuit Diagram" width="400">
 
 # For What It Is Used  
 **NPN BJTs are commonly used in:**  
