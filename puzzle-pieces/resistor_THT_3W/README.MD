@@ -2,6 +2,8 @@
 A **resistor** is one of the most fundamental electronic components. It **limits the flow of electric current** and is used to control voltage and current in a circuit.  
 Resistors follow **Ohm's Law (V = I × R)**, meaning the voltage drop across the resistor is proportional to the current flowing through it.  
 
+<img src="resistor_THT_3W_TOP.png" alt="Circuit Diagram" width="400"> <img src="resistor_THT_3W_BOTTOM.png" alt="Circuit Diagram" width="400">
+
 ---
 
 # For What It Is Used  
