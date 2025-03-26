@@ -36,22 +36,18 @@ A **resistor behaves like a narrow pipe that restricts water flow** in a plumbin
 - **No resistance (R = 0 Ω, short circuit)** → Current flows freely (like a fully open pipe).  
 
 Ohm’s Law governs this relationship:  
-\[
-V = I \times R
-\]  
+V = I × R
 where:  
-- \( V \) = Voltage (Volts)  
-- \( I \) = Current (Amperes)  
-- \( R \) = Resistance (Ohms, Ω)  
+- V: Voltage (Volts)  
+- I: Current (Amperes)  
+- R: Resistance (Ohms, Ω)  
 
 ---
 
 # Important Considerations  
 
 ⚠️ **Power Rating Matters!** A resistor dissipates power as heat:  
-\[
-P = V \times I = I^2 \times R = \frac{V^2}{R}
-\]  
+P = V × I = I^2 × R = V^2 / R
 If the power rating is exceeded, the resistor **may overheat and burn out**.  
 
 ⚠️ **Tolerance:** Real resistors are not perfect; they have a tolerance (e.g., ±5%) indicating variation from their labeled value.  
@@ -72,12 +68,5 @@ If the power rating is exceeded, the resistor **may overheat and burn out**.
 ---
 
 # Compatible and Recommended Part(s)  
-For general-purpose use, the following resistor values are widely available:  
-- **1kΩ (1000 ohms)** – Good for limiting current in LED circuits.  
-- **10kΩ** – Common pull-up/pull-down resistor for microcontrollers.  
-- **100Ω – 1MΩ** – Available for various applications.  
-
-When selecting a resistor, always check:  
-- **Resistance value (Ω)**  
-- **Power rating (W)**  
-- **Tolerance (%)** 
+Any THT resistor will work. I recommend to use ones with lower tolerances, 1%, and high wattage/heat dissipation, 3W. Those resistors are usually bulky and survive very long.
+For school settings and various experiments, you want to have a broad range of resistances. 300Ω is a reasonable resistance for LEDs at lower voltages. 1MΩ is a reasonable resistance when charging a capacitor and make it visible on slow time scales.
