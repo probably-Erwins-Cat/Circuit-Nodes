@@ -59,6 +59,7 @@ While an **N-Channel MOSFET** and an **NPN Bipolar Junction Transistor (BJT)** c
 ---
 
 # Compatible and Recommended Part(s)  
+All NPN BJTs with long and flexible enough legs are compatible TO-92 housing recommended. Vefore soldering, double check the pinout of the three legs so the NPN BJT is not accidentally soldered in the wrong way.
 When selecting a BJT, always check:
 - **Current gain (h_FE)**
 - **Collector-Emitter voltage (V_CE)**
