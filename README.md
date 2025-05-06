@@ -1,3 +1,5 @@
+### this is WIP
+
 # Circuit Nodes - Modular Electronics Building Blocks
 
 Circuit Nodes is an open-source educational tool designed to help students and
