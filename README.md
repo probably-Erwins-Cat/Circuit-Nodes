@@ -2,6 +2,9 @@
 
 # Circuit Nodes - Modular Electronics Building Blocks
 
+<img src="logo.png" alt="Circuit Diagram" width="1000">
+
+
 Circuit Nodes is an open-source educational tool designed to help students and
 enthusiasts understand electronic circuits by physically building them. Each
 module consists of a small PCB mounted on a 3D-printed base with puzzle-like
