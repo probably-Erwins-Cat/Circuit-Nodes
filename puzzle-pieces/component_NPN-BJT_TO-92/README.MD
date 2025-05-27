@@ -2,41 +2,37 @@
 An **NPN Bipolar Junction Transistor (BJT)** is an electronic component that **controls a large current using a small current**. It is often used as a switch or an amplifier.  
 Unlike MOSFETs, which are controlled by voltage, BJTs are **controlled by current** flowing into the **Base (B) terminal**.  
 
-<img src="NPN-BJT_TO-92_TOP.png" alt="Circuit Diagram" width="400"> <img src="NPN-BJT_TO-92__BOTTOM.png" alt="Circuit Diagram" width="400">
-
-# For What It Is Used  
-**NPN BJTs are commonly used in:**  
-- **Signal amplification:** Boosting weak electrical signals, e.g., in audio circuits.  
-- **Switching applications:** Controlling small motors, LEDs, and relays.  
-- **Analog circuits:** Used in operational amplifiers and sensor circuits.  
-
-## Advantages of an NPN BJT  
-✅ **Good for analog applications:** Provides smooth, continuous current control.  
-✅ **Easier to drive:** Works well with low-voltage control signals.  
-✅ **Can amplify current:** Useful for weak signals that need boosting.  
+<img src="component_NPN-BJT_TO-92_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_NPN-BJT_TO-92__BOTTOM.png" alt="Circuit Diagram" width="400">
 
 
 # Functional Description  
 
-A **BJT behaves like a controllable water valve**, but instead of a voltage-controlled switch (like a MOSFET), it is **current-controlled**.  
+The Three Terminals and Their Roles  
 
-## The Three Terminals and Their Roles  
-
-| **BJT (Electricity)** | **Water Analogy (Hydrodynamics)** |
+| **BJT (Electricity)** | function |
 |-----------------------|----------------------------------|
-| **Collector (C)** → Where current enters | **Water inlet** → Water flows in |
-| **Emitter (E)** → Where current exits | **Water outlet** → Water flows out |
-| **Base (B)** → Controls the flow | **Small control valve** that adjusts the main flow |
+| **Collector (C)** | Where current enters |
+| **Emitter (E)** | Where current exits |
+| **Base (B)**  | Controls the flow |
 
 ## How It Works  
-- **Base Current OFF (No current to Base, IB = 0):**  
-  → The transistor **blocks current**, acting like a closed valve. No flow from Collector to Emitter.  
-- **Base Current ON (Small current to Base, IB > 0):**  
-  → The transistor **allows current to flow**, just like opening a valve to let water pass through.  
+- **Base Current OFF (No current to Base, IB = 0):** The transistor **blocks current**.
+- **Base Current ON (Small current to Base, IB > 0):** The transistor **allows current to flow**.
 
-Unlike MOSFETs, where a small **voltage** controls the switch, a BJT requires a small **current** at the Base terminal to turn on.  
+Unlike MOSFETs, where a small **voltage** controls the switch, a BJT requires a small **current** at the Base terminal to turn on. Thus, a BJT is technically a (linear) current amplifier.
 
 # Comparison: NPN BJT vs. N-Channel MOSFET  
+
+# For What BJTs are Used  
+**NPN BJTs are commonly used in:**  
+* **Signal amplification:** Boosting weak electrical signals, e.g., in audio circuits.  
+* **Switching applications:** Controlling small motors, LEDs, and relays.  
+* **Analog circuits:** Used in operational amplifiers and sensor circuits.  
+
+## Advantages of an NPN BJT  
+* **Good for analog applications:** Provides smooth, continuous current control.  
+* **Easier to drive:** Works well with low-voltage control signals.  
+* **Can amplify current:** Useful for weak signals that need boosting.  
 
 While an **N-Channel MOSFET** and an **NPN Bipolar Junction Transistor (BJT)** can both be used as switches, they operate differently:  
 
@@ -52,7 +48,6 @@ While an **N-Channel MOSFET** and an **NPN Bipolar Junction Transistor (BJT)** c
 - **BJTs excel in analog applications** where smooth current control is needed (e.g., amplifiers).  
 - **MOSFETs are better for efficient switching** (e.g., power circuits, microcontrollers).  
 - **BJTs generate more heat** due to higher voltage drop (V_CE), while MOSFETs have much lower ON resistance (R_DS(on)).  
-
 
 # Compatible and Recommended Part(s)  
 All NPN BJTs with long and flexible enough legs are compatible TO-92 housing recommended. Vefore soldering, double check the pinout of the three legs so the NPN BJT is not accidentally soldered in the wrong way.

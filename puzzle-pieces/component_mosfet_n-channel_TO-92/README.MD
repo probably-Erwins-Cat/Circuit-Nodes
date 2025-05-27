@@ -1,38 +1,36 @@
 # Intro  
 An **N-Channel MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor)** is an electronic component that works like a switch or amplifier. It controls the flow of electrical current in a circuit. Unlike mechanical switches, it has no moving parts and is controlled by a small voltage.
-This ability **to control a large current with a small voltage** is what makes MOSFETs so useful in modern electronics. 
+This ability **controlling a large current with a small voltage** is what makes MOSFETs so useful in modern electronics. 
 
-<img src="n-channel-mosfet_TO-92_TOP.png" alt="Circuit Diagram" width="400"> <img src="n-channel-mosfet_TO-92_BOTTOM.png" alt="Circuit Diagram" width="400">
-
-# For What It Is Used  
-**mosfets are used in many electronic applications, such as:**  
-* **Power control:** Switching power to motors, LEDs, or other components efficiently.  
-* **Computers and microcontrollers:** Used inside processors and memory chips to switch signals extremely fast.  
-* **Audio and signal amplification:** Boosting small signals in sound systems.  
-
-## Advantages of an N-Channel mosfet  
-* **Efficient:** Uses very little energy to switch large currents.  
-* **Fast:** Can turn on and off millions of times per second.  
-* **Durable:** No mechanical wear since it has no moving parts.  
+<img src="component_mosfet_n-channel_TO-92_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_mosfet_n-channel_TO-92_BOTTOM.png" alt="Circuit Diagram" width="400">
 
 # Functional Description  
 
-A **mosfet works like a controlled valve for electricity**, and we can understand it using a **water analogy**.  
+The three terminals are
 
-## The Three Terminals and Their Roles  
-
-| **mosfet (Electricity)** | **Water Analogy (Hydrodynamics)** |
+| **terminal** | **function** |
 |--------------------------|----------------------------------|
-| **Drain (D)** → Where current enters | **Water pipe inlet** → Where water flows in |
-| **Source (S)** → Where current exits | **Water pipe outlet** → Where water flows out |
-| **Gate (G)** → Controls the flow | **Valve handle** → Opens or closes the pipe |
+| **Drain (D)** | Where current enters |
+| **Source (S)** | Where current exits |
+| **Gate (G)** | Controls the flow  |
 
-## How It Works  
-- **Gate OFF (No voltage applied, GND)** → The mosfet acts like a closed valve, blocking current. No water (electricity) can flow.  
-- **Gate ON (Voltage applied, Von)** → The mosfet acts like an open valve, allowing current to flow from Drain to Source, just like water moving through an open pipe.  
+- **Gate OFF (No voltage applied, GND):** The mosfet acts like a closed valve, blocking current.
+- **Gate ON (Voltage applied, V_on):** The mosfet acts like an open valve, allowing current to flow from Drain to Source.
 
+# Where to place Mosfets in a Circuit
+n-channel Mosfets are used for **low-side switching**, i.e. the to-be-switched components are placed on the high side = drain side. the low side should directly be connected to GND. If not followed, then the voltage levels in the circuit and mosfet terminals do not match the intended voltage levels for opening and closing the gate.
 
-# MOSFET vs. NPN BJT  
+# Mosfet vs. NPN BJT  
+
+## For what Mosfets are Used  
+* **Power control:** Switching power to motors, power LEDs, or other components efficiently.  
+* **Computers and microcontrollers:** Used inside processors and memory chips to switch signals extremely fast.  
+* **Audio and signal amplification:** Boosting small signals in sound systems.  
+
+# Advantages of an N-Channel mosfet  
+* **Efficient:** Uses very little energy to switch large currents.  
+* **Fast:** Can turn on and off millions of times per second.
+* **Durable:** No mechanical wear since it has no moving parts.  
 
 While an **N-Channel MOSFET** and an **NPN Bipolar Junction Transistor (BJT)** can both be used as switches, they operate differently:  
 

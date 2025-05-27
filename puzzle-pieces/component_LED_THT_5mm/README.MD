@@ -1,9 +1,9 @@
 # Intro  
 An **LED (Light-Emitting Diode)** is a special type of diode that emits light when electric current flows through it. Unlike regular light bulbs, LEDs are highly efficient and long-lasting. Their downside is their limited voltage and current range they can function.
 
-<img src="component_LED_replacable_SMT_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_LED_replacable_SMT_BOTTOM.png" alt="Circuit Diagram" width="400">
+<img src="component_LED_THT_5mm_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_LED_THT_5mm_BOTTOM.png" alt="Circuit Diagram" width="400">
 
-**This replacable version uses SMT pass-through 2.54mm header.** Standard 5mm LEDs will match the pitch of the header and make contact with the header terminals on the other side. Note: the leads of THT LEDs are usually quite long, longer than the height of the Circuite Node. Therefore, it is recommended to shorten them beforehand and also keeping the notation of anode and cathode intact (one leg is shorter than the other). Legs of some LEDs
+**This is the solder version of the LED**. Thus, it should be used carefully to not break it, otherwise it most be desoldered.
 
 LEDs only allow current to flow in **one direction** (from the **Anode (+)** to the **Cathode (-)**). They require **a resistor in series** to limit current and prevent damage.  
 

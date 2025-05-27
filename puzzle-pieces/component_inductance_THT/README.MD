@@ -8,3 +8,9 @@ The voltage-current relation of a inductance follows
 For school settings without differentials and integrals, the differentials can be replaced with the pre-differential idea of a simple difference $\text{d}t \approx \Delta t = t_2 - t_1$.
 
 <img src="component_inductance_THT_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_inductance_THT_BOTTOM.png" alt="Circuit Diagram" width="400">
+
+# Important Considerations  
+
+⚠️ **inductances have a maximum current rating:** inductances often use thin wires for maximimzing the windings. Thin, tightly packed wire has bad heat dissipation, thus inductances are current-limited. 
+⚠️ **available inductivity, size consideration:** Large inductivity comes in large package size. THT inductances with up to 20mm height easily fit in when placed flat, as indicated.
+
