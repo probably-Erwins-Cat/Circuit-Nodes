@@ -40,6 +40,8 @@ more details, see below*
 
 # Getting Started, Assembly Instructions
 
+<img src="assembly.png" alt="assembly" width="1000">
+
 - Refer to the repository contents below for a dedicated list and example circuits. 
 - Plan what puzzle pieces you need and how many. An entry electronics kit for school settings needs less than 40 to cover most grounds.
 - Download the necessary Gerber files for the circuits or kits you want to build from this repository.
