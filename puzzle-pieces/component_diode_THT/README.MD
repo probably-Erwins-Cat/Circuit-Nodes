@@ -3,7 +3,7 @@ A **diode** is a component that only allows current to flow in one direction and
 
 Diodes come in different flavors, depending which parameter should be optimized. In school settings, those differences are likely not important and general purpose diodes are concidered. This puzzle piece supports a wide range of THT diodes.
 
-<img src="component_LED_THT_5mm_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_LED_THT_5mm_BOTTOM.png" alt="Circuit Diagram" width="400">
+<img src="component_diode_THT_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_diode_THT_BOTTOM.png" alt="Circuit Diagram" width="400">
 
 Diodes only allow current to flow in **one direction** (from the **Anode (+)** to the **Cathode (-)**). They require **a resistor in series** to limit current and prevent damage. Diodes are used 
 
