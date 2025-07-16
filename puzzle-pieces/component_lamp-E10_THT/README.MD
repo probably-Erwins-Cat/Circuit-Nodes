@@ -6,7 +6,7 @@ Resistors follow **Ohm's Law (V = I × R)**. Lamps are slightly special, **their
 
 # Compatible lamps
 
-This board is meant for bare-metal THT lamp holder for small E10-sized lamps. E10 lamps come in different voltages. Pick the lamps that suits your supply voltage the best. 
+This board is meant for bare-metal THT lamp holder for small E10-sized lamps as depicted. E10 lamps come in different voltages. Pick the lamps that suits your supply voltage the best. 
 
 **Be cautious with LED E10 lamps**, they are oftentimes polar, i.e. current can only flow in one direction through an LED but not in reverse. The standard schematics of a lamp does not consider polarity, and neither does this simple part.
 
