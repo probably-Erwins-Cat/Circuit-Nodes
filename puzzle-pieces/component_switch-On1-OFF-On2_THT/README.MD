@@ -1,4 +1,4 @@
 # Intro  
-A simple switch with **three** positions, ON1 and OFF and ON2, as indicated. The mounting holes support a wide variety of larger flip switches that can withstand high currents and tens of thousands of uses. Due to the size of most of those switches, the actual schematics symbol is largely hidden, which isn't ideal. Thus, this On1-Off-On2 switch should only be used when the very similar On1-On2 switch (flipflop) cannot be used. 
+A simple switch with **three** positions, ON1 and OFF and ON2, as indicated. The mounting holes support a wide variety of larger flip switches that can withstand high currents and tens of thousands of uses. Due to the size of most of those switches, the actual schematics symbol is largely hidden, which isn't ideal. Thus, check beforehand whether the very similar On1-On2 switch (flipflop) cannot be used, because it is a nicer, visually pleasing implementation. 
 
 <img src="component_switch-On1-OFF-On2_THT_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_switch-On1-OFF-On2_THT_BOTTOM.png" alt="Circuit Diagram" width="400">
