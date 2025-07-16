@@ -2,7 +2,7 @@
 A **lamp** is the intro component in education as it makes "invisible" electricity visibly via light and heat emmission. It **limits the flow of electric current** and thereby producing heat, like a resistor.   
 Resistors follow **Ohm's Law (V = I × R)**. Lamps are slightly special, **their resistance increases** with temperature, $R(T)$, thereby feathering the limit of heat dissipation and current flow.
 
-<img src="component_lamp-E10_THT_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_lamp-E10_THT_BOTTOM.png" alt="Circuit Diagram" width="400">
+<img src="component_lamp-E10_THT_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_lamp-E10_THT_BOTTOM.png" alt="Circuit Diagram" width="400"> <img src="E10-holder.png" alt="Circuit Diagram" height="400">
 
 # Compatible lamps
 
