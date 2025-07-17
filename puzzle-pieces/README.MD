@@ -22,10 +22,20 @@ Currently, the boards are designed for integrated magnetic pogo connectors, see 
 |---------------------|-----------------------------------------|
 | [breadboard_grid-2.54mm_1x1](breadboard_grid-2.54mm_1x1) | <img src="/puzzle-pieces/breadboard_grid-2.54mm_1x1/breadboard_grid-2.54mm_1x1_TOP.png" width="160"/><img src="/puzzle-pieces/breadboard_grid-2.54mm_1x1/breadboard_grid-2.54mm_1x1_BOTTOM.png" width="160"/> |
 | [breadboard_grid-2.54mm_1x2](breadboard_grid-2.54mm_1x2) | <img src="/puzzle-pieces/breadboard_grid-2.54mm_1x2/breadboard_grid-2.54mm_1x2_TOP.png" width="160"/><img src="/puzzle-pieces/breadboard_grid-2.54mm_1x2/breadboard_grid-2.54mm_1x2_BOTTOM.png" width="160"/> |
-| [component_capacitor-polarized_THT_replacable_SMT](component_capacitor-polarized_THT_replacable_SMT) | <img src="/puzzle-pieces/component_capacitor-polarized_THT_replacable_SMT/component_capacitor_THT_2.5mm-spacing_replacable_SMT_TOP.png" width="160"/><img src="/puzzle-pieces/component_capacitor-polarized_THT_replacable_SMT/component_capacitor_THT_2.5mm-spacing_replacable_SMT_BOTTOM.png" width="160"/> |
-| [component_capacitor-polarized_THT_replacable_SMT](component_capacitor-polarized_THT_replacable_SMT) | <img src="/puzzle-pieces/component_capacitor-polarized_THT_replacable_SMT/component_capacitor_THT_2.5mm-spacing_replacable_SMT_TOP.png" width="160"/><img src="/puzzle-pieces/component_capacitor-polarized_THT_replacable_SMT/component_capacitor_THT_2.5mm-spacing_replacable_SMT_BOTTOM.png" width="160"/> |
-| [component_capacitor-polarized_THT_replacable_SMT](component_capacitor-polarized_THT_replacable_SMT) | <img src="/puzzle-pieces/component_capacitor-polarized_THT_replacable_SMT/component_capacitor_THT_2.5mm-spacing_replacable_SMT_TOP.png" width="160"/><img src="/puzzle-pieces/component_capacitor-polarized_THT_replacable_SMT/component_capacitor_THT_2.5mm-spacing_replacable_SMT_BOTTOM.png" width="160"/> |
-| [component_capacitor-polarized_THT_replacable_SMT](component_capacitor-polarized_THT_replacable_SMT) | <img src="/puzzle-pieces/component_capacitor-polarized_THT_replacable_SMT/component_capacitor_THT_2.5mm-spacing_replacable_SMT_TOP.png" width="160"/><img src="/puzzle-pieces/component_capacitor-polarized_THT_replacable_SMT/component_capacitor_THT_2.5mm-spacing_replacable_SMT_BOTTOM.png" width="160"/> |
+| [breadboard_grid-2.54mm_2x2](breadboard_grid-2.54mm_2x2) | <img src="/puzzle-pieces/breadboard_grid-2.54mm_2x2/breadboard_grid-2.54mm_2x2_TOP.png" width="160"/><img src="/puzzle-pieces/breadboard_grid-2.54mm_2x2/breadboard_grid-2.54mm_2x2_BOTTOM.png" width="160"/> |
+| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
+| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
+| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
+| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
+| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
+| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
+| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
+| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
+| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
+| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
+| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
+| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
+| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
 | [component_capacitor-polarized_THT_replacable_SMT](component_capacitor-polarized_THT_replacable_SMT) | <img src="/puzzle-pieces/component_capacitor-polarized_THT_replacable_SMT/component_capacitor_THT_2.5mm-spacing_replacable_SMT_TOP.png" width="160"/><img src="/puzzle-pieces/component_capacitor-polarized_THT_replacable_SMT/component_capacitor_THT_2.5mm-spacing_replacable_SMT_BOTTOM.png" width="160"/> |
 
 
