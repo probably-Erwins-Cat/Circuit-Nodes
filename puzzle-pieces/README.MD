@@ -20,7 +20,24 @@ Currently, the boards are designed for integrated magnetic pogo connectors, see 
 
 | Name                |  Image                                   |
 |---------------------|-----------------------------------------|
-| [component_capacitor-polarized_THT_replacable_SMT](component_capacitor-polarized_THT_replacable_SMT) | <img src="component_capacitor-polarized_THT_replacable_SMT/component_capacitor-polarized_THT_replacable_SMT_TOP.png" width="80"/><img src="component_capacitor-polarized_THT_replacable_SMT/component_capacitor-polarized_THT_replacable_SMT_BOTTOM.png" width="80"/> |
+| [breadboard_grid-2.54mm_1x1](breadboard_grid-2.54mm_1x1) | <img src="/puzzle-pieces/breadboard_grid-2.54mm_1x1/breadboard_grid-2.54mm_1x1_TOP.png" width="160"/><img src="/puzzle-pieces/breadboard_grid-2.54mm_1x1/breadboard_grid-2.54mm_1x1_BOTTOM.png" width="160"/> |
+| [breadboard_grid-2.54mm_1x2](breadboard_grid-2.54mm_1x2) | <img src="/puzzle-pieces/breadboard_grid-2.54mm_1x2/breadboard_grid-2.54mm_1x2_TOP.png" width="160"/><img src="/puzzle-pieces/breadboard_grid-2.54mm_1x2/breadboard_grid-2.54mm_1x2_BOTTOM.png" width="160"/> |
+| [breadboard_grid-2.54mm_2x2](breadboard_grid-2.54mm_2x2) | <img src="/puzzle-pieces/breadboard_grid-2.54mm_2x2/breadboard_grid-2.54mm_2x2_TOP.png" width="160"/><img src="/puzzle-pieces/breadboard_grid-2.54mm_2x2/breadboard_grid-2.54mm_2x2_BOTTOM.png" width="160"/> |
+| [component_LED_THT](component_LED_THT) | <img src="/puzzle-pieces/component_LED_THT/component_LED_THT_TOP.png" width="160"/><img src="/puzzle-pieces/component_LED_THT/component_LED_THT_BOTTOM.png" width="160"/> |
+| [component_LED_THT_replacable_SMT](component_LED_THT_replacable_SMT) | <img src="/puzzle-pieces/component_LED_THT_replacable_SMT/component_LED_THT_replacable_SMT_TOP.png" width="160"/><img src="/puzzle-pieces/component_LED_THT_replacable_SMT/component_LED_THT_replacable_SMT_BOTTOM.png" width="160"/> |
+| [component_NPN-BJT_TO-92](component_NPN-BJT_TO-92) | <img src="/puzzle-pieces/component_NPN-BJT_TO-92/component_NPN-BJT_TO-92_TOP.png" width="160"/><img src="/puzzle-pieces/component_NPN-BJT_TO-92/component_NPN-BJT_TO-92_BOTTOM.png" width="160"/> |
+| [component_Zener-diode_THT](component_Zener-diode_THT) | <img src="/puzzle-pieces/component_Zener-diode_THT/component_Zener-diode_THT_TOP.png" width="160"/><img src="/puzzle-pieces/component_Zener-diode_THT/component_Zener-diode_THT_BOTTOM.png" width="160"/> |
+| [component_capacitor-polarized_THT](component_capacitor-polarized_THT) | <img src="/puzzle-pieces/component_capacitor-polarized_THT/component_capacitor-polarized_THT_TOP.png" width="160"/><img src="/puzzle-pieces/component_capacitor-polarized_THT/component_capacitor-polarized_THT_BOTTOM.png" width="160"/> |
+| [component_capacitor-polarized_THT_replacable_SMT](component_capacitor-polarized_THT_replacable_SMT) | <img src="/puzzle-pieces/component_capacitor-polarized_THT_replacable_SMT/component_capacitor_THT_2.5mm-spacing_replacable_SMT_TOP.png" width="160"/><img src="/puzzle-pieces/component_capacitor-polarized_THT_replacable_SMT/component_capacitor_THT_2.5mm-spacing_replacable_SMT_BOTTOM.png" width="160"/> |
+| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
+| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
+| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
+| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
+| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
+| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
+| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
+
+
 
 
 to-do
