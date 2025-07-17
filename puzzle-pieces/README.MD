@@ -46,8 +46,18 @@ Currently, the boards are designed for integrated magnetic pogo connectors, see 
 | [end-node-single_blank](end-node-single_blank) | <img src="/puzzle-pieces/end-node-single_blank/end-node-single_blank_TOP.png" width="160"/><img src="/puzzle-pieces/end-node-single_blank/end-node-single_blank_BOTTOM.png" width="160"/> |
 | [end-node-single_minus](end-node-single_minus) | <img src="/puzzle-pieces/end-node-single_minus/end-node-single_minus_TOP.png" width="160"/><img src="/puzzle-pieces/end-node-single_minus/end-node-single_minus_BOTTOM.png" width="160"/> |
 | [end-node-single_plus](end-node-single_plus) | <img src="/puzzle-pieces/end-node-single_plus/end-node-single_plus_TOP.png" width="160"/><img src="/puzzle-pieces/end-node-single_plus/end-node-single_plus_BOTTOM.png" width="160"/> |
+| [wire-T-crossing_blank](wire-T-crossing_blank) | <img src="/puzzle-pieces/wire-T-crossing_blank/wire-T-crossing_blank_TOP.png" width="160"/><img src="/puzzle-pieces/wire-T-crossing_blank/wire-T-crossing_blank_BOTTOM.png" width="160"/> |
+| [wire-T-crossing_node-voltage](wire-T-crossing_node-voltage) | <img src="/puzzle-pieces/wire-T-crossing_node-voltage/wire-T-crossing_node-voltage_TOP.png" width="160"/><img src="/puzzle-pieces/wire-T-crossing_node-voltage/wire-T-crossing_node-voltage_BOTTOM.png" width="160"/> |
+| [wire-X-crossing_blank](wire-X-crossing_blank) | <img src="/puzzle-pieces/wire-X-crossing_blank/wire-X-crossing_blank_TOP.png" width="160"/><img src="/puzzle-pieces/wire-X-crossing_blank/wire-X-crossing_blank_BOTTOM.png" width="160"/> |
+| [wire-X-crossing_node-voltage](wire-X-crossing_node-voltage) | <img src="/puzzle-pieces/wire-X-crossing_node-voltage/wire-X-crossing_node-voltage_TOP.png" width="160"/><img src="/puzzle-pieces/wire-X-crossing_node-voltage/wire-X-crossing_node-voltage_BOTTOM.png" width="160"/> |
+| [wire-angle_blank](wire-angle_blank) | <img src="/puzzle-pieces/wire-angle_blank/wire-angle_blank_TOP.png" width="160"/><img src="/puzzle-pieces/wire-angle_blank/wire-angle_blank_BOTTOM.png" width="160"/> |
+| [wire-angle_node-voltage](wire-angle_node-voltage | <img src="/puzzle-pieces/wire-angle_node-voltage/wire-angle_node-voltage_TOP.png" width="160"/><img src="/puzzle-pieces/wire-angle_node-voltage/wire-angle_node-voltage_BOTTOM.png" width="160"/> |
+| [wire-bridge_blank](wire-bridge_blank) | <img src="/puzzle-pieces/wire-bridge_blank/wire-bridge_blank_TOP.png" width="160"/><img src="/puzzle-pieces/wire-bridge_blank/wire-bridge_blank_BOTTOM.png" width="160"/> |
+| [wire-straight_blank](wire-straight_blank) | <img src="/puzzle-pieces/wire-straight_blank/wire-straight_blank_TOP.png" width="160"/><img src="/puzzle-pieces/wire-straight_blank/wire-straight_blank_BOTTOM.png" width="160"/> |
+| [wire-straight_node-voltage](wire-straight_node-voltage) | <img src="/puzzle-pieces/wire-straight_node-voltage/wire-straight_node-voltage_TOP.png" width="160"/><img src="/puzzle-pieces/wire-straight_node-voltage/wire-straight_node-voltage_BOTTOM.png" width="160"/> |
+| [wire-two-angles_blank](wire-two-angles_blank) | <img src="/puzzle-pieces/wire-two-angles_blank/wire-two-angles_blank_TOP.png" width="160"/><img src="/puzzle-pieces/wire-two-angles_blank/wire-two-angles_blank_BOTTOM.png" width="160"/> |
 | [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
-| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
+
 
 
 
