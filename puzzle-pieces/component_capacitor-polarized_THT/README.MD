@@ -2,7 +2,7 @@
 A **polarized capacitor** is an electronic component that **stores and releases electrical energy**. It is used in circuits to smooth out voltage, filter signals, and store energy for brief periods.  
 Unlike regular capacitors, **polarized capacitors have a positive (+) and a negative (-) side**, meaning they must be connected in the correct orientation.  
 
-<img src="capacitor-polarized_THT_TOP.png" alt="Circuit Diagram" width="400"> <img src="capacitor-polarized_THT_BOTTOM.png" alt="Circuit Diagram" width="400">
+<img src="component_capacitor-polarized_THT_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_capacitor-polarized_THT_BOTTOM.png" alt="Circuit Diagram" width="400">
 
 # Advantages of Polarized Capacitors  
 * **High capacitance:** Can store more energy than non-polarized capacitors of the same size.  
