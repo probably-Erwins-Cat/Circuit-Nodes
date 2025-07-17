@@ -1,7 +1,7 @@
 # Intro  
 An **LED (Light-Emitting Diode)** is a special type of diode that emits light when electric current flows through it. Unlike regular light bulbs, LEDs are highly efficient and long-lasting. Their downside is their limited voltage and current range they can function.
 
-<img src="component_LED_THT_5mm_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_LED_THT_5mm_BOTTOM.png" alt="Circuit Diagram" width="400">
+<img src="component_LED_THT_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_LED_THT_BOTTOM.png" alt="Circuit Diagram" width="400">
 
 **This is the solder version of the LED**. Thus, it should be used carefully to not break it, otherwise it most be desoldered.
 
