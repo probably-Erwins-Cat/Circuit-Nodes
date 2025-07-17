@@ -1,7 +1,7 @@
 # Intro  
 A **Zener-diode** is a special type of diode. In the forward direction, it acts like a normal diode. However, this is not the intended use for this special diode. Unlike regular diodes, the Zener-diode not only allows current to flow in the forward direction but is also engineered to  conduct in the **reverse direction** once a specific reverse voltage — known as the Zener voltage — is reached. This controlled *breakdown mechanism* within the diode maintains a **nearly constant voltage across its terminals** at varying currents, making it ideal for voltage regulation applications.
 
-<img src="component_Zener-diode_THT_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_Zener-diode_THT_BOTTOM.png" alt="Circuit Diagram" width="400">
+<img src="component_diode-Zener_THT_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_diode-Zener_THT_BOTTOM.png" alt="Circuit Diagram" width="400">
 
 Zener-Diodes allow current to flow in **both directions** (from the **Anode (+)** to the **Cathode (-)**). They require a **resistor in series** to limit current and prevent damage. While a Zener diode can be used as forward direction diodes. Its characteristics are optimized for backward direction, i.e. you place them "the wrong way" in an electric circuit.
 
