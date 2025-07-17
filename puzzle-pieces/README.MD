@@ -16,7 +16,13 @@ They layout of the puzzle pieces is always the same and only adapts traces, dril
 
 Currently, the boards are designed for integrated magnetic pogo connectors, see dedicated folder for board-to-board connector. The layout of the puzzle pieces must fit to those connectors.
 
-# Overview Experiments
+# Overview of Circuit Nodes
+
+| Name                | Description                                         | Image                                   |
+|---------------------|-----------------------------------------------------|-----------------------------------------|
+| N-Channel MOSFET    | Switches electronic signals, commonly used in logic | <img src="images/n-channel-mosfet.png" width="80"/> |
+| Resistor            | Limits current flow in a circuit                    | <img src="images/resistor.png" width="80"/>         |
+| Capacitor           | Stores and releases electrical energy               | <img src="images/capacitor.png" width="80"/>        |
 
 to-do
 
