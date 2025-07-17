@@ -18,11 +18,10 @@ Currently, the boards are designed for integrated magnetic pogo connectors, see 
 
 # Overview of Circuit Nodes
 
-| Name                | Description                                         | Image                                   |
-|---------------------|-----------------------------------------------------|-----------------------------------------|
-| N-Channel MOSFET    | Switches electronic signals, commonly used in logic | <img src="images/n-channel-mosfet.png" width="80"/> |
-| Resistor            | Limits current flow in a circuit                    | <img src="images/resistor.png" width="80"/>         |
-| Capacitor           | Stores and releases electrical energy               | <img src="images/capacitor.png" width="80"/>        |
+| Name                |  Image                                   |
+|---------------------|-----------------------------------------|
+| [component_capacitor-polarized_THT_replacable_SMT](component_capacitor-polarized_THT_replacable_SMT) | <img src="component_capacitor-polarized_THT_replacable_SMT/component_capacitor-polarized_THT_replacable_SMT_TOP.png" width="80"/><img src="component_capacitor-polarized_THT_replacable_SMT/component_capacitor-polarized_THT_replacable_SMT_BOTTOM.png" width="80"/> |
+
 
 to-do
 
