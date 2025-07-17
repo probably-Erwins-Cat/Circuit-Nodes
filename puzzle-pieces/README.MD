@@ -20,7 +20,7 @@ Currently, the boards are designed for integrated magnetic pogo connectors, see 
 
 | Name                |  Image                                   |
 |---------------------|-----------------------------------------|
-| [component_capacitor-polarized_THT_replacable_SMT](component_capacitor-polarized_THT_replacable_SMT) | <img src="component_capacitor-polarized_THT_replacable_SMT/component_capacitor-polarized_THT_replacable_SMT_TOP.png" width="80"/><img src="component_capacitor-polarized_THT_replacable_SMT/component_capacitor-polarized_THT_replacable_SMT_BOTTOM.png" width="80"/> |
+| [component_capacitor-polarized_THT_replacable_SMT](component_capacitor-polarized_THT_replacable_SMT) | <img src="/component_capacitor-polarized_THT_replacable_SMT/component_capacitor-polarized_THT_replacable_SMT_TOP.png" width="80"/><img src="/component_capacitor-polarized_THT_replacable_SMT/component_capacitor-polarized_THT_replacable_SMT_BOTTOM.png" width="80"/> |
 
 
 to-do
