@@ -29,12 +29,12 @@ Currently, the boards are designed for integrated magnetic pogo connectors, see 
 | [component_Zener-diode_THT](component_Zener-diode_THT) | <img src="/puzzle-pieces/component_Zener-diode_THT/component_Zener-diode_THT_TOP.png" width="160"/><img src="/puzzle-pieces/component_Zener-diode_THT/component_Zener-diode_THT_BOTTOM.png" width="160"/> |
 | [component_capacitor-polarized_THT](component_capacitor-polarized_THT) | <img src="/puzzle-pieces/component_capacitor-polarized_THT/component_capacitor-polarized_THT_TOP.png" width="160"/><img src="/puzzle-pieces/component_capacitor-polarized_THT/component_capacitor-polarized_THT_BOTTOM.png" width="160"/> |
 | [component_capacitor-polarized_THT_replacable_SMT](component_capacitor-polarized_THT_replacable_SMT) | <img src="/puzzle-pieces/component_capacitor-polarized_THT_replacable_SMT/component_capacitor_THT_2.5mm-spacing_replacable_SMT_TOP.png" width="160"/><img src="/puzzle-pieces/component_capacitor-polarized_THT_replacable_SMT/component_capacitor_THT_2.5mm-spacing_replacable_SMT_BOTTOM.png" width="160"/> |
-| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
-| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
-| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
-| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
-| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
-| [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
+| [component_diode_THT](component_diode_THT) | <img src="/puzzle-pieces/component_diode_THT/component_diode_THT_TOP.png" width="160"/><img src="/puzzle-pieces/component_diode_THT/component_diode_THT_BOTTOM.png" width="160"/> |
+| [component_inductance_THT](component_inductance_THT) | <img src="/puzzle-pieces/component_inductance_THT/component_inductance_THT_TOP.png" width="160"/><img src="/puzzle-pieces/component_inductance_THT/component_inductance_THT_BOTTOM.png" width="160"/> |
+| [component_lamp-E10_THT](component_lamp-E10_THT) | <img src="/puzzle-pieces/component_lamp-E10_THT/component_lamp-E10_THT_TOP.png" width="160"/><img src="/puzzle-pieces/component_lamp-E10_THT/component_lamp-E10_THT_BOTTOM.png" width="160"/> |
+| [component_mosfet_n-channel_TO-92](component_mosfet_n-channel_TO-92) | <img src="/puzzle-pieces/component_mosfet_n-channel_TO-92/component_mosfet_n-channel_TO-92_TOP.png" width="160"/><img src="/puzzle-pieces/component_mosfet_n-channel_TO-92/component_mosfet_n-channel_TO-92_BOTTOM.png" width="160"/> |
+| [component_resistor_THT_3W](component_resistor_THT_3W) | <img src="/puzzle-pieces/component_resistor_THT_3W/component_resistor_THT_3W_TOP.png" width="160"/><img src="/puzzle-pieces/component_resistor_THT_3W/component_resistor_THT_3W_BOTTOM.png" width="160"/> |
+| [component_switch-On-OFF_THT](component_switch-On-OFF_THT) | <img src="/puzzle-pieces/component_switch-On-OFF_THT/component_switch-On-OFF_THT_TOP.png" width="160"/><img src="/puzzle-pieces/component_switch-On-OFF_THT/component_switch-On-OFF_THT_BOTTOM.png" width="160"/> |
 | [X](X) | <img src="/puzzle-pieces/X/X_TOP.png" width="160"/><img src="/puzzle-pieces/X/X_BOTTOM.png" width="160"/> |
 
 
