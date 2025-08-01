@@ -3,7 +3,7 @@ An **LED (Light-Emitting Diode)** is a special type of diode that emits light wh
 
 <img src="component_LED_THT_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_LED_THT_BOTTOM.png" alt="Circuit Diagram" width="400">
 
-**This is the solder version of the LED**. Thus, it should be used carefully to not break it, otherwise it most be desoldered.
+**This is the solder version of the LED. Thus, it should be used carefully to not break it, otherwise it most be replaced by desoldering and re-soldering.** Check the *replacable* version that comes with a pass-through header where LEDs can be plugged in and out easily.
 
 LEDs only allow current to flow in **one direction** (from the **Anode (+)** to the **Cathode (-)**). They require **a resistor in series** to limit current and prevent damage.  
 
@@ -20,4 +20,4 @@ The resistor value can be calculated using Ohm’s Law:
 
 \[R = \frac{V_\text{supply} - V_\text{forward}}{I_\text{max,LED}}\]
 
-It is recommended to use a supply voltage that is in the range of the forward voltage of the LED, otherwise large resistors (with large heat dissipation) are required. LEDs with current-limiting resistors are typically supplied with 5V. Standard 5mm THT LEDs have a maximum current of 20mA. Thus, a resistor around 
+It is recommended to use a supply voltage that is in the range of the forward voltage of the LED, otherwise large resistors (with large heat dissipation) are required. LEDs with current-limiting resistors are typically supplied with 5V. **Standard 5mm THT LEDs have a maximum current of 10-20mA.**
