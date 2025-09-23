@@ -1,7 +1,7 @@
 # Intro  
 Double circuit node with plus and minus indictating a DC power source. **This one comes with polyfuse protection and indicator LED.** It comes with an M6-sized hole where a typical banana plug can be screwed in. In standard notation, the (technical) current flows from plus to minus/ground. The plus node is red and the minus/ground node black.
 
-<img src="end-node-double_plus-minus_TOP.png" alt="Circuit Diagram" width="400"> <img src="end-node-double_plus-minus_BOTTOM.png" alt="Circuit Diagram" width="400"> <img src="banana-jack-4mm-colored.png" alt="Circuit Diagram" height="300">
+<img src="end-node-double_plus-minus_with-protection_TOP.png" alt="Circuit Diagram" width="400"> <img src="end-node-double_plus-minus_with-protection_BOTTOM.png" alt="Circuit Diagram" width="400"> <img src="banana-jack-4mm-colored.png" alt="Circuit Diagram" height="300">
 
 # Polyfuse Protection
 A polyfuse is an optimized positive temperature coefficient resistor (PTC). Strictly speaking, this "fuse" is not cutting the circuit but is increasing the resistance high enough that (usually) nothing bad happens. It has a *hold current*, the current the fuse can hold without ever tripping under room temperature, and a *trip current*, the current where it definitely trips under room temperature. In contrast to classical fuses, they also come in much lower current ratings, e.g. mA instead of A. Also, they are self-reseting, i.e. they don't have to be replaced after they tripped the first time. Their downside is the not exact tripping current and the time they need to trip, which typically is not an issue in school settings.
