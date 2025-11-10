@@ -93,6 +93,10 @@ life for your students.
 
 For questions or collaboration, please open an discussion or reach out to me.
 
+# DOI
+
+[![DOI](https://zenodo.org/badge/944617067.svg)](https://doi.org/10.5281/zenodo.17569829)
+
 # License
 
 This project is licensed under the Creative Commons Attribution-ShareAlike (CC
