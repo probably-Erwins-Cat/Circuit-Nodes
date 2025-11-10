@@ -1,0 +1,10789 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5d897b24-6d66-4f0a-be8a-d3125c24425a")
+	(paper "A5")
+	(title_block
+		(title "Breadboard 1x1")
+		(date "2025-11-10")
+		(rev "1.1")
+		(company "Physito")
+	)
+	(lib_symbols
+		(symbol "Connector:Conn_01x01_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Socket"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "(Magnetic) Terminals"
+		(exclude_from_sim no)
+		(at 38.1 15.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "0fbd55c5-dd39-406e-a13c-d8649b4ec7ca")
+	)
+	(text "Breadboard Solder Joint Grid"
+		(exclude_from_sim no)
+		(at 74.93 15.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6968d762-eee6-4e66-9e2e-ff18f7e50967")
+	)
+	(junction
+		(at 40.64 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "040a1006-d7d2-4e37-8abc-15b09ca03b34")
+	)
+	(junction
+		(at 40.64 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c2f1da1-44d4-4ecd-be25-ffc40f0f4af9")
+	)
+	(junction
+		(at 40.64 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d6793c5-5277-4669-b635-f77ce2bb500d")
+	)
+	(junction
+		(at 40.64 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "219eac5d-a24e-427f-a62c-3115796d82ff")
+	)
+	(junction
+		(at 40.64 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c012ebe1-2783-4c98-ba22-c77886463c1e")
+	)
+	(junction
+		(at 40.64 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9a94623-80f2-4b1b-a727-0750c3153203")
+	)
+	(junction
+		(at 40.64 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e090fa0a-71aa-4ddd-9a39-41221cf22733")
+	)
+	(junction
+		(at 40.64 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2150408-3858-46d4-9039-ad3f8213d860")
+	)
+	(no_connect
+		(at 110.49 55.88)
+		(uuid "000529c8-c40b-4c17-9490-feeec720f203")
+	)
+	(no_connect
+		(at 82.55 30.48)
+		(uuid "006673d7-3a9c-4da3-b2eb-9867a3c1e2b0")
+	)
+	(no_connect
+		(at 83.82 36.83)
+		(uuid "0116122c-33b4-4617-839b-04fb97678983")
+	)
+	(no_connect
+		(at 86.36 24.13)
+		(uuid "0144e011-adad-432b-8ec6-e09c01cc5722")
+	)
+	(no_connect
+		(at 101.6 74.93)
+		(uuid "0454667c-356b-4b0e-b415-ff00d179059e")
+	)
+	(no_connect
+		(at 93.98 49.53)
+		(uuid "05b7870b-eda6-4d63-b513-b9aaa11f9c4b")
+	)
+	(no_connect
+		(at 101.6 49.53)
+		(uuid "085c10a1-53fd-4db1-bdea-bae1efbc8aad")
+	)
+	(no_connect
+		(at 100.33 68.58)
+		(uuid "0a60768d-621c-4587-ad8c-7d3ff6edcf6a")
+	)
+	(no_connect
+		(at 91.44 74.93)
+		(uuid "0be4aa76-e068-4e92-985b-1048a1f8e453")
+	)
+	(no_connect
+		(at 93.98 87.63)
+		(uuid "0c95c115-3137-4d79-a625-5c0703e93402")
+	)
+	(no_connect
+		(at 76.2 24.13)
+		(uuid "0e8f86e4-cd15-4303-8471-d5526706e795")
+	)
+	(no_connect
+		(at 93.98 62.23)
+		(uuid "0f16ea35-f3da-4f24-8c44-8f56137aab93")
+	)
+	(no_connect
+		(at 101.6 36.83)
+		(uuid "12b9ec0a-dd08-458b-93f1-68aefe5514b0")
+	)
+	(no_connect
+		(at 110.49 68.58)
+		(uuid "15fd0ba4-109b-4246-ac76-e8c0f40abbbb")
+	)
+	(no_connect
+		(at 109.22 62.23)
+		(uuid "1a161dca-c555-4ea4-9a2a-f0ca0c1a89e4")
+	)
+	(no_connect
+		(at 106.68 74.93)
+		(uuid "1c687f63-76dd-4a7b-938a-119880fb2709")
+	)
+	(no_connect
+		(at 97.79 43.18)
+		(uuid "20188253-1796-4511-b00e-6786a82557f2")
+	)
+	(no_connect
+		(at 109.22 74.93)
+		(uuid "20a9d7e3-92b1-4705-8933-b6442400e4d1")
+	)
+	(no_connect
+		(at 90.17 81.28)
+		(uuid "29c665de-3864-4684-8e50-a51919bda06c")
+	)
+	(no_connect
+		(at 82.55 55.88)
+		(uuid "2ca5a418-41d7-4ac4-89ce-2b38e7f7d1c7")
+	)
+	(no_connect
+		(at 93.98 24.13)
+		(uuid "3121cd51-eb16-45c0-81f1-4b9f3d5e9a3c")
+	)
+	(no_connect
+		(at 95.25 81.28)
+		(uuid "320a32f1-e75e-4fcd-826f-adfdba488415")
+	)
+	(no_connect
+		(at 106.68 62.23)
+		(uuid "32419764-b8a5-4bba-b240-106e03ab6ed1")
+	)
+	(no_connect
+		(at 104.14 36.83)
+		(uuid "33d95af5-4ca1-41fe-a84f-6e4ce5752f32")
+	)
+	(no_connect
+		(at 87.63 30.48)
+		(uuid "356a0432-2889-4703-bb12-5e82646ec306")
+	)
+	(no_connect
+		(at 86.36 62.23)
+		(uuid "3673ab8d-957e-4da4-bafe-2aaa15bc2bd7")
+	)
+	(no_connect
+		(at 78.74 24.13)
+		(uuid "391606ae-8e66-43be-97d8-b6334a1aca56")
+	)
+	(no_connect
+		(at 85.09 43.18)
+		(uuid "3ab1f591-2ba6-4202-a6e0-3457a5052800")
+	)
+	(no_connect
+		(at 88.9 24.13)
+		(uuid "3dcfe203-4eb6-4eb4-a557-e1efc5071872")
+	)
+	(no_connect
+		(at 88.9 74.93)
+		(uuid "3e31358f-575b-4155-9ef7-1eddc3474f46")
+	)
+	(no_connect
+		(at 81.28 24.13)
+		(uuid "3f0f69ed-aa50-4a92-a7e2-9044e956af78")
+	)
+	(no_connect
+		(at 104.14 74.93)
+		(uuid "416ad2b2-26f2-4f66-bb08-2564dbc39b3e")
+	)
+	(no_connect
+		(at 104.14 24.13)
+		(uuid "447712ac-8168-4899-9d12-0281edcfc13b")
+	)
+	(no_connect
+		(at 101.6 87.63)
+		(uuid "45ffad7d-a233-41b6-a380-91140bd43230")
+	)
+	(no_connect
+		(at 88.9 87.63)
+		(uuid "4763b1cf-d17d-4f37-95ca-830b65ef0a81")
+	)
+	(no_connect
+		(at 99.06 74.93)
+		(uuid "4c082bef-2b04-4158-bedc-23dd238254c3")
+	)
+	(no_connect
+		(at 96.52 87.63)
+		(uuid "52095101-c00f-4f48-93d9-e2f58a1f45df")
+	)
+	(no_connect
+		(at 95.25 55.88)
+		(uuid "52f83b16-12b5-4706-bba4-b1db33cf3f2b")
+	)
+	(no_connect
+		(at 91.44 49.53)
+		(uuid "550c8e31-2b96-4322-97e3-d85649d8517c")
+	)
+	(no_connect
+		(at 91.44 87.63)
+		(uuid "5ada2873-fb5e-49a5-be24-f0c95718dc84")
+	)
+	(no_connect
+		(at 88.9 36.83)
+		(uuid "5b9f75e3-04ba-4365-a7bd-35add4b5fced")
+	)
+	(no_connect
+		(at 101.6 62.23)
+		(uuid "5cfc4224-de8a-4de8-aa63-0722704df99b")
+	)
+	(no_connect
+		(at 91.44 36.83)
+		(uuid "5e92fb88-1eba-4996-8117-e4ed40c58c45")
+	)
+	(no_connect
+		(at 80.01 30.48)
+		(uuid "6004392f-da36-413e-8003-04a666a86710")
+	)
+	(no_connect
+		(at 105.41 68.58)
+		(uuid "61e9ead3-c172-4f87-92b2-d00f58566742")
+	)
+	(no_connect
+		(at 97.79 30.48)
+		(uuid "69f11e57-183e-4863-9880-4048eb0a29d6")
+	)
+	(no_connect
+		(at 82.55 43.18)
+		(uuid "6c83fea1-e215-4a07-9ce1-ba1e311388e9")
+	)
+	(no_connect
+		(at 102.87 30.48)
+		(uuid "6c91a7b8-9cc9-4dbd-ab40-4f624593af16")
+	)
+	(no_connect
+		(at 85.09 30.48)
+		(uuid "6f3bdc28-e15c-40e5-84f6-2879f871e9d5")
+	)
+	(no_connect
+		(at 92.71 43.18)
+		(uuid "709837c0-83dc-4883-89b2-37c9e35c0a24")
+	)
+	(no_connect
+		(at 83.82 24.13)
+		(uuid "72e8eda5-2111-43fe-88b7-710007a323a5")
+	)
+	(no_connect
+		(at 90.17 43.18)
+		(uuid "74756d2b-2c03-4a24-817a-9f39d5f225c4")
+	)
+	(no_connect
+		(at 87.63 43.18)
+		(uuid "757fbeec-10d1-438c-bee9-b08fcd1441f7")
+	)
+	(no_connect
+		(at 83.82 62.23)
+		(uuid "7603cd4e-1bc4-497a-a193-50045d5fef8b")
+	)
+	(no_connect
+		(at 85.09 68.58)
+		(uuid "761930a2-97e5-40e9-9bf0-342a29bfce78")
+	)
+	(no_connect
+		(at 77.47 30.48)
+		(uuid "794e103c-eb96-4a6a-920c-5db59188af54")
+	)
+	(no_connect
+		(at 102.87 81.28)
+		(uuid "7a96a546-85ce-4405-a51c-73103c494430")
+	)
+	(no_connect
+		(at 106.68 49.53)
+		(uuid "7ad66a2f-a1a6-4962-9f9e-25c524897e9b")
+	)
+	(no_connect
+		(at 92.71 81.28)
+		(uuid "7efb95bc-e4b4-42bf-8a39-920da02ff4c4")
+	)
+	(no_connect
+		(at 102.87 43.18)
+		(uuid "81670d9f-0000-43ae-b398-68c32b9da67a")
+	)
+	(no_connect
+		(at 99.06 36.83)
+		(uuid "854311a1-ed45-4df7-92dc-cf66862b3944")
+	)
+	(no_connect
+		(at 110.49 81.28)
+		(uuid "859168a4-59b0-4f61-9cc6-78086a1fdeda")
+	)
+	(no_connect
+		(at 96.52 74.93)
+		(uuid "85fe8fae-9717-4def-b52f-9ce441ddbf00")
+	)
+	(no_connect
+		(at 90.17 30.48)
+		(uuid "86292596-0c28-4f67-bd54-13cccd246dca")
+	)
+	(no_connect
+		(at 88.9 62.23)
+		(uuid "86411238-a9dc-44b3-97fb-744e138747d9")
+	)
+	(no_connect
+		(at 90.17 68.58)
+		(uuid "8884c138-ed4a-4f26-b25d-c47cf4ad0200")
+	)
+	(no_connect
+		(at 97.79 81.28)
+		(uuid "893657f7-96d9-4bda-92fb-87ba15a23e61")
+	)
+	(no_connect
+		(at 106.68 36.83)
+		(uuid "89acf0b2-f97c-4785-a427-8f440c3c52b5")
+	)
+	(no_connect
+		(at 95.25 30.48)
+		(uuid "8a905015-6405-499b-aef7-2cd5b7e21997")
+	)
+	(no_connect
+		(at 113.03 81.28)
+		(uuid "8d55b38f-dff9-4309-ace0-de3f3b456dab")
+	)
+	(no_connect
+		(at 85.09 55.88)
+		(uuid "8dd5bdbb-3c7b-4880-b7f8-3d1dc5f200b1")
+	)
+	(no_connect
+		(at 107.95 43.18)
+		(uuid "8e44413a-2768-46bc-af8e-15c81a255dfa")
+	)
+	(no_connect
+		(at 111.76 62.23)
+		(uuid "8e7d054d-087b-4112-827e-df992615689c")
+	)
+	(no_connect
+		(at 95.25 68.58)
+		(uuid "92f28754-3b2b-418e-9595-b7d8366e0d4a")
+	)
+	(no_connect
+		(at 101.6 24.13)
+		(uuid "931b69ed-e3dc-499b-82eb-bf2e2e209629")
+	)
+	(no_connect
+		(at 96.52 36.83)
+		(uuid "9868c5b6-9034-4ded-a4ef-edcc7444d0d1")
+	)
+	(no_connect
+		(at 93.98 74.93)
+		(uuid "9a25f4e5-880b-477f-8fa6-3b14034087bc")
+	)
+	(no_connect
+		(at 86.36 49.53)
+		(uuid "9b624f91-3366-4d58-bec7-34c765ee66ac")
+	)
+	(no_connect
+		(at 90.17 55.88)
+		(uuid "9b9b4f06-e932-43e3-849e-ab30058e980c")
+	)
+	(no_connect
+		(at 97.79 55.88)
+		(uuid "9e2ceb6f-fc53-43be-9bbc-98170a793317")
+	)
+	(no_connect
+		(at 95.25 43.18)
+		(uuid "9e4cb474-4504-4a6b-8cf6-6d965580826a")
+	)
+	(no_connect
+		(at 102.87 68.58)
+		(uuid "a002d11a-343b-41ef-bab0-bb908a83cced")
+	)
+	(no_connect
+		(at 88.9 49.53)
+		(uuid "a03e7fc4-88aa-40d7-a5d3-59a7441e3dc7")
+	)
+	(no_connect
+		(at 96.52 62.23)
+		(uuid "a06b7ac0-594b-45b9-aaaa-4b2d68de9810")
+	)
+	(no_connect
+		(at 81.28 36.83)
+		(uuid "a0b0b604-014a-4357-8dcf-f778c0cee93d")
+	)
+	(no_connect
+		(at 97.79 68.58)
+		(uuid "a1307d2e-59cd-487b-b37a-fe8eb441feb4")
+	)
+	(no_connect
+		(at 115.57 81.28)
+		(uuid "a7a5990b-b11c-4905-b9c7-c01e82205c87")
+	)
+	(no_connect
+		(at 87.63 68.58)
+		(uuid "a9227eb0-103c-4659-95e4-a54024f0510c")
+	)
+	(no_connect
+		(at 104.14 49.53)
+		(uuid "aa33417e-de46-4b48-a0e1-5da2ed2d70bb")
+	)
+	(no_connect
+		(at 91.44 62.23)
+		(uuid "b024473a-62cc-4ff3-b506-6ec2375173ea")
+	)
+	(no_connect
+		(at 107.95 55.88)
+		(uuid "b0f98637-5138-4cca-a0b0-13fa8cde810b")
+	)
+	(no_connect
+		(at 93.98 36.83)
+		(uuid "b53ec8d7-8913-4430-a885-43804e696a06")
+	)
+	(no_connect
+		(at 87.63 81.28)
+		(uuid "b563609c-0876-422e-b959-3d203326b88e")
+	)
+	(no_connect
+		(at 81.28 49.53)
+		(uuid "b6a3a07d-dbed-4428-a2bf-7e0abfe2b75f")
+	)
+	(no_connect
+		(at 96.52 24.13)
+		(uuid "b72bf1a9-0801-4fdf-94da-95dbb476f6bf")
+	)
+	(no_connect
+		(at 92.71 55.88)
+		(uuid "b8bc64ce-21ee-418c-9f1f-ed1a00de8dd7")
+	)
+	(no_connect
+		(at 99.06 62.23)
+		(uuid "b92b27cb-6ecf-4f75-95fc-ebbb77b55d39")
+	)
+	(no_connect
+		(at 100.33 55.88)
+		(uuid "beed0970-fc48-477d-af43-f3329323287e")
+	)
+	(no_connect
+		(at 105.41 55.88)
+		(uuid "bff021c6-f7f4-4552-9934-97eec76903da")
+	)
+	(no_connect
+		(at 107.95 68.58)
+		(uuid "c0aa330f-a8dc-4493-aa22-5681996359a0")
+	)
+	(no_connect
+		(at 100.33 30.48)
+		(uuid "c9902ca3-b097-47ff-9e6e-eb4481f3c503")
+	)
+	(no_connect
+		(at 113.03 68.58)
+		(uuid "c9e41624-f0eb-425c-a4d3-7b2e808e8134")
+	)
+	(no_connect
+		(at 100.33 43.18)
+		(uuid "ce0d0232-09ad-4177-a160-4cf7be3629d7")
+	)
+	(no_connect
+		(at 107.95 81.28)
+		(uuid "d027d173-065d-4085-bf06-d731ae71168f")
+	)
+	(no_connect
+		(at 91.44 24.13)
+		(uuid "d5983a5c-b5a2-44b9-8a79-fe6d6eb6bf45")
+	)
+	(no_connect
+		(at 87.63 55.88)
+		(uuid "d5c1a88b-0df9-4fa7-a4fc-e5ee91037d84")
+	)
+	(no_connect
+		(at 96.52 49.53)
+		(uuid "daacd37a-f902-4f83-8df3-cc74ee2362d4")
+	)
+	(no_connect
+		(at 100.33 81.28)
+		(uuid "dab7c01d-4190-47cc-9e32-5a5ba0a292bc")
+	)
+	(no_connect
+		(at 109.22 49.53)
+		(uuid "dcd26654-1a4d-4919-8b68-deae6a6c0e59")
+	)
+	(no_connect
+		(at 105.41 30.48)
+		(uuid "e0c1ea0a-2b9d-46f1-ae56-d988efccf897")
+	)
+	(no_connect
+		(at 92.71 30.48)
+		(uuid "e42950f1-f344-4e64-856c-05dd38454ea7")
+	)
+	(no_connect
+		(at 114.3 74.93)
+		(uuid "e5100878-a8f2-46d7-99e2-49766f8280f8")
+	)
+	(no_connect
+		(at 78.74 36.83)
+		(uuid "e7ab2045-a39d-4522-841e-b84f7515ad78")
+	)
+	(no_connect
+		(at 83.82 49.53)
+		(uuid "ebd91390-ee14-437e-b0d7-586d0e35e9b3")
+	)
+	(no_connect
+		(at 105.41 81.28)
+		(uuid "ed2d09e9-db08-478b-a4ea-e2a1a1ec400f")
+	)
+	(no_connect
+		(at 105.41 43.18)
+		(uuid "eda390aa-0ae5-407d-8661-67850360eabe")
+	)
+	(no_connect
+		(at 99.06 49.53)
+		(uuid "f0873980-1123-4bb7-bcaa-726b972fa5ed")
+	)
+	(no_connect
+		(at 99.06 87.63)
+		(uuid "f3332df8-722d-45b1-9f87-7eda7c853013")
+	)
+	(no_connect
+		(at 102.87 55.88)
+		(uuid "f3ffe6f4-c5b8-4591-902e-883605d0eb63")
+	)
+	(no_connect
+		(at 99.06 24.13)
+		(uuid "f464610f-0720-431c-8bcd-1fca75eb7baf")
+	)
+	(no_connect
+		(at 86.36 74.93)
+		(uuid "f4f475d9-d06c-47d6-9468-cfbefcf675da")
+	)
+	(no_connect
+		(at 111.76 74.93)
+		(uuid "f541d31e-82a6-4691-835f-fb11a9f55f72")
+	)
+	(no_connect
+		(at 80.01 43.18)
+		(uuid "f80b41d1-8f36-4b69-8947-1967ef964f2f")
+	)
+	(no_connect
+		(at 86.36 36.83)
+		(uuid "f88babfb-0a80-49c9-a1d5-44de63d6ed66")
+	)
+	(no_connect
+		(at 104.14 62.23)
+		(uuid "f92703ac-dfbe-402a-a05a-755f4b6e7785")
+	)
+	(no_connect
+		(at 92.71 68.58)
+		(uuid "fcdb733a-06f1-41ff-930a-76bbb070887b")
+	)
+	(wire
+		(pts
+			(xy 40.64 46.99) (xy 40.64 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9928df2a-6e16-4f6a-848a-4c69be8c8d81")
+	)
+	(wire
+		(pts
+			(xy 40.64 59.69) (xy 40.64 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a81debd0-6430-4a6f-8c6c-fd7bf01f8892")
+	)
+	(wire
+		(pts
+			(xy 40.64 22.86) (xy 40.64 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f42570-4069-432b-b6f3-b2c16eca9c72")
+	)
+	(wire
+		(pts
+			(xy 40.64 35.56) (xy 40.64 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9522cf-11fb-4145-96ec-84748b427126")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 100.33 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "014b07e6-ab7a-4887-b50f-021845051a45")
+		(property "Reference" "J95"
+			(at 101.6 62.8649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 101.6 65.4049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 100.33 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08f24ccf-b2f9-4e54-b166-53fd7a8b6265")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 115.57 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0169056e-64e7-42d4-856d-b6f536c761e3")
+		(property "Reference" "J124"
+			(at 116.84 75.5649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 116.84 78.1049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 115.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22094b3b-f3ec-405b-8b58-2b89a65f8829")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 92.71 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "016a6f27-2c6d-4e2d-af52-3e19e664e45c")
+		(property "Reference" "J46"
+			(at 93.98 37.4649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 93.98 40.0049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 92.71 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4655832a-5de2-421f-aef1-4fdc8d829579")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 102.87 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "023314ed-a730-4eff-88a1-f72a9aeab9e8")
+		(property "Reference" "J73"
+			(at 104.14 50.1649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 104.14 52.7049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6efc0ba0-1730-44b4-a128-61b3f19ffb07")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 92.71 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03d4b142-17b1-416f-a490-e2d9ec612f1b")
+		(property "Reference" "J23"
+			(at 93.98 24.7649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 93.98 27.3049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 92.71 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0590cbdc-a079-4168-b621-bd6d1ab41f9c")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 86.36 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "048c79d4-4747-42c3-ad8f-9e4b0242836f")
+		(property "Reference" "J78"
+			(at 87.63 56.5149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 87.63 59.0549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 86.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bddc4fdf-52f3-4275-9101-f068d7259e90")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 109.22 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04f48127-2c29-4566-870f-3059df06533f")
+		(property "Reference" "J110"
+			(at 110.49 69.2149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 110.49 71.7549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8229a46-e1ec-4a1f-9231-ce2a58e42fa6")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 99.06 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "064914c3-5bca-4ab0-aa33-5340da808178")
+		(property "Reference" "J106"
+			(at 100.33 69.2149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 100.33 71.7549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 99.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f15aea4-6464-4855-b33a-eea36745fc96")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 45.72 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06a4f1a6-8de6-4a7a-98c0-d3f3759afada")
+		(property "Reference" "J4"
+			(at 46.99 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 46.99 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EASYEDA2KICAD:Magnetic_Connector_1x02_P2.5mm_Horizontal_round-ears"
+			(at 45.72 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 45.72 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "514863a3-da46-465d-8237-8a879b9cefb6")
+		)
+		(pin "2"
+			(uuid "3ae3e697-b3d9-4be6-88af-b85b9df265c3")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 99.06 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06b9b905-bc8c-4ebd-ba65-40b5e1c6b6a6")
+		(property "Reference" "J83"
+			(at 100.33 56.5149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 100.33 59.0549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 99.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c2e2dfe-a712-41e8-a695-2600b935785b")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 92.71 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "078440f9-6eeb-4609-9052-51861a0121ff")
+		(property "Reference" "J115"
+			(at 93.98 75.5649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 93.98 78.1049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 92.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd630ea6-5d41-4a14-9a0f-21be10f29536")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 35.56 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a03dca5-54fa-40c9-a577-df6ed5620e79")
+		(property "Reference" "J87"
+			(at 34.9249 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 37.4649 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 35.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddd61c2c-f5f7-4eca-96cf-da9edd0ae61b")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 107.95 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b198a52-d85f-4931-8c0e-a93d07ff2a22")
+		(property "Reference" "J136"
+			(at 109.22 62.8649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 109.22 65.4049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 107.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "927f358f-28ec-40da-95f9-d073468aecc4")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 80.01 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c1ae71e-2921-4ccb-92f0-21e8ab7446e3")
+		(property "Reference" "J18"
+			(at 81.28 24.7649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 81.28 27.3049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 80.01 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cd92005-c9ad-44ad-9a77-8114c1f5e642")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 15.24 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c3c11b5-f20e-46e0-a748-7f93356f829f")
+		(property "Reference" "H4"
+			(at 17.78 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH M3"
+			(at 17.78 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EASYEDA2KICAD:MountingHole_3.0mm_M3_tight"
+			(at 15.24 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 15.24 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 15.24 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "USB-PD-Sink"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 82.55 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0df3af61-6a5d-407c-a5c9-5817ebd509db")
+		(property "Reference" "J19"
+			(at 83.82 24.7649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 83.82 27.3049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 82.55 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "943474c2-fb7e-4a2a-83be-bb1beb7c4065")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 86.36 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e83f62b-add8-455f-bdab-14bba0844ec2")
+		(property "Reference" "J145"
+			(at 87.63 18.4149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 87.63 20.9549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 86.36 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "917e5f9a-eb93-4415-b315-47ec15835fe0")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 35.56 35.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1072c34b-aaa5-4141-878d-ff17f598e88b")
+		(property "Reference" "J10"
+			(at 34.9249 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 37.4649 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 35.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "953d1ee2-3bbb-451b-bfda-18ce67202046")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 91.44 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13769bab-bfc6-457b-bf17-f2fbc25098d0")
+		(property "Reference" "J80"
+			(at 92.71 56.5149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 92.71 59.0549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 91.44 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fe381a4-6760-43dc-89f1-6cd80c0eed13")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 88.9 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1667797a-cb65-45b1-956a-35317d92c2e0")
+		(property "Reference" "J56"
+			(at 90.17 43.8149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 90.17 46.3549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcd849f3-966c-423b-97ca-c5073a5ad557")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 104.14 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16dbad75-9929-48be-87d7-53e3d141b4cf")
+		(property "Reference" "J85"
+			(at 105.41 56.5149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 105.41 59.0549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 104.14 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df35aa30-abca-475b-a6d8-74fa50e2698f")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 97.79 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a14da3e-78f3-4887-a447-3156713220ac")
+		(property "Reference" "J25"
+			(at 99.06 24.7649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 99.06 27.3049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 97.79 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b216ecd0-c6dd-4e2f-8f16-bb106a27d2fb")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 113.03 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a78c86c-cf36-4b59-8b98-9ea8962ad297")
+		(property "Reference" "J100"
+			(at 114.3 62.8649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 114.3 65.4049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91aac565-3c74-434e-92e5-0ce2ca5f59d1")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 110.49 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c40ef6d-77bf-4bd1-ad5c-5be683d63a6c")
+		(property "Reference" "J76"
+			(at 111.76 50.1649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 111.76 52.7049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 110.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa1635b7-a0be-462e-9c12-d82acb7952b3")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 106.68 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c81bbc0-1d82-4789-b353-a3244e0a7751")
+		(property "Reference" "J144"
+			(at 107.95 43.8149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 107.95 46.3549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 106.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efecb2d8-2bdb-4ff4-9514-5deb67df1c61")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 109.22 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cb8b0c7-427f-471c-86b8-23e4d316c756")
+		(property "Reference" "J64"
+			(at 110.49 43.8149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 110.49 46.3549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 109.22 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1b02079-38fb-44db-a668-70d75c8d26b9")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 105.41 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20c43cdf-b6ab-40df-89c2-55bc0e2090d8")
+		(property "Reference" "J97"
+			(at 106.68 62.8649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 106.68 65.4049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 105.41 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e1de0d0-6d80-4dbf-94c5-a768f9725a5e")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 99.06 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2255a83f-d927-466a-97a7-3d4a5e26f5ab")
+		(property "Reference" "J37"
+			(at 100.33 31.1149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 100.33 33.6549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 99.06 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2da36bc-5ae8-4e80-b86b-acaaff3d8351")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 90.17 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24bce069-d378-4512-bf74-a6952bcbf199")
+		(property "Reference" "J22"
+			(at 91.44 24.7649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 91.44 27.3049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 90.17 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aaee3962-f7d6-4a88-8ad1-5bc2f00c0923")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 93.98 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24e45eb4-7f2d-4180-af50-c2de71e7eeb4")
+		(property "Reference" "J104"
+			(at 95.25 69.2149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 95.25 71.7549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 93.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b06ccf16-4977-4340-9a99-489241979967")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 93.98 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a36f679-15bb-47bd-9871-c6a3774c829d")
+		(property "Reference" "J12"
+			(at 95.25 18.4149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 95.25 20.9549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 93.98 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41ed598d-b337-476a-a95a-6f8a01427cf2")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 88.9 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ae46ca8-80dc-4f9d-9794-8f64684eb3b9")
+		(property "Reference" "J79"
+			(at 90.17 56.5149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 90.17 59.0549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 88.9 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d73f5f8f-af4c-4892-be62-46379619ba1d")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 102.87 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b9f7e18-5ded-49bb-b99f-f08a3fa788a3")
+		(property "Reference" "J96"
+			(at 104.14 62.8649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 104.14 65.4049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 102.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0c0fbe1-4e5d-48e3-a92d-c6fe9ad5c1db")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 101.6 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2da81490-1d22-4e7b-a3ad-4c88f5619f41")
+		(property "Reference" "J61"
+			(at 102.87 43.8149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 102.87 46.3549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 101.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9785557a-d7f6-4229-abf2-49af6da82f1d")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 105.41 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e82cc93-d569-4e9d-879f-5c25c3f8f910")
+		(property "Reference" "J120"
+			(at 106.68 75.5649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 106.68 78.1049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 105.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52845d94-7100-4495-9632-eb41514459b6")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 102.87 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35032159-478f-4f7f-91ac-8544b170bf4c")
+		(property "Reference" "J27"
+			(at 104.14 24.7649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 104.14 27.3049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 102.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f1b004a-fad1-4ea1-b4b8-90452413ef72")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 113.03 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35aa5d93-8b59-4a0b-ae68-8f709c16cdd0")
+		(property "Reference" "J123"
+			(at 114.3 75.5649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 114.3 78.1049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 113.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5ac9b53-4568-443d-a642-9024469d74b3")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 86.36 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37088e99-b14d-4bdf-8a63-b9aa1a87bd12")
+		(property "Reference" "J32"
+			(at 87.63 31.1149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 87.63 33.6549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 86.36 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b937161d-c275-45b5-af44-04414355f4c1")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 91.44 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38758fdb-d19c-4550-b52b-41e96db2d2d2")
+		(property "Reference" "J34"
+			(at 92.71 31.1149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 92.71 33.6549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 91.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e0897e8-8a75-483a-8561-06a30af5b344")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 96.52 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3973f27b-ede7-49a2-89a7-32d9779bf691")
+		(property "Reference" "J82"
+			(at 97.79 56.5149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 97.79 59.0549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 96.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49618340-001c-43bb-b850-84db6f82d854")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 85.09 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b8ef6af-1440-470a-859c-b0fe3bed7f9b")
+		(property "Reference" "J89"
+			(at 86.36 62.8649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 86.36 65.4049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 85.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e433fcee-94bc-4387-a37a-3381177d66a2")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 82.55 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c804a21-01e2-47d7-bc78-7fee03fee973")
+		(property "Reference" "J65"
+			(at 83.82 50.1649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 83.82 52.7049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 82.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe6adbe9-6c5f-4480-90a1-4cb82ecd5992")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 111.76 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "422c0a0c-c66e-48e0-9233-190251fbeaea")
+		(property "Reference" "J111"
+			(at 113.03 69.2149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 113.03 71.7549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 111.76 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30a844c5-21e3-4486-9dc4-e079833bd257")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 101.6 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "426749d1-9c7a-4295-9143-a600fa6c9be9")
+		(property "Reference" "J107"
+			(at 102.87 69.2149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 102.87 71.7549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 101.6 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85ec25db-41fb-4714-b4fb-cb688772c39f")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 88.9 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "446682a8-4123-4081-a18c-c91122962676")
+		(property "Reference" "J125"
+			(at 90.17 81.9149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 90.17 84.4549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 88.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01282d31-fdfe-4263-b21f-7d25f462b55a")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 87.63 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d3a9b6f-9e1b-466b-8c23-ffbffd12378a")
+		(property "Reference" "J21"
+			(at 88.9 24.7649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 88.9 27.3049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 87.63 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf798f77-c9c3-4ba5-9a0b-78c47d7f3e36")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 107.95 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dece11f-1be9-4393-a260-6225d75b4cb4")
+		(property "Reference" "J121"
+			(at 109.22 75.5649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 109.22 78.1049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd752826-46d1-4493-9202-7555d72f8ab9")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 100.33 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51de66f0-6aff-481d-ab6e-2ac654a21f70")
+		(property "Reference" "J49"
+			(at 101.6 37.4649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 101.6 40.0049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d187048-c78a-4d0d-9482-1f08b52c8d14")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 88.9 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5732f077-6a31-49d1-8034-290e6da1036a")
+		(property "Reference" "J102"
+			(at 90.17 69.2149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 90.17 71.7549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 88.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de6927c0-6166-4e6d-81be-a9a91100afe4")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 15.24 15.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59c9ed92-4413-4d73-9b72-b93c02791a63")
+		(property "Reference" "H1"
+			(at 17.78 13.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH M3"
+			(at 17.78 16.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EASYEDA2KICAD:MountingHole_3.0mm_M3_tight"
+			(at 15.24 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 15.24 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 15.24 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 107.95 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a34734b-8842-4607-b64f-031ab8316f83")
+		(property "Reference" "J133"
+			(at 109.22 50.1649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 109.22 52.7049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 107.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "054743f8-3b7c-437d-8926-ceb28c0e64b6")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 35.56 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ba9b637-d71d-4420-a9f0-c3dec2886ff9")
+		(property "Reference" "J7"
+			(at 34.9249 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 37.4649 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65715b65-5da8-47e6-bfbf-9e551fc77446")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 85.09 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c24c02e-4873-46cd-a380-e7e45ac9a8ea")
+		(property "Reference" "J43"
+			(at 86.36 37.4649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 86.36 40.0049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 85.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2a7296f-acc6-48b1-a138-3712e20a5a4e")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 99.06 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e39bcee-7a0b-4601-8d19-8446b91fb171")
+		(property "Reference" "J129"
+			(at 100.33 81.9149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 100.33 84.4549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 99.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3773d302-bfb8-4bbc-8314-831f2bf10101")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 105.41 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f43afc7-d653-4f15-8280-0c46190b6fdf")
+		(property "Reference" "J28"
+			(at 106.68 24.7649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 106.68 27.3049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 105.41 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d6b9b19-cdc9-4994-82fd-5371171266bc")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 85.09 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60d89e9e-88c8-4bd9-a402-dcedfab8f824")
+		(property "Reference" "J66"
+			(at 86.36 50.1649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 86.36 52.7049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 85.09 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68f46d2e-b805-49f2-8668-a46ace0526c6")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 110.49 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "623c73e9-f376-4803-b96d-88a721c602a8")
+		(property "Reference" "J122"
+			(at 111.76 75.5649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 111.76 78.1049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 110.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8b7ab48-dbef-4e5b-bbef-cc573c51ac4e")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 97.79 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68d32dcb-08f1-4618-bbbd-ef4ba3ef14cf")
+		(property "Reference" "J94"
+			(at 99.06 62.8649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 99.06 65.4049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38cb5fe6-8bc9-4876-9988-1b57d9e63da0")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 99.06 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69544b97-2926-4254-bcae-904d703ea3ea")
+		(property "Reference" "J14"
+			(at 100.33 18.4149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 100.33 20.9549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 99.06 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ea3135f-a7ea-4b93-8835-643f96b85835")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 97.79 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6afd5d7a-3f0b-4be6-b415-4b999f04780e")
+		(property "Reference" "J117"
+			(at 99.06 75.5649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 99.06 78.1049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdf20281-71ab-4cd9-90f6-f1835d2ed87b")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 104.14 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c37c928-5642-4f05-96a8-293665fb6e86")
+		(property "Reference" "J16"
+			(at 105.41 18.4149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 105.41 20.9549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 104.14 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd520170-fd93-4371-b507-ddad2a33383c")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 109.22 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ce3f023-e368-4b7c-ba0a-a96037eb525e")
+		(property "Reference" "J134"
+			(at 110.49 56.5149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 110.49 59.0549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 109.22 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b8a0cff-d08a-42ba-a0b7-85f0f69f2845")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 35.56 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6df50996-a122-4661-b3fd-27e311f0b5e5")
+		(property "Reference" "J139"
+			(at 34.9249 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 37.4649 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 35.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cab88eb1-f30c-40b0-9221-33d85fe68684")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 93.98 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71005a22-8d32-4893-bef8-8f76301a67ec")
+		(property "Reference" "J35"
+			(at 95.25 31.1149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 95.25 33.6549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 93.98 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43996ad7-fd68-4a54-a95b-c492f807d445")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 111.76 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72cd6ce0-78a0-4b65-8f82-9ad57a969522")
+		(property "Reference" "J88"
+			(at 113.03 56.5149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 113.03 59.0549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 111.76 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a4aacbc-bf28-4286-9bf6-ff46ad3c0b92")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 88.9 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76451875-352c-4a83-b3f8-1aaba57cbbe8")
+		(property "Reference" "J138"
+			(at 90.17 18.4149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 90.17 20.9549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 88.9 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1b4ee22-2ddd-4657-afbd-d0b82dadff8a")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 87.63 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bc10376-a648-4779-b79d-5fab1699ba93")
+		(property "Reference" "J44"
+			(at 88.9 37.4649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 88.9 40.0049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 87.63 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d15d6c6b-2b2a-46c2-9f71-135549232bac")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 93.98 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cc4fa8f-5504-43f4-9456-a5df94c84428")
+		(property "Reference" "J127"
+			(at 95.25 81.9149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 95.25 84.4549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 93.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4405012f-3b7a-4061-8e1b-1b3a6c1b834e")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 87.63 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8119dea1-d3db-4a4b-9c11-ac12788c049d")
+		(property "Reference" "J67"
+			(at 88.9 50.1649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 88.9 52.7049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 87.63 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fc689b3-98be-4443-b2b1-df4a44e7dcf9")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 92.71 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "821443c8-1fef-4aae-8960-f3cdcb39cd94")
+		(property "Reference" "J69"
+			(at 93.98 50.1649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 93.98 52.7049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 92.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "554fc670-76ac-4df1-987e-35e6bb4fa9e2")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 105.41 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8233131c-0dec-4cfa-bf46-f5e657e7bc89")
+		(property "Reference" "J143"
+			(at 106.68 50.1649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 106.68 52.7049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 105.41 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04a37706-b6bb-4c67-ac8a-eeaf08414e7b")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 106.68 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84740e2e-a986-4447-999d-3dd5c5244a53")
+		(property "Reference" "J40"
+			(at 107.95 31.1149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 107.95 33.6549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 106.68 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e21c043-b652-46e3-8cde-35e8aa4fe1cc")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 35.56 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "847ac461-d050-4af9-8633-9a4976badb96")
+		(property "Reference" "J142"
+			(at 34.9249 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 37.4649 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 35.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7529ef0b-99ed-45f5-b1a3-2b706c072b68")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 97.79 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "873bf3c9-beb8-4f2f-89e6-11721bd1dc11")
+		(property "Reference" "J71"
+			(at 99.06 50.1649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 99.06 52.7049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 97.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f184319-8c46-4b1f-b9f1-ac43b5ffa5ba")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 90.17 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e99e184-abf3-4a44-b8a2-e5447a1b859f")
+		(property "Reference" "J45"
+			(at 91.44 37.4649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 91.44 40.0049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 90.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bf71e34-2090-473c-a98b-9047535ac214")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 81.28 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fb20f44-c7de-4fb4-ad5a-5060d2441986")
+		(property "Reference" "J30"
+			(at 82.55 31.1149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 82.55 33.6549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 81.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bac0d8b-4a96-4212-8165-f080b21ef1db")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 35.56 25.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91b28a38-43e6-47aa-aab4-8af12662250c")
+		(property "Reference" "J62"
+			(at 34.9249 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 37.4649 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 35.56 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5330537e-352f-4f11-81da-5ddbcc4918eb")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 96.52 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91e26c7d-91d4-4418-9818-fca2087bda9d")
+		(property "Reference" "J105"
+			(at 97.79 69.2149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 97.79 71.7549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 96.52 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e58dec6d-2b57-4f7c-b4bb-fa16f12a44bb")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 104.14 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "926aafa8-4845-48e7-a38e-6a631f9cc61e")
+		(property "Reference" "J132"
+			(at 105.41 43.8149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 105.41 46.3549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 104.14 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9444620c-aba5-46f1-b909-1eecc46aacbb")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 91.44 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93d9f9ed-bbaf-4256-acd3-9fda0cb77b15")
+		(property "Reference" "J57"
+			(at 92.71 43.8149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 92.71 46.3549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 91.44 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d92f6b34-c3dc-4086-963b-4cef9df87dab")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 106.68 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9418e310-7d07-48ea-af61-b8032a393aef")
+		(property "Reference" "J135"
+			(at 107.95 56.5149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 107.95 59.0549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 106.68 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70f99c74-25ac-471b-b97d-37f90c43f0b1")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 81.28 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9819debe-fd20-4cd6-8da6-aec23b5d867f")
+		(property "Reference" "J53"
+			(at 82.55 43.8149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 82.55 46.3549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 81.28 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9346484e-be79-4887-8c44-d981e4c09a5a")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 15.24 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d15ed9f-784c-4043-a3fd-2160e9ab247f")
+		(property "Reference" "H2"
+			(at 17.78 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH M3"
+			(at 17.78 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EASYEDA2KICAD:MountingHole_3.0mm_M3_tight"
+			(at 15.24 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 15.24 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 15.24 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "USB-PD-Sink"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 45.72 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9eb08146-8fdc-4e58-8e93-829789cb57c8")
+		(property "Reference" "J3"
+			(at 46.99 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 46.99 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EASYEDA2KICAD:Magnetic_Connector_1x02_P2.5mm_Horizontal_round-ears"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3b41963-458a-4e4c-ae44-b81229917c71")
+		)
+		(pin "2"
+			(uuid "cbf8c92e-1035-420d-bf58-d7772d2a31b3")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 76.2 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9eeba59d-e4ec-4cd9-a900-4cb9bd6e5a62")
+		(property "Reference" "J5"
+			(at 77.47 18.4149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 77.47 20.9549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 76.2 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "625f4da7-76d2-4b09-aea0-624bc3a50ea2")
+		)
+		(instances
+			(project ""
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 78.74 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0983466-7a7d-499b-8345-421535cec93f")
+		(property "Reference" "J6"
+			(at 80.01 18.4149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 80.01 20.9549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 78.74 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c9999b3-9287-4c65-ae0a-a97d85306209")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 96.52 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a220fb44-9c30-4c4f-9150-0b9ea7281fbc")
+		(property "Reference" "J128"
+			(at 97.79 81.9149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 97.79 84.4549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 96.52 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4ec1774-0f9c-4df7-982e-8b2058a841bd")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 86.36 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3f82e57-77f1-4db5-9364-80275279367a")
+		(property "Reference" "J101"
+			(at 87.63 69.2149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 87.63 71.7549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 86.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c43eccf7-2d47-4fa1-bb14-c190eca4d9a1")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 83.82 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6e2828a-3217-4474-a2ca-1ce6f73ac26c")
+		(property "Reference" "J54"
+			(at 85.09 43.8149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 85.09 46.3549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 83.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dbdc00b-3697-4bd7-96f4-6b075d09cccf")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 81.28 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a992b6a9-8fdd-414c-9cfd-d18a4a19acbc")
+		(property "Reference" "J137"
+			(at 82.55 18.4149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 82.55 20.9549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 81.28 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7f9d548-b442-46ee-b39e-fae22f657b1f")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 102.87 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab1155ab-556d-4dfa-86ea-618926a01806")
+		(property "Reference" "J119"
+			(at 104.14 75.5649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 104.14 78.1049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 102.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e2fa4a7-c8f1-4fe6-a6b5-bb459ae308b2")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 90.17 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acacfc56-a4bb-41d0-b978-823997a23561")
+		(property "Reference" "J68"
+			(at 91.44 50.1649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 91.44 52.7049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 90.17 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5625c46-cfef-4c19-9b26-028788dfb2b6")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 82.55 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adb49ad6-073d-4699-9d18-7ad39d1654c4")
+		(property "Reference" "J42"
+			(at 83.82 37.4649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 83.82 40.0049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 82.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "053047f2-6624-4574-856f-58e6ca56aa10")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 100.33 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae14f34f-6f50-4d04-b00b-49a5d1d53862")
+		(property "Reference" "J72"
+			(at 101.6 50.1649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 101.6 52.7049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 100.33 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ba73edd-5285-4e5f-a8f6-b3b342b90287")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 86.36 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aecdaa05-08b6-4f63-a1b6-666d2fc6787a")
+		(property "Reference" "J55"
+			(at 87.63 43.8149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 87.63 46.3549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 86.36 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a141605-c8d2-4eb2-ac37-fb787ed9769c")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 104.14 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0203bb5-d714-445b-89df-2844c164f260")
+		(property "Reference" "J108"
+			(at 105.41 69.2149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 105.41 71.7549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 104.14 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f9e7260-6ea6-4f27-850f-75f2ef182eb9")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 114.3 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b161268f-e4c3-47ae-8414-a73c0fc60e65")
+		(property "Reference" "J112"
+			(at 115.57 69.2149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 115.57 71.7549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 114.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0e42ce2-9896-4e1a-9599-7902a6aa6fe9")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 45.72 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b24a6ed4-cca6-4323-840e-98735011fa3e")
+		(property "Reference" "J2"
+			(at 46.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 46.99 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EASYEDA2KICAD:Magnetic_Connector_1x02_P2.5mm_Horizontal_round-ears"
+			(at 45.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 45.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50dfb89e-f9f8-4320-8bdb-d351c570cbb1")
+		)
+		(pin "2"
+			(uuid "02ff9665-6943-4645-a6ce-3a9bf4b7055c")
+		)
+		(instances
+			(project "end-node-double_plus_minus"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 35.56 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2d696ab-5824-4eb9-9c1f-ecf60994a026")
+		(property "Reference" "J51"
+			(at 34.9249 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 37.4649 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 35.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2e12e29-e018-45fd-9179-6d81416990ca")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 106.68 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3ee6149-0ca6-4e36-ae83-317549fb9fd7")
+		(property "Reference" "J109"
+			(at 107.95 69.2149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 107.95 71.7549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6dbb0be-4dfb-4d4d-83d2-77e498713662")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 95.25 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b778dc90-a10b-4549-9351-c08f7aa883b4")
+		(property "Reference" "J47"
+			(at 96.52 37.4649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 96.52 40.0049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 95.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f45020a-9161-4ca1-8938-b1404a9fa111")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 85.09 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7b93b97-683a-4a6b-a9a5-35495cbcfe30")
+		(property "Reference" "J20"
+			(at 86.36 24.7649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 86.36 27.3049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 85.09 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd16b216-97e0-485c-99b3-1eb0667b9774")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 93.98 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9a192d4-805a-4a8b-970f-9f79d37885e5")
+		(property "Reference" "J58"
+			(at 95.25 43.8149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 95.25 46.3549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 93.98 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b29d88a0-0851-4b19-a55d-7fa2df9c33ef")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 92.71 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9a69910-0f15-4829-93fd-4111ffa5406f")
+		(property "Reference" "J92"
+			(at 93.98 62.8649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 93.98 65.4049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 92.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66794635-53fa-47fe-9cd7-6327ee8ebdad")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 78.74 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9fc27df-dc2f-4eca-8894-35b29228b4ee")
+		(property "Reference" "J29"
+			(at 80.01 31.1149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 80.01 33.6549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 78.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98bece18-3bd4-4274-836b-b93998e63381")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 77.47 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9fd1a43-7635-493d-9625-6c4c664537b6")
+		(property "Reference" "J17"
+			(at 78.74 24.7649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 78.74 27.3049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 77.47 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b504631-2737-4b55-8bcb-280d98599ea2")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 80.01 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba4d2dc2-c561-48f4-a557-edff245605a8")
+		(property "Reference" "J41"
+			(at 81.28 37.4649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 81.28 40.0049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 80.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26f79e62-bdf9-42f5-a9ff-cf47540ff0f7")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 101.6 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfb8751d-a995-4b5c-8f64-5e17edb8b8d0")
+		(property "Reference" "J15"
+			(at 102.87 18.4149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 102.87 20.9549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 101.6 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da087892-489c-40a0-aef6-fdc1eaa814a0")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 95.25 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2f10805-0a68-4c50-a9d8-bf6896da93a1")
+		(property "Reference" "J24"
+			(at 96.52 24.7649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 96.52 27.3049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 95.25 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0963a43f-9859-47e1-8e99-4c20a0f81b1e")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 83.82 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c35df3b7-d454-4318-8899-32c6a2ddd462")
+		(property "Reference" "J77"
+			(at 85.09 56.5149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 85.09 59.0549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 83.82 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc9dba19-71f1-49f3-ba50-3a7f30eb300d")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 110.49 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c50541eb-6d0f-4712-afc6-e15c2953d32f")
+		(property "Reference" "J99"
+			(at 111.76 62.8649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 111.76 65.4049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfacf97d-82a4-4719-9d1d-ec5e8ffaec22")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 91.44 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cafdd1d1-abc9-41b7-b298-ba999b1b33e5")
+		(property "Reference" "J126"
+			(at 92.71 81.9149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 92.71 84.4549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 91.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40cea001-fad6-4206-84fd-d8fde096d9b1")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 99.06 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ceb514fb-d68c-4aeb-9780-5f463787b770")
+		(property "Reference" "J60"
+			(at 100.33 43.8149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 100.33 46.3549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 99.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee18d9ab-0b78-4333-b9ef-2f545a12d9f4")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 101.6 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfca7e09-2a5b-4f0c-b1ae-6e950b8615d3")
+		(property "Reference" "J38"
+			(at 102.87 31.1149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 102.87 33.6549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 101.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8921be39-fcaa-4c14-9763-313c0e64bd57")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 91.44 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d012c159-d5dd-47f7-827e-8300b8ae24b3")
+		(property "Reference" "J11"
+			(at 92.71 18.4149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 92.71 20.9549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 91.44 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "761b3533-49a2-4c11-b0f5-6822df092087")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 90.17 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1f211ef-6109-4471-8caa-8f3a042dbca8")
+		(property "Reference" "J114"
+			(at 91.44 75.5649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 91.44 78.1049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 90.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8aede464-20af-448d-928d-0cfe6e4194cf")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 107.95 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2c1afa2-dfb7-4ed2-8e9b-6763c9b57fc4")
+		(property "Reference" "J52"
+			(at 109.22 37.4649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 109.22 40.0049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 107.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef3d6579-a787-4e6f-bfcd-0e95190afa77")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 35.56 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3b123b4-7132-45f4-8326-40baf23e9a9e")
+		(property "Reference" "J98"
+			(at 34.9249 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 37.4649 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 35.56 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59a59bd5-8b60-40f5-8ef5-35c46f97806a")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J98")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 87.63 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4a89b90-2407-4ae8-910a-07ae4b31792b")
+		(property "Reference" "J113"
+			(at 88.9 75.5649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 88.9 78.1049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 87.63 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbdf5581-4d90-4db1-9e1b-9dc115440803")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 96.52 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d56067c6-5e2f-4cd5-a75f-ebb42e2a22f5")
+		(property "Reference" "J59"
+			(at 97.79 43.8149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 97.79 46.3549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 96.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99f45a22-d87e-4c05-ac8a-e702cebfd901")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 101.6 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5685c96-f263-4384-8f98-fe124576646a")
+		(property "Reference" "J84"
+			(at 102.87 56.5149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 102.87 59.0549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 101.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5812b161-503a-4cec-a99a-6dc7b807fac6")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 91.44 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d850f7df-73b3-48c0-a7f6-b049ba4a05b9")
+		(property "Reference" "J103"
+			(at 92.71 69.2149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 92.71 71.7549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 91.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfe291c8-69a1-4c9d-91cf-e33ec9aa04e0")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 83.82 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8e655cb-aefd-466b-8eac-a0bd1df420ed")
+		(property "Reference" "J146"
+			(at 85.09 18.4149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 85.09 20.9549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 83.82 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54e1af18-8b4f-455d-b02e-461bf152edf7")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 100.33 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbcfed97-5a3f-46e9-8b65-fe9711bf099c")
+		(property "Reference" "J118"
+			(at 101.6 75.5649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 101.6 78.1049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 100.33 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bfd4762-1eb7-464d-a3f6-817b3a503193")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 100.33 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc21612a-2ac4-475b-8b63-e68e08357033")
+		(property "Reference" "J26"
+			(at 101.6 24.7649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 101.6 27.3049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 100.33 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6e4fc1f-0c64-4d4b-ad6e-ffdab6dac376")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 95.25 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ded5ddb4-8e02-4fa5-96ea-47adc5fd13b3")
+		(property "Reference" "J116"
+			(at 96.52 75.5649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 96.52 78.1049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cabb5e6f-06bf-4a23-907f-048f29d4b292")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 102.87 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1003aa1-60ad-4987-9110-78d7c5f4aab5")
+		(property "Reference" "J50"
+			(at 104.14 37.4649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 104.14 40.0049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 102.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "862cecf7-50ba-43fc-bde9-4b16f3d029b9")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 105.41 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1b19ad2-1458-4e4c-b7a5-ac52491b2b51")
+		(property "Reference" "J131"
+			(at 106.68 37.4649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 106.68 40.0049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 105.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5cbe8f1-1d9c-43c2-9451-763719bd814e")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 97.79 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e301bab3-a726-444a-a40c-f77e785d3901")
+		(property "Reference" "J48"
+			(at 99.06 37.4649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 99.06 40.0049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 97.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6560fe6-f342-4f42-a15e-358307d0de70")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 45.72 25.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e43e9ada-c75c-47b1-a98a-9854eb02ae29")
+		(property "Reference" "J1"
+			(at 46.99 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 46.99 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EASYEDA2KICAD:Magnetic_Connector_1x02_P2.5mm_Horizontal_round-ears"
+			(at 45.72 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 45.72 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f73201b2-8329-4241-8db7-9ca402865859")
+		)
+		(pin "2"
+			(uuid "38c3eabb-bb8b-4a99-a437-9519532a5336")
+		)
+		(instances
+			(project "USB-PD-Sink"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 101.6 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4835995-a399-410c-bfc2-fd69e7c864de")
+		(property "Reference" "J130"
+			(at 102.87 81.9149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 102.87 84.4549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 101.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd61c4c4-cb3e-4e78-83de-262bcc5cacea")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 87.63 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6a6273f-86dd-460e-8d8b-bf85dd341b71")
+		(property "Reference" "J90"
+			(at 88.9 62.8649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 88.9 65.4049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 87.63 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0fa6f0f-3c32-4120-bd08-c3ce33672f38")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 88.9 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8a7ded3-4a36-4942-ade8-9402c02e0733")
+		(property "Reference" "J33"
+			(at 90.17 31.1149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 90.17 33.6549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 88.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4e08674-ef05-4e1f-aa6f-24f88882af3b")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 104.14 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9271aab-8500-4701-9200-f485e9bd18ef")
+		(property "Reference" "J39"
+			(at 105.41 31.1149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 105.41 33.6549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 104.14 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b11c0e4-c0c3-427c-86d6-355713e5aeb2")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 96.52 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea065b68-5781-43c0-b6a8-0f520d550389")
+		(property "Reference" "J36"
+			(at 97.79 31.1149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 97.79 33.6549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 96.52 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63ddad3e-d63e-424b-9b06-911bf603e6f4")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 95.25 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb9db7ca-630c-4900-b2d1-b9ebc23a2b49")
+		(property "Reference" "J70"
+			(at 96.52 50.1649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 96.52 52.7049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 95.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26f8ab18-801d-495c-a8a2-133b1aa6962a")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 15.24 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed5c7499-c46c-41e9-a948-f475620af051")
+		(property "Reference" "H3"
+			(at 17.78 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH M3"
+			(at 17.78 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EASYEDA2KICAD:MountingHole_3.0mm_M3_tight"
+			(at 15.24 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 15.24 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 15.24 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "USB-PD-Sink"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 96.52 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f08f55bb-e298-4b49-80d8-5bc783b987b7")
+		(property "Reference" "J13"
+			(at 97.79 18.4149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 97.79 20.9549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 96.52 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02eb8d82-53b3-4231-adb0-64e7ae7877de")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 93.98 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1d801cc-5ce4-4ccf-a01a-f1f3fbb6961c")
+		(property "Reference" "J81"
+			(at 95.25 56.5149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 95.25 59.0549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 93.98 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b2d0dfd-c547-4312-a64e-f2d4030335f9")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 95.25 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9b80746-0cca-415b-97ca-c8a3e833b37f")
+		(property "Reference" "J93"
+			(at 96.52 62.8649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 96.52 65.4049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 95.25 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63c60720-22f1-4c34-8d5c-eafb57676ac7")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 90.17 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc5615c2-da6e-44f4-bc58-a9bf2aa17034")
+		(property "Reference" "J91"
+			(at 91.44 62.8649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 91.44 65.4049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 90.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b7efbc2-836f-437e-8abf-63f4558c96ed")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 83.82 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe6865b2-fb92-44cb-b1c0-ae4ca277dcbf")
+		(property "Reference" "J31"
+			(at 85.09 31.1149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 85.09 33.6549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80e9a8d8-de95-4b85-b897-74db72bdf800")
+		)
+		(instances
+			(project "breadboard_grid-2.54mm_1x1"
+				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
+					(reference "J31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
