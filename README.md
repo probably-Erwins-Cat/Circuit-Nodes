@@ -1,5 +1,3 @@
-### this is WIP
-
 # Circuit Nodes - Modular Electronics Building Blocks
 
 <img src="logo.png" alt="Circuit Diagram" width="1000">
