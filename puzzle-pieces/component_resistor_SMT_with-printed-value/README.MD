@@ -1,8 +1,10 @@
 # Intro  
-A **resistor** is one of the most fundamental electronic components. It **limits the flow of electric current** and is used to control voltage and current in a circuit.  
-Resistors follow **Ohm's Law (U = I × R)**, meaning the voltage drop across the resistor is proportional to the current flowing through it.  
+A **resistor** is one of the most fundamental electronic components. It **limits the flow of electric current** and is used to control voltage and current in a circuit. 
+Resistors follow **Ohm's Law (U = I × R)**, meaning the voltage drop across the resistor is proportional to the current flowing through it. 
 
-<img src="component_resistor_SMT_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_resistor_SMT_BOTTOM.png" alt="Circuit Diagram" width="400">
+**This set here includes the printed resistor values as silkscreen.** Pick the right zip file for the right resistor value you need. I included the KiCAD project, so users can create missing values for their specific needs.
+
+<img src="component_resistor_SMT_with-printed-value_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_resistor_SMT_with-printed-value_BOTTOM.png" alt="Circuit Diagram" width="400">
 
 # For What It Is Used  
 **Resistors are commonly used in:**  
@@ -26,4 +28,4 @@ SMT pads of various sizes for resistor will work, as displayed. *Only one pad pa
 For school settings and various experiments, you want to have a broad range of resistances. 300Ω is a reasonable resistance for LEDs at lower voltages. 1MΩ is a reasonable resistance when charging a capacitor and make it visible on minute time scale.
 
 Resistors do not come in all resistances imaginable, but follow **E series of preferred numbers** multiplied with an order of magnitude, colour coded in all resistors. The E series is a geometric progression of values on amlogarithmic scale. For most school settings, the E3 series is sufficient with 3 values per decade: **1.0, 2.2, 4.7,** 10.0 and so on...
-
+See Wikipedia for all other E-series: https://en.wikipedia.org/wiki/E_series_of_preferred_numbers
