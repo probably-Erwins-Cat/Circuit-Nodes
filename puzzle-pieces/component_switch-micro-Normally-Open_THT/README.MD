@@ -1,4 +1,15 @@
-# Intro  
-A simple (micro) switch with two positions, ON and OFF, as indicated. The mounting holes support a wide variety of typical micro switches that can withstand higher currents and tens of thousands of uses. When soldering them, the user should be accustomed to the typical naming and function of the three terminals, Com, NO (Normally Open) and NC (Normally Closed), and the order of the terminals. A button that closes the circuit when pressed, is in its non-pressed state *normally open*, vice versa.
 
-<img src="component_switch-micro-Normally-Open_THT_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_switch-micro-Normally-Open_THT_BOTTOM.png" alt="Circuit Diagram" width="400">
+# Micro switch — Normally Open (THT)
+
+A small micro switch footprint for components that are *normally open* (NO) when not actuated. These switches close the circuit when pressed and are useful for momentary inputs and simple controls.
+
+<img src="component_switch-micro-Normally-Open_THT_TOP.png" alt="Micro switch NO top view" width="400"> <img src="component_switch-micro-Normally-Open_THT_BOTTOM.png" alt="Micro switch NO bottom view" width="400">
+
+## Typical uses in circuits
+- Momentary buttons, debounced inputs, and simple user controls in classroom projects.
+
+## Didactical notes
+- Compare NO and NC switch behaviour in labs to illustrate contact logic and debouncing concepts.
+
+## Practical notes
+- Verify terminal labelling (COM, NO, NC) and test switch operation before final assembly.

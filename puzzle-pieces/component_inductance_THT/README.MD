@@ -1,17 +1,19 @@
-# Intro  
-An **inductance** is in its simplest form a coiled wire. Currents flowing through a wire generate a magnetic field around this wire. This magnetic field results in *counter-electromotive forces* caused by electromagentic inductance.
 
-The voltage-current relation of a inductance follows 
+# Inductance (THT)
 
-\[U(t) = L \frac{\text{d}I(t)}{\text{d}t}\]
+An inductance (coil) stores energy in a magnetic field when current flows and produces a voltage opposing changes in current. In classroom demonstrations it is useful to show transient responses and the behaviour of RL or RLC circuits.
 
-For school settings without differentials and integrals, the differentials can be replaced with the pre-differential idea of a simple difference $\text{d}t \approx \Delta t = t_2 - t_1$.
+<img src="component_inductance_THT_TOP.png" alt="Inductance top view" width="400"> <img src="component_inductance_THT_BOTTOM.png" alt="Inductance bottom view" width="400">
 
-<img src="component_inductance_THT_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_inductance_THT_BOTTOM.png" alt="Circuit Diagram" width="400">
+## Typical uses in circuits
+- Demonstrating inductive kick, RL time-constants, and filtering when paired with capacitors.
 
-# Important Considerations  
+## School-level description
+- The basic relation is
+	\[U(t) = L \frac{\mathrm{d}I(t)}{\mathrm{d}t},\]
+	which you can describe qualitatively as: a sudden change in current creates a voltage across the coil that opposes that change.
 
-**inductances have a maximum current rating:** inductances often use thin wires for maximimzing the windings. Thin, tightly packed wire has bad heat dissipation, thus inductances are current-limited. 
-**available inductivity, size consideration:** Large inductivity comes in large package size. THT inductances with up to 20mm height easily fit in when placed flat, as indicated.
-**RL and RCL circuits:** Inductances are relevant where differentials in voltage and/or current occurs, i.e. AC and voltage/current spikes. Measuring the effect of an inductance in those scenarios either requires huge inductances (larger than compatible with this PCB) or measuring devices that can track quick changes in voltages, i.e. oscilloscopes. 
+## Practical and safety notes
+- Inductors have current limits because of wire heating; do not exceed the rated current for the part.
+- Significant inductive effects (fast transients) often require oscilloscopes or fast measurement tools; for beginner labs choose larger inductances or slower changes so a multimeter can show average effects.
 

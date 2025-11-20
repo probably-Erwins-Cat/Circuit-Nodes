@@ -1,12 +1,17 @@
-# Intro  
-A **lamp** is the intro component in education as it makes "invisible" electricity visibly via light and heat emmission. It **limits the flow of electric current** and thereby producing heat, like a resistor.   
-Resistors follow **Ohm's Law (V = I × R)**. Lamps are slightly special, **their resistance increases** with temperature, $R(T)$, thereby feathering the limit of heat dissipation and current flow.
 
-<img src="component_lamp-E10_THT_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_lamp-E10_THT_BOTTOM.png" alt="Circuit Diagram" width="400"> <img src="E10-holder.png" alt="Circuit Diagram" height="400">
+# Lamp (E10, THT)
 
-# Compatible lamps
+A small E10 lamp makes electrical effects visible through light and heat, and is a useful demonstration component in early lessons. Unlike a simple resistor, the filament’s resistance typically increases with temperature, so lamp behaviour is nonlinear.
 
-This board is meant for bare-metal THT lamp holder for small E10-sized lamps as depicted. E10 lamps come in different voltages. Pick the lamps that suits your supply voltage the best. 
+<img src="component_lamp-E10_THT_TOP.png" alt="E10 lamp top view" width="400"> <img src="component_lamp-E10_THT_BOTTOM.png" alt="E10 lamp bottom view" width="400"> <img src="E10-holder.png" alt="E10 holder" height="400">
 
-**Be cautious with LED E10 lamps**, they are oftentimes polar, i.e. current can only flow in one direction through an LED but not in reverse. The standard schematics of a lamp does not consider polarity, and neither does this simple part.
+## Typical uses in circuits
+- Visual indicator for current flow in simple series circuits and for illustrating thermal effects in resistive elements.
+
+## Didactical notes
+- Use lamps to discuss non-linear resistance and to compare steady-state and startup current behaviour (cold filament has lower resistance and draws higher current initially).
+
+## Practical and safety notes
+- Select lamp voltage to match your supply to avoid excessive current or rapid burnout.
+- LED-based E10 bulbs are polar and behave differently from incandescent lamps; treat them as diodes and use a series resistor when appropriate.
 

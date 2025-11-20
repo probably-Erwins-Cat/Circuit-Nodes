@@ -1,5 +1,6 @@
-# Intro  
-Double circuit node with plus and minus indictating a DC power source. **This one comes with USB-C and an IC with Power Delivery Protocol.** For that, an quite small IC and USB-C port must be soldered. This is not easy to solder by hand for beginners and not easy to solder without solder flux. If at hand, a heating plate will be helpful, because all parts except the DIP switch can be reflow soldered.
+# DC Power Supply with USB-C Power Delivery
+
+This puzzle piece provides a USB-C connector with integrated Power Delivery (PD) protocol support. Instead of soldering a large battery connector, you can plug in any modern USB-C charger (30W or higher recommended). The puzzle piece includes a small IC and resistor network to negotiate the desired voltage with your charger. A DIP switch lets you select between 5V, 9V, 12V, 15V, or 20V output. This is convenient but requires careful soldering of small SMT components—a heating plate is helpful.
 
 <img src="end-node-double_plus-minus_with-USB-PD_TOP.png" alt="Circuit Diagram" width="400"> <img src="end-node-double_plus-minus_with-USB-PD_BOTTOM.png" alt="Circuit Diagram" width="400">
 

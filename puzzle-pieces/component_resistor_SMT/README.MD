@@ -1,29 +1,26 @@
-# Intro  
-A **resistor** is one of the most fundamental electronic components. It **limits the flow of electric current** and is used to control voltage and current in a circuit.  
-Resistors follow **Ohm's Law (U = I × R)**, meaning the voltage drop across the resistor is proportional to the current flowing through it.  
 
-<img src="component_resistor_SMT_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_resistor_SMT_BOTTOM.png" alt="Circuit Diagram" width="400">
+# Resistor (SMT)
 
-# For What It Is Used  
-**Resistors are commonly used in:**  
-- **Current limiting:** Preventing excessive current in LEDs and other components.  
-- **Voltage division:** Creating reference voltages by dividing a supply voltage.  
-- **Signal conditioning:** Adjusting or filtering signals in electronic circuits.  
-- **Heat generation:** Converting electrical energy into heat in applications like heaters and braking systems.  
+An SMT resistor is a compact passive component used to set currents and voltages in circuits. For school-level explanations we use Ohm’s law:
 
-# Important Considerations  
+\[U = I \cdot R\]
 
-⚠️ **Power Rating Matters!** A resistor dissipates power as heat:  
+where $U$ is voltage (V), $I$ is current (A) and $R$ is resistance (Ω).
 
-$ P = UI = I^2 R = \frac{U^2}{R}$
+<img src="component_resistor_SMT_TOP.png" alt="Resistor SMT top view" width="400"> <img src="component_resistor_SMT_BOTTOM.png" alt="Resistor SMT bottom view" width="400">
 
-If the power rating is exceeded, the resistor **may overheat and burn out**. 
+## Typical uses in circuits
+- Current limiting (e.g., protecting LEDs).
+- Voltage dividers for simple references.
+- Basic signal conditioning in combination with capacitors or inductors.
 
-⚠️ **Tolerance:** Real resistors are not perfect; they have a tolerance (e.g., ±5%) indicating variation from their labeled value.
+## Practical and safety notes
+- Power dissipation: resistors convert electrical energy to heat. Use the formula
+  \[P = U \cdot I = I^2 \cdot R = \dfrac{U^2}{R}.\]
+  Choose resistor power ratings appropriate for expected dissipation; in low-voltage classroom experiments this is often not critical but remains good practice.
 
-# Compatible and Recommended Part(s)  
-SMT pads of various sizes for resistor will work, as displayed. *Only one pad pair must be used.* I recommend using ones with lower tolerances, 1%, and high wattage/heat dissipationW. Those resistors are usually bulky and survive very long, e.g. 2512. 
-For school settings and various experiments, you want to have a broad range of resistances. 300Ω is a reasonable resistance for LEDs at lower voltages. 1MΩ is a reasonable resistance when charging a capacitor and make it visible on minute time scale.
+## E-series (preferred values)
+- Resistors are manufactured in preferred-value E-series (for example E12 or E24). These series explain the commonly available standard values (10, 12, 15, 18, 22, 27, 33, … etc.). Use the E-series as a teaching point for availability of component values.
 
-Resistors do not come in all resistances imaginable, but follow **E series of preferred numbers** multiplied with an order of magnitude, colour coded in all resistors. The E series is a geometric progression of values on amlogarithmic scale. For most school settings, the E3 series is sufficient with 3 values per decade: **1.0, 2.2, 4.7,** 10.0 and so on...
-
+## Classroom kit recommendations
+- Keep a range from a few ohms up to 1 MΩ to support different experiments; include standard values such as 100 Ω, 330 Ω, 1 kΩ, 10 kΩ, and 100 kΩ.

@@ -1,27 +1,25 @@
-# Intro  
-A **resistor** is one of the most fundamental electronic components. It **limits the flow of electric current** and is used to control voltage and current in a circuit.  
-Resistors follow **Ohm's Law (U = I × R)**, meaning the voltage drop across the resistor is proportional to the current flowing through it.  
 
-<img src="component_resistor_THT_3W_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_resistor_THT_3W_BOTTOM.png" alt="Circuit Diagram" width="400">
+# Resistor (THT, 3 W)
 
-# For What It Is Used  
-**Resistors are commonly used in:**  
-- **Current limiting:** Preventing excessive current in LEDs and other components.  
-- **Voltage division:** Creating reference voltages by dividing a supply voltage.  
-- **Signal conditioning:** Adjusting or filtering signals in electronic circuits.  
-- **Heat generation:** Converting electrical energy into heat in applications like heaters and braking systems.  
+A high‑power through‑hole resistor for experiments where significant power dissipation is needed (heaters, load demonstrations, or current-limiting at higher voltages). Resistors obey Ohm’s law:
 
-# Important Considerations  
+\[U = I \cdot R\]
 
-⚠️ **Power Rating Matters!** A resistor dissipates power as heat:  
-\[ P = UI = I^2 R = \frac{U^2}{R} \]
-If the power rating is exceeded, the resistor **may overheat and burn out**. 
+<img src="component_resistor_THT_3W_TOP.png" alt="Resistor 3W top view" width="400"> <img src="component_resistor_THT_3W_BOTTOM.png" alt="Resistor 3W bottom view" width="400">
 
-⚠️ **Tolerance:** Real resistors are not perfect; they have a tolerance (e.g., ±5%) indicating variation from their labeled value.
+## Typical uses in circuits
+- Current limiting for higher-voltage experiments, power-dissipation demonstrations, and as adjustable loads in teaching setups.
 
-# Compatible and Recommended Part(s)  
-Any THT resistor will work. I recommend using ones with lower tolerances, 1%, and high wattage/heat dissipation, 3W. Those resistors are usually bulky and survive very long.
-For school settings and various experiments, you want to have a broad range of resistances. 300Ω is a reasonable resistance for LEDs at lower voltages. 1MΩ is a reasonable resistance when charging a capacitor and make it visible on minute time scale.
+## Practical and safety notes
+- Power dissipation: calculate power with
+	\[P = U \cdot I = I^2 \cdot R = \frac{U^2}{R}.\]
+	Ensure the chosen resistor’s wattage rating (e.g., 3 W) exceeds expected dissipation in experiments.
+- For classroom work keep voltages and currents within safe limits and allow resistors to cool between runs.
 
-Resistors do not come in all resistances imaginable, but follow **E series of preferred numbers** multiplied with an order of magnitude, colour coded in all resistors. The E series is a geometric progression of values on amlogarithmic scale. For most school settings, the E3 series is sufficient with 3 values per decade: **1.0, 2.2, 4.7,** 10.0 and so on...
+## E-series and value selection
+- Resistors are produced in preferred-value series (E-series). For classroom kits E12 or E24 series are common. The E-series explains why standard values (e.g., 10, 22, 47, 100, etc.) are readily available.
+
+## Classroom kit recommendations
+- Keep a selection covering a wide range (from hundred ohms up to 1 MΩ) depending on the experiments planned.
+
 

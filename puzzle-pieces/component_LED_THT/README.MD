@@ -1,23 +1,26 @@
-# Intro  
-An **LED (Light-Emitting Diode)** is a special type of diode that emits light when electric current flows through it. Unlike regular light bulbs, LEDs are highly efficient and long-lasting. Their downside is their limited voltage and current range they can function.
 
-<img src="component_LED_THT_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_LED_THT_BOTTOM.png" alt="Circuit Diagram" width="400">
+# LED (THT)
 
-**This is the solder version of the LED. Thus, it should be used carefully to not break it, otherwise it most be replaced by desoldering and re-soldering.** Check the *replacable* version that comes with a pass-through header where LEDs can be plugged in and out easily.
+An LED (light-emitting diode) produces light when a current flows in the forward direction. LEDs are efficient and durable, but must be used with current limiting to avoid damage.
 
-LEDs only allow current to flow in **one direction** (from the **Anode (+)** to the **Cathode (-)**). They require **a resistor in series** to limit current and prevent damage.  
+<img src="component_LED_THT_TOP.png" alt="LED top view" width="400"> <img src="component_LED_THT_BOTTOM.png" alt="LED bottom view" width="400">
 
-# Typical forward voltage values:  
-- **Red:** ~1.6 – 2.0V  
-- **Orange:** ~2.0 - 2.1V
-- **Yellow:** ~2.1 - 2.2V
-- **Green:** ~2.2V – 3.2V  
-- **Blue/White:** ~3.0V – 3.5V  
+## Typical uses in circuits
+- Visual indicators for power, logic states, or sensor output in classroom projects.
 
-# Current Limiting Required
-LEDs must be used with a **series resistor** to prevent excessive current.  
-The resistor value can be calculated using Ohm’s Law:  
+## Typical forward voltages (approx.)
+- Red: ~1.6 – 2.0 V
+- Orange: ~2.0 – 2.1 V
+- Yellow: ~2.1 – 2.2 V
+- Green: ~2.2 – 3.2 V
+- Blue/White: ~3.0 – 3.5 V
 
-\[R = \frac{V_\text{supply} - V_\text{forward}}{I_\text{max,LED}}\]
+## Practical notes and current limiting
+- Always use a series resistor. Calculate the resistor with Ohm’s law:
 
-It is recommended to use a supply voltage that is in the range of the forward voltage of the LED, otherwise large resistors (with large heat dissipation) are required. LEDs with current-limiting resistors are typically supplied with 5V. **Standard 5mm THT LEDs have a maximum current of 10-20mA.**
+\[R = \frac{V_{\text{supply}} - V_{\text{forward}}}{I_{\text{desired}}}\]
+
+- Typical 5 mm THT LEDs are used at 10–20 mA; choose resistor values and supply voltages appropriate for the chosen LED.
+
+## Mounting variant
+- This README covers the soldered THT variant. For easy swapping of LEDs see the replacable SMT/pass-through variation in the project.

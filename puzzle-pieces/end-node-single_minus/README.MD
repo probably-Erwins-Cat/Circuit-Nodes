@@ -1,4 +1,5 @@
-# Intro  
-A minus labeled node that is used for minus pole or GND. It comes with an M6-sized hole where a typical banana plug terminal can be screwed in. The minus pole is typically associated with GND, thus, it is recommended to screw in a black-colored terminal.
+# Minus End Node
 
-<img src="end-node-single_minus_TOP.png" alt="Circuit Diagram" width="400"> <img src="end-node-single_minus_BOTTOM.png" alt="Circuit Diagram" width="400"> src="banana-jack-4mm-colored.png" alt="Circuit Diagram" height="300">
+This puzzle piece is a labeled connector for the negative pole (ground/GND) of a power supply. It features an M6-sized hole where a black banana plug terminal is typically screwed in, following the standard convention that the minus pole is associated with ground and black indicates the negative connection.
+
+<img src="end-node-single_minus_TOP.png" alt="Circuit Diagram" width="400"> <img src="end-node-single_minus_BOTTOM.png" alt="Circuit Diagram" width="400"> <img src="banana-jack-4mm-colored.png" alt="Circuit Diagram" height="300">

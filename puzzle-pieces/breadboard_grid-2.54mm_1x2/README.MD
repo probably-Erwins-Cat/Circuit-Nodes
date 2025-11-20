@@ -1,5 +1,12 @@
-# Intro  
-This piece is a generic breadboard grid with 2.54mm spacing as displayed. It is a placeholder for self-soldered circuits when a user wants to implement something more complicated into a miniature version. It exists in various versions and sizes. The square holes with rounded corners also work for large SMT parts, too, albeit not optimized for those.
+# Breadboard grid (2.54 mm, 1×2)
 
-<img src="breadboard_grid-2.54mm_1x2_TOP.png" alt="Circuit Diagram" height="400"> <img src="breadboard_grid-2.54mm_1x2_BOTTOM.png" alt="Circuit Diagram" height="400">
+This breadboard grid provides 2.54 mm spacing in a compact 1×2 layout for small prototypes and classroom exercises. It is useful when students need a small area to solder or test circuits while keeping components organised.
+
+<img src="breadboard_grid-2.54mm_1x2_TOP.png" alt="Breadboard grid top view" height="400"> <img src="breadboard_grid-2.54mm_1x2_BOTTOM.png" alt="Breadboard grid bottom view" height="400">
+
+## Typical uses in circuits
+- Small soldered circuits and stand-in for a full-size prototyping board.
+
+## Practical and safety notes
+- Use low voltages for classroom work and avoid mains-level experiments on these small boards.
 

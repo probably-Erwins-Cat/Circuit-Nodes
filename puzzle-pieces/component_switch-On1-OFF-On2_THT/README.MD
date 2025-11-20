@@ -1,4 +1,15 @@
-# Intro  
-A simple switch with **three** positions, ON1 and OFF and ON2, as indicated. The mounting holes support a wide variety of larger flip switches that can withstand high currents and tens of thousands of uses. Due to the size of most of those switches, the actual schematics symbol is largely hidden, which isn't ideal. Thus, check beforehand whether the very similar On1-On2 switch (flipflop) cannot be used, because it is a nicer, visually pleasing implementation. 
 
-<img src="component_switch-On1-OFF-On2_THT_TOP.png" alt="Circuit Diagram" width="400"> <img src="component_switch-On1-OFF-On2_THT_BOTTOM.png" alt="Circuit Diagram" width="400">
+# Switch — On1 / Off / On2 (THT)
+
+A three-position switch (On1, Off, On2) useful for selecting between two circuits or disconnecting the circuit entirely. The footprint accommodates common larger switches suitable for heavier classroom loads.
+
+<img src="component_switch-On1-OFF-On2_THT_TOP.png" alt="On1-Off-On2 switch top view" width="400"> <img src="component_switch-On1-OFF-On2_THT_BOTTOM.png" alt="On1-Off-On2 switch bottom view" width="400">
+
+## Typical uses in circuits
+- Selecting between two outputs while providing an explicit off position for safe testing and measurement.
+
+## Didactical notes
+- Use this switch when teaching the effect of open circuits and for stepwise comparison between two configurations.
+
+## Practical notes
+- Ensure the switch's mechanical and electrical ratings suit the intended classroom loads.
