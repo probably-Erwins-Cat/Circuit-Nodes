@@ -21,7 +21,7 @@ The components are labeled with generic names. Solder the components correspondi
 | R9 | Resistor Size 1206, 100k Ohm |
 | C1 | Capacitor Size 1206, 1µF |
 | C2 | Capacitor Size 1206, 4.7nF |
-| F1 | PolyFuse Size 1206, see PolyFuse piece |
+| F1 | PolyFuse Size 1206, see PolyFuse piece, trip current 100-150mA |
 | J2 | USB-C Receptible horizontal, SMT, 6 pins |
 
 # USB-C Power Delivery Protocol "PD"
