@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "USB-PD-Sink")(type "KiCad")(uri "${KIPRJMOD}/USB-PD-Sink.kicad_sym")(options "")(descr ""))
+)

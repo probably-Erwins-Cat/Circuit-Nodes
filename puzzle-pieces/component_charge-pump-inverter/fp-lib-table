@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "USB-PD-Sink")(type "KiCad")(uri "${KIPRJMOD}/component_charge-pump-inverter.pretty")(options "")(descr ""))
+)
