@@ -5,12 +5,14 @@
 *.000
 *.bak
 *.bck
+*.FCBak
 *.kicad_pcb-bak
 *.kicad_sch-bak
 *-backups
 **/backup/
 **/backups/
 *.kicad_prl
+
 *.sch-bak
 *~
 _autosave-*
