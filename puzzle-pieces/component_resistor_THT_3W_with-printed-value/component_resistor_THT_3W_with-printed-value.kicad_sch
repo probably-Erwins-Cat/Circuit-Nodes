@@ -509,7 +509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "EASYEDA2KICAD:MountingHole_3.0mm_M3_tight"
 			(at 15.24 41.91 0)
 			(effects
 				(font
@@ -573,7 +573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "EASYEDA2KICAD:MountingHole_3.0mm_M3_tight"
 			(at 15.24 15.24 0)
 			(effects
 				(font
@@ -706,7 +706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "EASYEDA2KICAD:MountingHole_3.0mm_M3_tight"
 			(at 15.24 24.13 0)
 			(effects
 				(font
@@ -910,7 +910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "EASYEDA2KICAD:MountingHole_3.0mm_M3_tight"
 			(at 15.24 33.02 0)
 			(effects
 				(font

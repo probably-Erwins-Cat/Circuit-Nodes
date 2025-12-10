@@ -408,12 +408,6 @@
 		(uuid "3b3ecbcf-61eb-49bc-93f8-851bb56a7f56")
 	)
 	(junction
-		(at 52.07 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5fd14a11-5b6d-46fe-b8f0-ef585b20af5f")
-	)
-	(junction
 		(at 58.42 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -575,16 +569,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 54.61) (xy 57.15 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2eed283-a5e3-434e-aab6-ed851bbbea71")
-	)
-	(wire
-		(pts
 			(xy 50.8 20.32) (xy 52.07 20.32)
 		)
 		(stroke
@@ -612,28 +596,6 @@
 			(type default)
 		)
 		(uuid "f93373f3-1739-4547-a36b-a9e0c8510926")
-	)
-	(global_label "NordSued"
-		(shape input)
-		(at 57.15 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d643407f-abdf-40f3-a94d-2a507c3d22ff")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.146 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -663,7 +625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "EASYEDA2KICAD:MountingHole_3.0mm_M3_tight"
 			(at 15.24 41.91 0)
 			(effects
 				(font
@@ -867,7 +829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "EASYEDA2KICAD:MountingHole_3.0mm_M3_tight"
 			(at 15.24 15.24 0)
 			(effects
 				(font
@@ -1140,7 +1102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "EASYEDA2KICAD:MountingHole_3.0mm_M3_tight"
 			(at 15.24 24.13 0)
 			(effects
 				(font
@@ -1344,7 +1306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "EASYEDA2KICAD:MountingHole_3.0mm_M3_tight"
 			(at 15.24 33.02 0)
 			(effects
 				(font
