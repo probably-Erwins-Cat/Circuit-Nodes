@@ -4,7 +4,7 @@ A slider potentiometer is a mechanical variable resistor with a moving wiper tha
 
 *This is the slide potentiometer version with bottom-side mounting for illustrating the schematic symbol. There are also rotary potentiometer and top-side mounting versions available.*
 
-<img src="component_potentiometer_slider_THT_TOP.png" alt="Potentiometer top view" width="400"> <img src="component_potentiometer_slider_THT_BOTTOM.png" alt="Potentiometer bottom view" width="400">
+<img src="component_potentiometer_slider_screw-mounted_TOP.png" alt="Potentiometer top view" width="400"> <img src="component_potentiometer_slider_screw-mounted_BOTTOM.png" alt="Potentiometer bottom view" width="400">
 
 ## Basic description
 
