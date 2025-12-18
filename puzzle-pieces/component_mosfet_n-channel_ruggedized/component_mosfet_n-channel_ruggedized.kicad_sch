@@ -1475,6 +1475,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 63.5) (xy 152.4 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d0db710-5399-4b3a-bc00-d904831f1342")
+	)
+	(wire
+		(pts
 			(xy 100.33 88.9) (xy 100.33 90.17)
 		)
 		(stroke
@@ -1582,16 +1592,6 @@
 			(type default)
 		)
 		(uuid "c633ff82-6a55-4e80-966b-75fa7fb7900d")
-	)
-	(wire
-		(pts
-			(xy 127 63.5) (xy 152.4 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca7bb97e-fb28-4cc3-acb3-a13a9077e746")
 	)
 	(wire
 		(pts
@@ -2286,7 +2286,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UT3N06G-AB3-R"
+		(property "Value" "UT3N06G"
 			(at 130.81 52.0699 0)
 			(effects
 				(font
