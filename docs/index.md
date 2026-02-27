@@ -5,9 +5,9 @@ title: Circuit Nodes - Modular Electronics Building Blocks
 
 # Circuit Nodes
 
-Modular Electronics Building Blocks - An Educational Tool
+[![Circuit Diagram]({{ site.baseurl }}/logo.png){: width="1000" }](https://github.com/yourusername/Circuit-Nodes)
 
-![Circuit Diagram]({{ site.baseurl }}/logo.png){: width="1000" }
+Modular Electronics Building Blocks - An Educational Tool
 
 ## Welcome!
 
