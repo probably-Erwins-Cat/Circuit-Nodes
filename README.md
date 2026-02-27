@@ -13,6 +13,20 @@ By starting with basic components and expanding into more complex circuits, lear
 The pedagogical value lies in reinforcing the connection between abstract circuit diagrams and tangible, working implementations, 
 making theoretical concepts easier to grasp through hands-on experimentation.
 
+---
+
+## 📖 **[→ EXPLORE THE FULL DOCUMENTATION](https://yourusername.github.io/Circuit-Nodes/)**
+
+Complete guides, examples, research insights, and best practices are available in our **comprehensive GitHub Pages site** including chapters on:
+- Educational research foundations & student misconceptions
+- Getting started guides
+- Assembly instructions
+- Component library reference
+- 3D base design and printing
+- Advanced topics and experiments
+
+---
+
 # Features
 
 *If you are an educator or represent a school interested in testing Circuit
@@ -98,6 +112,29 @@ For questions or collaboration, please open an discussion or reach out to me.
 [![DOI](https://zenodo.org/badge/944617067.svg)](https://doi.org/10.5281/zenodo.17569829)
 
 # License
+
+Circuit Nodes is licensed under **CC-BY-NC-SA 4.0** (Creative Commons Attribution-NonCommercial-ShareAlike).
+
+See LICENSE files for details.
+
+---
+
+## 📚 Citation & Research
+
+This project is supported by peer-reviewed research published in **Physics Education**:
+
+**Kubitschke, H., Hennig, F., Gleichmann, J., Schnauß, J., & Bitzenbauer, P. (2024).** 
+*Modular 3D-printed Circuit Nodes for low-cost and hands-on Electricity Education.* 
+Physics Education, 61(1), 015010.
+**DOI**: [10.1088/1361-6552/ae1abd](https://doi.org/10.1088/1361-6552/ae1abd)
+
+The paper includes:
+- Educational design principles and cognitive load theory
+- Technical specifications and cost analysis
+- Teacher evaluation and feedback from 8 German secondary school physics teachers
+- Learning outcome research and student perception studies
+
+[Read the research foundations chapter](https://yourusername.github.io/Circuit-Nodes/08-research-educational-foundations) for detailed insights.
 
 This project is licensed under the Creative Commons Attribution-ShareAlike (CC
 BY-SA) Non-Commercial license. You are free to share and adapt the designs as

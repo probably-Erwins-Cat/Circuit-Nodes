@@ -1,0 +1,37 @@
+# Jekyll Configuration for Circuit Nodes GitHub Pages
+
+title: Circuit Nodes
+description: Modular Electronics Building Blocks - An Educational Tool
+url: "https://probably-erwins-cat.github.io/Circuit-Nodes"
+baseurl: "/Circuit-Nodes"
+
+# Theme
+theme: jekyll-theme-minimal
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Navigation
+nav:
+  - title: Introduction
+    url: /01-introduction
+  - title: Research & Foundations
+    url: /08-research-educational-foundations
+  - title: Getting Started
+    url: /02-getting-started
+  - title: Printable Bases
+    url: /03-printable-bases
+  - title: Assembly Instructions
+    url: /04-assembly-instructions
+  - title: Component Guide
+    url: /05-component-guide
+  - title: Design & Manufacturing
+    url: /06-design-manufacturing
+  - title: Advanced Topics
+    url: /07-advanced-topics
+
+# Other settings
+markdown: kramdown
+permalink: /:title
