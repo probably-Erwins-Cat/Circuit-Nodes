@@ -5,186 +5,74 @@ title: Component Guide
 
 # Component Guide
 
-## Overview
+## Complete Catalog
 
-This section documents all available Circuit Nodes components. Each component is designed as a modular 40×40mm PCB that can be combined with others to create circuits.
+The table below lists every component currently available in the repository; click a name to open the corresponding folder under `puzzle-pieces` where design files and images are stored.
 
-Components are organized by category for easy navigation.
-
-## Component Categories
-
-### Power Distribution & Connections
-
-**End Nodes**
-- [Single Blank](#) - Basic connection point
-- [Single Plus](#) - Positive power connection
-- [Single Minus](#) - Negative/ground connection
-- [Double Blank](#) - Two connection points
-- [Double Plus-Minus](#) - Standard power rails
-- [Double Plus-Minus with Protection](#) - Power with protection diodes
-- [Double Plus-Minus with USB-PD](#) - USB Power Delivery
-- [Double AC](#) - AC connection points
-- [Double Current](#) - Current measurement points
-
-### Passive Components
-
-**Resistors**
-- [SMT Resistors](#) - Surface mount, various values
-- [SMT Resistors (Top-Mount)](#) - Accessible configuration
-- [SMT Resistors with Printed Value](#) - Value labeled for easy identification
-- [THT 3W Resistors](#) - High power through-hole
-- [THT 3W with Printed Value](#) - High power, labeled
-
-**Capacitors**
-- [Polarized THT Capacitors](#) - Electrolytic, various values
-- [Polarized THT with Replaceable SMT](#) - Upgradable design
-
-**Inductors & Coils**
-- [THT Inductors](#) - Various inductance values
-
-### Active Components
-
-**Diodes**
-- [THT Diodes](#) - Standard rectifier diodes
-- [Zener Diodes THT](#) - Voltage reference/regulation
-- [PolyFuse (SMT)](#) - Current protection
-
-**Transistors**
-- [NPN BJT (TO-92)](#) - Classic bipolar junction transistor
-- [N-Channel MOSFET (TO-92)](#) - Power switching, rugged variant
-- [N-Channel MOSFET (Ruggedized)](#) - Heavy-duty version
-- [Charge Pump Inverter](#) - Voltage inversion
-
-### Optoelectronics
-
-**LEDs**
-- [LED THT](#) - Standard light-emitting diodes
-- [LED THT with Replaceable SMT](#) - Upgradable LED design
-- [Lamp E10 Socket](#) - Classic incandescent lamps
-
-### User Input
-
-**Switches**
-- [On-Off Switch THT](#) - Simple on/off control
-- [On1-On2 Switch THT](#) - Two-way selector
-- [On1-Off-On2 Switch THT](#) - Three-way with center-off
-- [Micro Switch (Normally Open)](#) - Momentary action, closes when pressed
-- [Micro Switch (Normally Closed)](#) - Momentary action, opens when pressed
-
-**Variable Components**
-- [Potentiometer Slider THT](#) - 3-pin potentiometer
-- [Potentiometer Slider (Screw-Mounted)](#) - Secured potentiometer
-- [Potentiometer High-Power](#) - Rated for higher power dissipation
-
-### Connectivity & Breadboarding
-
-**Breadboard Grid (2.54mm)**
-- [1×1 Grid](#) - Single connection point
-- [1×2 Grid](#) - Two aligned connection points
-- [2×2 Grid](#) - Four connection points in grid
-
-### Wiring Components
-
-**Wire Straight**
-- [Blank](#) - Unconnected
-- [Node Voltage](#) - Voltage measurement point
-
-**Wire Angle (90°)**
-- [Blank](#) - Unconnected
-- [Node Voltage](#) - Voltage measurement point
-
-**Wire Two-Angles (180°)**
-- [Blank](#) - Unconnected
-
-**Wire T-Crossing (3-way)**
-- [Blank](#) - Unconnected
-- [Node Voltage](#) - Voltage measurement point
-
-**Wire X-Crossing (4-way)**
-- [Blank](#) - Unconnected
-- [Node Voltage](#) - Voltage measurement point
-
-**Wire Bridge**
-- [Blank](#) - Crosses over without connecting
-
-### Measurement Points
-
-**Voltage Measurement**
-Available on various wire and crossing components - allows safe measurement without altering circuit current path
-
-**Current Measurement**
-End nodes with current measurement capability - measures total circuit current
+| Name | Image |
+|------|-------|
+| [breadboard_grid-2.54mm_1x1](../puzzle-pieces/breadboard_grid-2.54mm_1x1) | <img src="{{ site.baseurl }}/../../puzzle-pieces/breadboard_grid-2.54mm_1x1/breadboard_grid-2.54mm_1x1_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/breadboard_grid-2.54mm_1x1/breadboard_grid-2.54mm_1x1_BOTTOM.png" width="200"/> |
+| [breadboard_grid-2.54mm_1x2](../puzzle-pieces/breadboard_grid-2.54mm_1x2) | <img src="{{ site.baseurl }}/../../puzzle-pieces/breadboard_grid-2.54mm_1x2/breadboard_grid-2.54mm_1x2_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/breadboard_grid-2.54mm_1x2/breadboard_grid-2.54mm_1x2_BOTTOM.png" width="200"/> |
+| [breadboard_grid-2.54mm_2x2](../puzzle-pieces/breadboard_grid-2.54mm_2x2) | <img src="{{ site.baseurl }}/../../puzzle-pieces/breadboard_grid-2.54mm_2x2/breadboard_grid-2.54mm_2x2_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/breadboard_grid-2.54mm_2x2/breadboard_grid-2.54mm_2x2_BOTTOM.png" width="200"/> |
+| [component_capacitor-polarized_THT](../puzzle-pieces/component_capacitor-polarized_THT) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_capacitor-polarized_THT/component_capacitor-polarized_THT_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_capacitor-polarized_THT/component_capacitor-polarized_THT_BOTTOM.png" width="200"/> |
+| [component_capacitor-polarized_THT_replacable_SMT](../puzzle-pieces/component_capacitor-polarized_THT_replacable_SMT) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_capacitor-polarized_THT_replacable_SMT/component_capacitor_THT_2.5mm-spacing_replacable_SMT_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_capacitor-polarized_THT_replacable_SMT/component_capacitor_THT_2.5mm-spacing_replacable_SMT_BOTTOM.png" width="200"/> |
+| [component_charge-pump-inverter](../puzzle-pieces/component_charge-pump-inverter) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_charge-pump-inverter/component_charge-pump-inverter_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_charge-pump-inverter/component_charge-pump-inverter_BOTTOM.png" width="200"/> |
+| [component_diode_THT](../puzzle-pieces/component_diode_THT) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_diode_THT/component_diode_THT_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_diode_THT/component_diode_THT_BOTTOM.png" width="200"/> |
+| [component_diode-Zener_THT](../puzzle-pieces/component_diode-Zener_THT) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_diode-Zener_THT/component_diode-Zener_THT_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_diode-Zener_THT/component_diode-Zener_THT_BOTTOM.png" width="200"/> |
+| [component_fuse-PolyFuse_SMT](../puzzle-pieces/component_fuse-PolyFuse_SMT) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_fuse-PolyFuse_SMT/component_fuse-PolyFuse_SMT_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_fuse-PolyFuse_SMT/component_fuse-PolyFuse_SMT_BOTTOM.png" width="200"/> |
+| [component_inductance_THT](../puzzle-pieces/component_inductance_THT) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_inductance_THT/component_inductance_THT_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_inductance_THT/component_inductance_THT_BOTTOM.png" width="200"/> |
+| [component_lamp-E10_THT](../puzzle-pieces/component_lamp-E10_THT) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_lamp-E10_THT/component_lamp-E10_THT_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_lamp-E10_THT/component_lamp-E10_THT_BOTTOM.png" width="200"/> |
+| [component_LED_THT](../puzzle-pieces/component_LED_THT) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_LED_THT/component_LED_THT_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_LED_THT/component_LED_THT_BOTTOM.png" width="200"/> |
+| [component_LED_THT_replacable_SMT](../puzzle-pieces/component_LED_THT_replacable_SMT) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_LED_THT_replacable_SMT/component_LED_THT_replacable_SMT_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_LED_THT_replacable_SMT/component_LED_THT_replacable_SMT_BOTTOM.png" width="200"/> |
+| [component_mosfet_n-channel_TO-92](../puzzle-pieces/component_mosfet_n-channel_TO-92) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_mosfet_n-channel_TO-92/component_mosfet_n-channel_TO-92_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_mosfet_n-channel_TO-92/component_mosfet_n-channel_TO-92_BOTTOM.png" width="200"/> |
+| [component_NPN-BJT_TO-92](../puzzle-pieces/component_NPN-BJT_TO-92) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_NPN-BJT_TO-92/component_NPN-BJT_TO-92_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_NPN-BJT_TO-92/component_NPN-BJT_TO-92_BOTTOM.png" width="200"/> |
+| [component_potentiometer_high-power](../puzzle-pieces/component_potentiometer_high-power) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_potentiometer_high-power/component_potentiometer_high-power_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_potentiometer_high-power/component_potentiometer_high-power_BOTTOM.png" width="200"/> |
+| [component_potentiometer_slider_screw-mounted](../puzzle-pieces/component_potentiometer_slider_screw-mounted) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_potentiometer_slider_screw-mounted/component_potentiometer_slider_screw-mounted_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_potentiometer_slider_screw-mounted/component_potentiometer_slider-screw-mounted_BOTTOM.png" width="200"/> |
+| [component_potentiometer_slider_THT](../puzzle-pieces/component_potentiometer_slider_THT) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_potentiometer_slider_THT/component_potentiometer_slider_THT_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_potentiometer_slider_THT/component_potentiometer_slider_THT_BOTTOM.png" width="200"/> |
+| [component_resistor_SMT](../puzzle-pieces/component_resistor_SMT) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_resistor_SMT/component_resistor_SMT_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_resistor_SMT/component_resistor_SMT_BOTTOM.png" width="200"/> |
+| [component_resistor_SMT_top-mount](../puzzle-pieces/component_resistor_SMT_top-mount) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_resistor_SMT_top-mount/component_resistor_SMT_top-mount_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_resistor_SMT_top-mount/component_resistor_SMT_top-mount_BOTTOM.png" width="200"/> |
+| [component_resistor_SMT_with-printed-value](../puzzle-pieces/component_resistor_SMT_with-printed-value) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_resistor_SMT_with-printed-value/component_resistor_SMT_with-printed-value_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_resistor_SMT_with-printed-value/component_resistor_SMT_with-printed-value_BOTTOM.png" width="200"/> |
+| [component_resistor_THT_3W](../puzzle-pieces/component_resistor_THT_3W) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_resistor_THT_3W/component_resistor_THT_3W_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_resistor_THT_3W/component_resistor_THT_3W_BOTTOM.png" width="200"/> |
+| [component_resistor_THT_3W_with-printed-value](../puzzle-pieces/component_resistor_THT_3W_with-printed-value) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_resistor_THT_3W_with-printed-value/component_resistor_THT_3W_with-printed-value_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_resistor_THT_3W_with-printed-value/component_resistor_THT_3W_with-printed-value_BOTTOM.png" width="200"/> |
+| [component_switch-micro-Normally-Closed_THT](../puzzle-pieces/component_switch-micro-Normally-Closed_THT) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_switch-micro-Normally-Closed_THT/component_switch-micro-Normally-Closed_THT_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_switch-micro-Normally-Closed_THT/component_switch-micro-Normally-Closed_THT_BOTTOM.png" width="200"/> |
+| [component_switch-micro-Normally-Open_THT](../puzzle-pieces/component_switch-micro-Normally-Open_THT) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_switch-micro-Normally-Open_THT/component_switch-micro-Normally-Open_THT_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_switch-micro-Normally-Open_THT/component_switch-micro-Normally-Open_THT_BOTTOM.png" width="200"/> |
+| [component_switch-On-OFF_THT](../puzzle-pieces/component_switch-On-OFF_THT) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_switch-On-OFF_THT/component_switch-On-OFF_THT_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_switch-On-OFF_THT/component_switch-On-OFF_THT_BOTTOM.png" width="200"/> |
+| [component_switch-On1-OFF-On2_THT](../puzzle-pieces/component_switch-On1-OFF-On2_THT) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_switch-On1-OFF-On2_THT/component_switch-On1-OFF-On2_THT_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_switch-On1-OFF-On2_THT/component_switch-On1-OFF-On2_THT_BOTTOM.png" width="200"/> |
+| [component_switch-On1-On2_THT](../puzzle-pieces/component_switch-On1-On2_THT) | <img src="{{ site.baseurl }}/../../puzzle-pieces/component_switch-On1-On2_THT/component_switch-On1-On2_THT_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/component_switch-On1-On2_THT/component_switch-On1-On2_THT_BOTTOM.png" width="200"/> |
+| [end-node-double_AC](../puzzle-pieces/end-node-double_AC) | <img src="{{ site.baseurl }}/../../puzzle-pieces/end-node-double_AC/end-node-double_AC_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/end-node-double_AC/end-node-double_AC_BOTTOM.png" width="200"/> |
+| [end-node-double_blank](../puzzle-pieces/end-node-double_blank) | <img src="{{ site.baseurl }}/../../puzzle-pieces/end-node-double_blank/end-node-double_blank_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/end-node-double_blank/end-node-double_blank_BOTTOM.png" width="200"/> |
+| [end-node-double_current](../puzzle-pieces/end-node-double_current) | <img src="{{ site.baseurl }}/../../puzzle-pieces/end-node-double_current/end-node-double_current_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/end-node-double_current/end-node-double_current_BOTTOM.png" width="200"/> |
+| [end-node-double_plus-minus](../puzzle-pieces/end-node-double_plus-minus) | <img src="{{ site.baseurl }}/../../puzzle-pieces/end-node-double_plus-minus/end-node-double_plus-minus_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/end-node-double_plus-minus/end-node-double_plus-minus_BOTTOM.png" width="200"/> |
+| [end-node-double_plus-minus_with-protection](../puzzle-pieces/end-node-double_plus-minus_with-protection) | <img src="{{ site.baseurl }}/../../puzzle-pieces/end-node-double_plus-minus_with-protection/end-node-double_plus-minus-with-protection_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/end-node-double_plus-minus-with-protection/end-node-double_plus-minus-with-protection_BOTTOM.png" width="200"/> |
+| [end-node-double_plus-minus_with-USB-PD](../puzzle-pieces/end-node-double_plus-minus_with-USB-PD) | <img src="{{ site.baseurl }}/../../puzzle-pieces/end-node-double_plus-minus_with-USB-PD/end-node-double_plus-minus_with-USB-PD_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/end-node-double_plus-minus_with-USB-PD/end-node-double_plus-minus_with-USB-PD_BOTTOM.png" width="200"/> |
+| [end-node-single_blank](../puzzle-pieces/end-node-single_blank) | <img src=\"{{ site.baseurl }}/../../puzzle-pieces/end-node-single_blank/end-node-single_blank_TOP.png\" width=\"120\"/><img src=\"{{ site.baseurl }}/../../puzzle-pieces/end-node-single_blank/end-node-single_blank_BOTTOM.png\" width=\"120\"/> |
+| [end-node-single_minus](../puzzle-pieces/end-node-single_minus) | <img src="{{ site.baseurl }}/../../puzzle-pieces/end-node-single_minus/end-node-single_minus_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/end-node-single_minus/end-node-single_minus_BOTTOM.png" width="200"/> |
+| [end-node-single_plus](../puzzle-pieces/end-node-single_plus) | <img src="{{ site.baseurl }}/../../puzzle-pieces/end-node-single_plus/end-node-single_plus_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/end-node-single_plus/end-node-single_plus_BOTTOM.png" width="200"/> |
+| [wire-angle_blank](../puzzle-pieces/wire-angle_blank) | <img src="{{ site.baseurl }}/../../puzzle-pieces/wire-angle_blank/wire-angle_blank_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/wire-angle_blank/wire-angle_blank_BOTTOM.png" width="200"/> |
+| [wire-angle_node-voltage](../puzzle-pieces/wire-angle_node-voltage) | <img src="{{ site.baseurl }}/../../puzzle-pieces/wire-angle_node-voltage/wire-angle_node-voltage_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/wire-angle_node-voltage/wire-angle_node-voltage_BOTTOM.png" width="200"/> |
+| [wire-bridge_blank](../puzzle-pieces/wire-bridge_blank) | <img src="{{ site.baseurl }}/../../puzzle-pieces/wire-bridge_blank/wire-bridge_blank_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/wire-bridge_blank/wire-bridge_blank_BOTTOM.png" width="200"/> |
+| [wire-straight_blank](../puzzle-pieces/wire-straight_blank) | <img src="{{ site.baseurl }}/../../puzzle-pieces/wire-straight_blank/wire-straight_blank_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/wire-straight_blank/wire-straight_blank_BOTTOM.png" width="200"/> |
+| [wire-straight_node-voltage](../puzzle-pieces/wire-straight_node-voltage) | <img src="{{ site.baseurl }}/../../puzzle-pieces/wire-straight_node-voltage/wire-straight_node-voltage_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/wire-straight_node-voltage/wire-straight_node-voltage_BOTTOM.png" width="200"/> |
+| [wire-T-crossing_blank](../puzzle-pieces/wire-T-crossing_blank) | <img src="{{ site.baseurl }}/../../puzzle-pieces/wire-T-crossing_blank/wire-T-crossing_blank_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/wire-T-crossing_blank/wire-T-crossing_blank_BOTTOM.png" width="200"/> |
+| [wire-T-crossing_node-voltage](../puzzle-pieces/wire-T-crossing_node-voltage) | <img src="{{ site.baseurl }}/../../puzzle-pieces/wire-T-crossing_node-voltage/wire-T-crossing_node-voltage_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/wire-T-crossing_node-voltage/wire-T-crossing_node-voltage_BOTTOM.png" width="200"/> |
+| [wire-X-crossing_blank](../puzzle-pieces/wire-X-crossing_blank) | <img src="{{ site.baseurl }}/../../puzzle-pieces/wire-X-crossing_blank/wire-X-crossing_blank_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/wire-X-crossing_blank/wire-X-crossing_blank_BOTTOM.png" width="200"/> |
+| [wire-X-crossing_node-voltage](../puzzle-pieces/wire-X-crossing_node-voltage) | <img src="{{ site.baseurl }}/../../puzzle-pieces/wire-X-crossing_node-voltage/wire-X-crossing_node-voltage_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/wire-X-crossing_node-voltage/wire-X-crossing_node-voltage_BOTTOM.png" width="200"/> |
+| [wire-two-angles_blank](../puzzle-pieces/wire-two-angles_blank) | <img src="{{ site.baseurl }}/../../puzzle-pieces/wire-two-angles_blank/wire-two-angles_blank_TOP.png" width="200"/><img src="{{ site.baseurl }}/../../puzzle-pieces/wire-two-angles_blank/wire-two-angles_blank_BOTTOM.png" width="200"/> |
 
 ---
 
-## Component Specifications
+## Storage & Organization
 
-### Physical Dimensions
-- All PCBs: **40mm × 40mm**
-- Height (without base): ~3mm
-- Connector pads: Standard grid spacing (2.54mm)
+When ordering components in bulk (to reduce cost), a proper storage system becomes essential. The repository includes **parametric 3D models for a stackable PCB storage system**:
 
-### Electrical Specifications
+- **Window display**: See all stored components at a glance
+- **Stackable design**: Compact vertical storage for many components
+- **Parametric sizing**: Customize dimensions via CAD variables:
+  - `int_width`: number of columns
+  - `int_length`: storage container length
+  - `int_multiplier`: PCB width scaling (1 or 2)
 
-**Operating Voltage Range**
-- Standard components: 0-48V DC (safety limited by component ratings)
-- USB-PD components: Dynamic, handles USB PD negotiation
-- AC components: Designed for low-voltage AC (< 240V)
+Print multiple storage bins and stack them to easily organize and access your entire component library. This is particularly useful for classroom settings where sets need to be sorted and quickly retrieved.
 
-**Power Dissipation**
-- Standard components: Component-dependent
-- 3W resistors: Up to 3W continuous
-- Check individual component datasheets for limits
-
-**Connector Specifications**
-- Magnetic contacts: Low-resistance connection (<100mΩ)
-- Safe switching current: <10A for magnetic contacts
-- Pull force: ~5-10N per connector pair
-
-### Safety Features
-- No high-voltage designs
-- Fused designs available for protection
-- Protective diodes on power distribution
-
----
-
-## Choosing Components for Your Circuit
-
-### Basic Circuit (3-5 pieces)
-- 1 power source end node
-- 1 resistor
-- 1 LED or lamp
-- 1 ground end node
-- 1-2 wire connectors
-
-### Intermediate Circuit (6-12 pieces)
-- 2 power source end nodes
-- 2-3 resistors
-- 1-2 switches
-- 2-3 active components (transistor, diode, etc.)
-- 3-4 wire connectors
-- Breadboard for complex routing
-
-### Advanced Circuit (13+ pieces)
-- Multiple power rails
-- Complex component combinations
-- Multiple measurement points
-- Integrated circuits via breadboard
-- Advanced routing with bridges/crossings
-
----
-
-## Component Availability
-
-**Repository Contents**: Full design files and Gerber files for all components listed above
-
-**Customization**: Want a component that doesn't exist? Check [Design & Manufacturing](06-design-manufacturing) for how to create custom components
-
-**Pre-made Kits**: Various curated kits available with specific component combinations
-
----
-
-**Need help selecting components?** Check [Advanced Topics](07-advanced-topics) for example circuits that show component combinations.
-
-**Want to learn more about each component?** Visit the puzzle-pieces folder in the repository for detailed specifications and 3D models of each component.
+See the `PCB-storage-system` folder in the repository for complete design files.
 

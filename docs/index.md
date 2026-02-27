@@ -17,33 +17,16 @@ The pedagogical value lies in reinforcing the connection between abstract circui
 
 ---
 
-## Navigation Guide
+## Get Started
 
-Choose a chapter to get started:
+Explore chapters using the sidebar menu on the left, or jump directly to a topic below:
 
-### [📖 Introduction](01-introduction)
-Learn what Circuit Nodes is, why it matters, and what problems it solves. Includes research-backed design principles.
-
-### [🔬 Research & Educational Foundations](08-research-educational-foundations)
-Understand the science behind the design. Learn about student misconceptions, the abstraction barrier, and what research shows about effectiveness. Read teacher feedback and learn best practices.
-
-### [🚀 Getting Started](02-getting-started)
-Quick overview and first steps to understand the system and its learning benefits.
-
-### [🔧 Assembly Instructions](04-assembly-instructions)
-Detailed step-by-step guides on how to assemble your Circuit Nodes.
-
-### [🧩 Component Guide](05-component-guide)
-Explore all available puzzle pieces organized by category.
-
-### [📐 Printable Bases](03-printable-bases)
-Learn about different base styles and choose what suits your needs.
-
-### [⚙️ Design & Manufacturing](06-design-manufacturing)
-Technical details about PCB design, manufacturing, and Gerber files.
-
-### [🎓 Advanced Topics](07-advanced-topics)
-Example circuits, troubleshooting, and advanced usage patterns.
+- **[Introduction](01-introduction)** – Overview and design principles
+- **[Getting Started](02-getting-started)** – Quick start guide
+- **[Printable Bases](03-printable-bases)** – Base styles and printing
+- **[Assembly Instructions](04-assembly-instructions)** – Build your components
+- **[Component Guide](05-component-guide)** – Full component catalogue
+- **[Sourcing & Manufacturing](06-design-manufacturing)** – Production and educational research
 
 ---
 

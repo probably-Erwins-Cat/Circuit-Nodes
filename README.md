@@ -17,13 +17,17 @@ making theoretical concepts easier to grasp through hands-on experimentation.
 
 ## 📖 **[→ EXPLORE THE FULL DOCUMENTATION](https://probably-erwins-cat.github.io/Circuit-Nodes/)**
 
-Complete guides, examples, research insights, and best practices are available in our **comprehensive GitHub Pages site** including chapters on:
-- Educational research foundations & student misconceptions
-- Getting started guides
-- Assembly instructions
-- Component library reference
-- 3D base design and printing
-- Advanced topics and experiments
+Complete guides, examples, research insights, and best practices are available in our **comprehensive GitHub Pages site**:
+
+| Chapter | Link |
+|---------|------|
+| **Introduction** | https://probably-erwins-cat.github.io/Circuit-Nodes/01-introduction |
+| **Getting Started** | https://probably-erwins-cat.github.io/Circuit-Nodes/02-getting-started |
+| **Printable Bases** | https://probably-erwins-cat.github.io/Circuit-Nodes/03-printable-bases |
+| **Assembly Instructions** | https://probably-erwins-cat.github.io/Circuit-Nodes/04-assembly-instructions |
+| **Component Guide** | https://probably-erwins-cat.github.io/Circuit-Nodes/05-component-guide |
+| **Sourcing & Manufacturing** | https://probably-erwins-cat.github.io/Circuit-Nodes/06-design-manufacturing |
+| **Kits & Experiments** | https://probably-erwins-cat.github.io/Circuit-Nodes/07-advanced-topics |
 
 ---
 

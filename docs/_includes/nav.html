@@ -1,0 +1,55 @@
+<nav class="site-nav">
+  <h4>📚 Chapters</h4>
+  {% if site.sidebar %}
+    <ul>
+    {% for item in site.sidebar %}
+      <li>
+        <a href="{{ item.url }}" {% if page.url == item.url %}class="active"{% endif %}>
+          {{ item.title }}
+        </a>
+      </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+</nav>
+
+<style>
+.site-nav {
+  margin: 20px 0;
+  padding: 10px;
+  border-top: 1px solid #e1e4e8;
+}
+
+.site-nav h4 {
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.site-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-nav li {
+  margin: 5px 0;
+}
+
+.site-nav a {
+  color: #0366d6;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  padding: 5px 0;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+.site-nav a.active {
+  font-weight: bold;
+  color: #24292e;
+}
+</style>

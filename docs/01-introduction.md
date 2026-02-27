@@ -59,8 +59,8 @@ that the nodes cleared up confusion, lowered material costs by an order of
 magnitude and allowed sets to be customised to school curricula.  Damage tests
 with twelve‑year‑olds showed the modules withstand routine classroom use.
 
-For deeper discussion see the
-[Research & Educational Foundations](08-research-educational-foundations)
+For deeper discussion of the educational research, see the
+[Sourcing & Manufacturing](06-design-manufacturing)
 chapter.
 
 ---

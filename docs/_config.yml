@@ -6,31 +6,27 @@ url: "https://probably-erwins-cat.github.io/Circuit-Nodes"
 baseurl: "/Circuit-Nodes"
 
 # Theme
-theme: jekyll-theme-minimal
+theme: jekyll-theme-slate
 
 # Build settings
 plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# Navigation
-nav:
+# Navigation Sidebar
+sidebar:
   - title: Introduction
-    url: /01-introduction
-  - title: Research & Foundations
-    url: /08-research-educational-foundations
+    url: /Circuit-Nodes/01-introduction
   - title: Getting Started
-    url: /02-getting-started
+    url: /Circuit-Nodes/02-getting-started
   - title: Printable Bases
-    url: /03-printable-bases
+    url: /Circuit-Nodes/03-printable-bases
   - title: Assembly Instructions
-    url: /04-assembly-instructions
+    url: /Circuit-Nodes/04-assembly-instructions
   - title: Component Guide
-    url: /05-component-guide
-  - title: Design & Manufacturing
-    url: /06-design-manufacturing
-  - title: Advanced Topics
-    url: /07-advanced-topics
+    url: /Circuit-Nodes/05-component-guide
+  - title: Sourcing & Manufacturing
+    url: /Circuit-Nodes/06-design-manufacturing
 
 # Other settings
 markdown: kramdown

@@ -1,115 +1,93 @@
 ---
 layout: default
-title: Design & Manufacturing
+title: Sourcing & Manufacturing
 ---
 
-# Design & Manufacturing
+# Sourcing, Production & Educational Rationale
 
-## Overview
+This combined article explains where to obtain or produce Circuit Nodes parts, components, and complete sets, and why the system is well suited for classrooms. It brings together practical manufacturing guidance and research evidence from teacher evaluations.
 
-This section covers the technical aspects of Circuit Nodes design and manufacturing, including:
-- PCB design specifications and tools
-- Manufacturing processes
-- Gerber file generation and ordering
-- 3D design for printable bases
-- Creating custom components
+## Procuring Parts and Sets
 
-This is for users who want to understand the design process, contribute to the project, or create custom variations.
+You can acquire components in three ways:
 
-## PCB Design
+1. **Download and produce yourself** – use the open-source design files to order PCBs and 3D print bases, then assemble kits.
+2. **Order from a central hub** – some educators or makerspaces batch-produce complete sets for local schools.
+3. **Pre‑made kits** – occasional community bundles may be sold or shared; check the project README or contact maintainers.
+
+The remainder of this page describes the technical steps for self‑production, cost considerations, and the evidence that these efforts pay off in educational settings.
+
+## PCB Design & Ordering
 
 ### Design Tools
 
-**KiCAD** (Recommended)
-- Open-source, free, industry-standard
-- All Circuit Nodes components designed in KiCAD
+**KiCAD** is the recommended CAD tool:
+- Open-source, free, and industry standard.
+- All Circuit Nodes PCBs were created in KiCAD; source files are in the repository.
 
-### Design Specifications
+### Specifications
 
-#### PCB Dimensions
-- **Size**: 40mm × 40mm (fixed for compatibility)
-- **Thickness**: Standard 1.6mm
-- **Color**: Black solder mask recommended (most durable)
-- **Silkscreen**: White, 0.6mm minimum line width for clarity
-- **Finish**: Lead-free HASL or ENIG
+- **Footprint**: 40 mm × 40 mm for compatibility across all pieces. Multiple of this footprint work to and won't break the pattern
+- **Thickness**: 1.6 mm typical.
+- **Solder mask**: black is preferred for durability.
+- **Silkscreen**: white, ≥0.6 mm line width for legibility.
+- **Finish**: lead‑free HASL or ENIG.
 
----
+### Ordering Services
 
-## Manufacturing
+Budget‑minded providers:
+- **JLCPCB** – very low cost and fast turnaround.
+- **PCBWay** – competitive pricing and quality.
+- **Aisler** – European option with local support.
 
-### Ordering PCBs
-
-#### PCB Fabrication Services
-
-**Recommended/Budget-Friendly**
-- **JLCPCB** (China-based, very affordable, fast)
-- **PCBWay** (Competitive pricing, good quality)
-- **Aisler** (Europe-based, higher cost but local support)
-
-**Features to Request**
-- Black solder mask (more durable than green)
-- White silkscreen (high contrast for clarity)
-- HASL lead-free finish
-- Standard 1.6mm thickness
-- No minimum order (or low MOQ)
+When placing an order, specify the mask, silkscreen, and finish above; most have no minimum order quantity or offer low MOQ.
 
 #### Cost Estimates
-- **Single PCB**: $1-5 depending on complexity and service
-- **Batch of 10-50**: $0.50-2 per unit
-- **Batch of 100+**: $0.25-1 per unit
 
-#### Educational Discounts
-- Many manufacturers offer **educational discounts**
-- Provide school letter or student ID
-- Typical discount: 10-30% off
+| Quantity | Unit Price |
+|----------|------------|
+| 1        | $1–5       |
+| 10–50    | $0.50–2    |
+| 100+     | $0.25–1    |
 
----
+Some vendors provide **educational discounts** when you supply a school letter or student ID.
 
-## 3D Base Manufacturing
+## 3D Base Production
 
-### Design Tools
+### Tools & Formats
 
-**FreeCAD** (Recommended)
-- Open-source, excellent for mechanical parts
-- All Circuit Nodes bases designed in FreeCAD
-- Precise CAD modeling
-- Can export to multiple formats
+- **FreeCAD** is the default for base designs (files in `printable-bases/`).
+- various printable file formats are already provided in various tolerance classes
 
-**Alternatives**
-- Fusion 360 (free tier, professional quality)
-- OpenSCAD (programmatic CAD)
-- Tinkercad (beginner-friendly, limited precision)
+### Batch Efficiency
 
-### Batch Production Efficiency
+- **Plate yield**: about 20–25 bases on a medium FDM printer plate.
+- **Print time**: ~23 h for full plate; single base ≈45–60 min.
+- **Cost per unit** drops to ~$0.30 at scale.
 
-**Print Plate Utilization** (Research-backed data from publication)
-- Medium-sized FDM printers fit: **20-25 bases per plate**
-- Complete print run: **~23 hours** on hobby-level printers with no user intervention
-- Material per base: **<10g PLA filament**
-- Filament cost per base: **$0.05-0.15**
+### Assembly
 
-**Efficiency at Scale**
-- Single base: Print ~45-60 min
-- 20-24 bases in one print job per day
-- **Cost per unit**: Approaches $0.30 at scale
+1. Insert magnetic connectors (<1 min).
+2. Screw base parts together (1–2 min).
+3. Solder contact pads if not pre‑assembled (<1 min).
 
-**Assembly Time**
-- **Electric screw driver with low torque settings recommended**
-- Inserting magnetic connectors <1min per piece
-- screwing 1-2min per piece
-- soldering <1min per piece
-- With 2 people: Can prepare 100+ bases in one afternoon
+With two people working, 100+ bases can be ready in an afternoon.
 
-### Base Design Specifications
+### Design Specs
 
-#### Overall Dimensions
-- **Size**: 40mm × 40mm (to match PCB)
-- **Height**: 20mm
-- **Wall Thickness**: 1.2-1.5mm minimum
+- *Size*: 40 mm × 40 mm to match PCBs.
+- *Height*: 20 mm.
+- *Wall thickness*: 1.2–1.5 mm minimum.
 
-### 3D Printing
+## Building and Sourcing Complete Sets
 
-#### Print Parameters
+For classrooms, assembling full kits of components can be managed in-house or outsourced:
+
+- Teachers or students print and assemble bases, order PCBs, and package components into sets.
+- **Central manufacturing hubs** (university departments, makerspaces, regional labs) can produce batches and distribute at cost.
+- Community initiatives may sell or donate pre‑assembled kits.
+
+This approach keeps per‑student cost low while providing high-quality, customizable equipment.
 
 ---
 
