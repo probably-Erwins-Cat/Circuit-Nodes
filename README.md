@@ -15,7 +15,7 @@ making theoretical concepts easier to grasp through hands-on experimentation.
 
 ---
 
-## 📖 **[→ EXPLORE THE FULL DOCUMENTATION](https://yourusername.github.io/Circuit-Nodes/)**
+## 📖 **[→ EXPLORE THE FULL DOCUMENTATION](https://probably-erwins-cat.github.io/Circuit-Nodes/)**
 
 Complete guides, examples, research insights, and best practices are available in our **comprehensive GitHub Pages site** including chapters on:
 - Educational research foundations & student misconceptions
