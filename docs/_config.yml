@@ -3,7 +3,7 @@
 title: Circuit Nodes
 description: Modular Electronics Building Blocks - An Educational Tool
 url: "https://probably-erwins-cat.github.io/Circuit-Nodes"
-baseurl: "/Circuit-Nodes"
+baseurl: ""
 
 # Theme
 theme: jekyll-theme-minimal
