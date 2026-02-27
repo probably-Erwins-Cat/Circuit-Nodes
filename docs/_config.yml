@@ -6,28 +6,15 @@ url: "https://probably-erwins-cat.github.io/Circuit-Nodes"
 baseurl: ""
 
 # Theme
-theme: jekyll-theme-minimal
+theme: jekyll-theme-minima
 
 # Build settings
 plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# Navigation Sidebar
-sidebar:
-  - title: Introduction
-    url: /Circuit-Nodes/01-introduction
-  - title: Getting Started
-    url: /Circuit-Nodes/02-getting-started
-  - title: Printable Bases
-    url: /Circuit-Nodes/03-printable-bases
-  - title: Assembly Instructions
-    url: /Circuit-Nodes/04-assembly-instructions
-  - title: Component Guide
-    url: /Circuit-Nodes/05-component-guide
-  - title: Sourcing & Manufacturing
-    url: /Circuit-Nodes/06-design-manufacturing
-# (sidebar configuration ensures left column navigation)
+# Navigation Sidebar (not used, reverting to standard theme)
+# sidebar section removed to let the selected theme handle navigation.
 
 # Other settings
 markdown: kramdown

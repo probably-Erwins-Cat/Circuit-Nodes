@@ -34,22 +34,8 @@ Circuit Nodes remove that barrier.  Each 40 × 40 mm PCB *is* its schemati
 symbol, and modules snap together on a square grid.  Magnets and geometry make
 incorrect wiring virtually impossible, so pupils can concentrate on the physics.
 
-The published teacher survey (eight physics teachers) summarised the system as
+The system can be summarised as
 inexpensive, easy to adapt to lesson plans and effective at reducing abstraction.
-Reservations focused on the effort required to produce a full set and on printer
-access; both issues are addressed in the documentation and by offering pre‑made
-kits.
-
-## Use cases
-
-* **Classroom experiments** – series/parallel circuits, measurements, simple
-  electronic components.  Designed for secondary‑school physics courses.
-* **Teacher‑training and makerspaces** – small batches can be made on site,
-  giving trainees hands‑on experience.
-* **University labs** – a low‑cost supplement to theory work, especially in
-  education or outreach modules.
-
-(Non‑school applications such as hobby prototyping are not the focus.)
 
 ## Research summary
 
@@ -58,10 +44,6 @@ and teacher feedback; the full text is linked above.  In brief, teachers found
 that the nodes cleared up confusion, lowered material costs by an order of
 magnitude and allowed sets to be customised to school curricula.  Damage tests
 with twelve‑year‑olds showed the modules withstand routine classroom use.
-
-For deeper discussion of the educational research, see the
-[Sourcing & Manufacturing](06-design-manufacturing)
-chapter.
 
 ---
 

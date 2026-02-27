@@ -9,21 +9,13 @@ title: Getting Started
 
 ![Assembly overview]({{ site.baseurl }}/../assembly.png){: width="800" }
 
-Circuit Nodes are modular PCBs that snap together on a square grid to form real circuits. This page gives a quick overview before you move on to assembly.
+Circuit Nodes are modular PCBs that snap together on a square grid to form real circuits. This page gives a quick overview before you move on.
 
 ## The Basic Concept
 
 Each puzzle piece is a PCB with a single component; the edges carry magnets that provide both the mechanical and electrical connection. Modules are arranged on a grid and the schematic symbol is printed on the board so the layout matches the diagram.
 
 Research shows that translating between flat schematics and messy physical builds is a major obstacle in school circuits. Circuit Nodes remove that step: the arrangement pupils draw is the arrangement they build, so they can concentrate on the physics.
-
-**Benefits for a classroom:**
-
-- **Less extraneous confusion** – no loose wires to untangle.
-- **Immediate visual match** – the build looks like the diagram.
-- **Errors are obvious** – pieces simply won’t connect incorrectly.
-- **Safe handling** – low‑voltage, enclosed components keep students focused on concepts.
-- **Low barrier to entry** – small groups can achieve success quickly.
 
 ## System Components
 
@@ -40,7 +32,7 @@ Frame that holds the PCB with:
 - Interlocking puzzle-like edges
 - Pockets for magnetic connectors
 - M2 screw mounting points
-- Various style options (open-bottom, magnetic-bottom, skeletonized)
+- Various style options (open-bottom, magnetic-bottom)
 
 ### 3. **Magnetic Connectors**
 Small magnets that:
@@ -59,11 +51,6 @@ To start using Circuit Nodes:
 4. **M2 Screws** - 4 per base (self-tapping or with heat inserts)
 5. **Power Source** - USB-C PD or benchtop supply depending on circuit
 
-### Optional But Recommended
-- Basic measurement tools (multimeter)
-- Component storage boxes
-- Magnetic-backed board (if using magnetic bases)
-
 ## Getting Your First Kit
 
 ### Option 1: Build Your Own
@@ -76,8 +63,8 @@ To start using Circuit Nodes:
 ### Option 2: Pre‑Made Kits
 Ready‑made sets are offered at three levels:
 
-- [Entry‑level kit](#) – power, basic resistor/LED modules
-- [Intermediate kit](#) – adds switches and measurement nodes
+- [Entry‑level kit](#) – power, basic modules for lamps and switches
+- [Intermediate kit](#) – adds measurement nodes, resistors and LEDs
 - [Advanced kit](#) – full classroom curriculum set
 
 Contact the project maintainer for ordering information.
