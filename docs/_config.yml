@@ -6,7 +6,7 @@ url: "https://probably-erwins-cat.github.io/Circuit-Nodes"
 baseurl: "/Circuit-Nodes"
 
 # Theme
-theme: jekyll-theme-slate
+theme: jekyll-theme-minimal
 
 # Build settings
 plugins:
@@ -27,6 +27,7 @@ sidebar:
     url: /Circuit-Nodes/05-component-guide
   - title: Sourcing & Manufacturing
     url: /Circuit-Nodes/06-design-manufacturing
+# (sidebar configuration ensures left column navigation)
 
 # Other settings
 markdown: kramdown

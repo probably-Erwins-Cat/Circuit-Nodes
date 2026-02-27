@@ -14,10 +14,17 @@
 </nav>
 
 <style>
+/* layout enhancements for a left sidebar */
+.content-wrapper {
+  display: flex;
+}
+
 .site-nav {
-  margin: 20px 0;
+  width: 200px;
+  margin: 0 20px 0 0;
   padding: 10px;
-  border-top: 1px solid #e1e4e8;
+  border-right: 1px solid #e1e4e8;
+  flex-shrink: 0;
 }
 
 .site-nav h4 {

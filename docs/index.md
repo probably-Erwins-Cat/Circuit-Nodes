@@ -7,7 +7,7 @@ title: Circuit Nodes - Modular Electronics Building Blocks
 
 Modular Electronics Building Blocks - An Educational Tool
 
-![Circuit Diagram]({{ site.baseurl }}/assets/logo.png){: width="1000" }
+![Circuit Diagram]({{ site.baseurl }}/logo.png){: width="1000" }
 
 ## Welcome!
 
@@ -19,7 +19,7 @@ The pedagogical value lies in reinforcing the connection between abstract circui
 
 ## Get Started
 
-Explore chapters using the sidebar menu on the left, or jump directly to a topic below:
+Explore the chapters using the links below:
 
 - **[Introduction](01-introduction)** – Overview and design principles
 - **[Getting Started](02-getting-started)** – Quick start guide
