@@ -3,13 +3,9 @@ layout: default
 title: Circuit Nodes - Modular Electronics Building Blocks
 ---
 
-# Circuit Nodes
+[![Circuit Diagram]({{ site.baseurl }}/logo.png){: width="800" }](https://github.com/probably-erwins-cat/Circuit-Nodes)
 
-[![Circuit Diagram]({{ site.baseurl }}/logo.png){: width="1000" }](https://github.com/yourusername/Circuit-Nodes)
-
-Modular Electronics Building Blocks - An Educational Tool
-
-## Welcome!
+[![Assembly Image]({{ site.baseurl }}/assembly.png){: width="800" }](04-assembly-instructions)
 
 Circuit Nodes is a CC-licensed educational tool designed to help students understand electronic circuits by physically building them. Each module consists of a small PCB mounted on a 3D-printed base with puzzle-like notches, allowing users to create circuits in a grid-based structure.
 
@@ -17,7 +13,7 @@ The pedagogical value lies in reinforcing the connection between abstract circui
 
 ---
 
-## Get Started
+# Get Started
 
 Explore the chapters using the links below:
 
@@ -30,7 +26,7 @@ Explore the chapters using the links below:
 
 ---
 
-## Features
+# Features
 
 - **Modular Design**: 40x40mm PCBs mounted on 3D-printed bases with interlocking puzzle-like edges
 - **Hands-on Learning**: Users assemble working circuits based on schematic diagrams
@@ -41,7 +37,7 @@ Explore the chapters using the links below:
 
 ---
 
-## Quick Links
+# Quick Links
 
 - [GitHub Repository](https://github.com/yourusername/Circuit-Nodes)
 - [License Information](LICENSE)
@@ -50,7 +46,7 @@ Explore the chapters using the links below:
 
 ---
 
-## Contact
+# Contact
 
 For questions or collaboration, please open a discussion in the repository or reach out directly.
 

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ "/assets/css/style.css?v=" | relative_url }}">
+    {% seo %}
+
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+    {% include head-custom.html %}
+    <!-- end custom head snippets -->
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        <h1 id="project_title">{{ site.title }}</h1>
+        <h2 id="project_tagline">{{ site.description }}</h2>
+      </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <div class="inner layout-with-sidebar">
+        <aside class="chapter-sidebar" aria-label="Chapter overview">
+          <div class="sidebar-title">Chapters</div>
+          {% assign current_slug = page.url | split: "/" | last | replace: ".html", "" %}
+          <nav class="chapter-nav">
+            <a href="{{ "/" | relative_url }}" class="{% if page.url == "/" %}is-active{% endif %}">Home</a>
+            <a href="{{ "/01-introduction" | relative_url }}" class="{% if current_slug == "01-introduction" %}is-active{% endif %}">1. Introduction</a>
+            <a href="{{ "/02-getting-started" | relative_url }}" class="{% if current_slug == "02-getting-started" %}is-active{% endif %}">2. Getting Started</a>
+            <a href="{{ "/03-printable-bases" | relative_url }}" class="{% if current_slug == "03-printable-bases" %}is-active{% endif %}">3. Printable Bases</a>
+            <a href="{{ "/04-assembly-instructions" | relative_url }}" class="{% if current_slug == "04-assembly-instructions" %}is-active{% endif %}">4. Assembly Instructions</a>
+            <a href="{{ "/05-component-guide" | relative_url }}" class="{% if current_slug == "05-component-guide" %}is-active{% endif %}">5. Component Guide</a>
+            <a href="{{ "/06-design-manufacturing" | relative_url }}" class="{% if current_slug == "06-design-manufacturing" %}is-active{% endif %}">6. Sourcing & Manufacturing</a>
+          </nav>
+        </aside>
+        <section id="main_content" class="content-with-sidebar">
+          {{ content }}
+        </section>
+        <aside class="toc-sidebar" aria-label="Table of contents">
+          <div class="sidebar-title">On this page</div>
+          <nav id="toc" class="toc"></nav>
+        </aside>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    <script src="{{ "/assets/js/toc.js" | relative_url }}"></script>
+  </body>
+</html>

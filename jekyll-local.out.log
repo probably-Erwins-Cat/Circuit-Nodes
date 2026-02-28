@@ -1,0 +1,13 @@
+Configuration file: C:/GitHub/Circuit-Nodes/docs/_config.yml
+            Source: C:/GitHub/Circuit-Nodes/docs
+       Destination: C:/GitHub/Circuit-Nodes/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.793 seconds.
+ Auto-regeneration: enabled for 'docs'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+[2026-02-28 19:07:09] ERROR Errno::ECONNRESET: Eine vorhandene Verbindung wurde vom Remotehost geschlossen. @ io_fillbuf - fd:4 
+	C:/Users/hansk/.local/share/gem/ruby/4.0.0/gems/webrick-1.9.2/lib/webrick/httpserver.rb:82:in 'IO#eof?'
+	C:/Users/hansk/.local/share/gem/ruby/4.0.0/gems/webrick-1.9.2/lib/webrick/httpserver.rb:82:in 'WEBrick::HTTPServer#run'
+	C:/Users/hansk/.local/share/gem/ruby/4.0.0/gems/webrick-1.9.2/lib/webrick/server.rb:309:in 'block in WEBrick::GenericServer#start_thread'

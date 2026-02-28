@@ -5,30 +5,17 @@ title: Printable Bases
 
 # Printable Bases
 
-Circuit Nodes bases are the first parts you produce: the PCBs sit in them and
-electric/magnetic connectors live in their pockets.  This chapter gives the
-printing information you need; assembly details are covered later.
+The printable base provides mounting for all parts and helps aligning the puzzle pieces. 
+
+![Printable base preview]({{ site.baseurl }}/images/printable-base.png){: width="800" }
 
 ## Files & Tools
 
 - All base models are in **FreeCAD** format (`.FCStd`) in the
   `printable-bases` folder of the repository.
-- Export an STL with the default mesh tolerance (0.1 mm) before slicing.
+- All common parts already exported as STL and STEP for immediate printing
 - The *Open* design is for easier repairability without disassembly and better stackability
 - The *Magnetic* variant is for enclosing sensitive components in the inside of the part and for optional magnet holder (black board use)
-
-## Tolerances & Test Print
-
-Three tolerance classes are provided per dafault for the PCB cavity and magnet holes:
-
-| Label | Clearance | 
-|-------|-----------|
-| 0.15 mm | tight fit |
-| 0.20 mm | normal, start here |
-| 0.25 mm | loose |
-
-**FIRST PRINT** a tolerance‑test piece (folder `tolerance-test/`)
-containing one screw hole and one magnet connector tester. These parts summarize all tolerance/clearance classes so you can verify your printer capabilities.
 
 ## Print Parameters
 
@@ -36,8 +23,45 @@ The printable base is highly optimized for perimeter printing, i.e. the slicer w
 
 Layer height:   0.20 mm
 Wall (perimeter): 2 shells
-Infill:         80-100 % (for filling the few small non-perimeter-wall sections)
+Infill:         100 % (for filling the few small non-perimeter-wall sections)
+Suppor:         not required, only short bridging section 
 
+## Preparation before Batch Printing: Tolerances & Test Print
+
+**FIRST PRINT** a tolerance tester piece (folder [`tolerance-tester/`](https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/tolerance-tester))
+containing one screw hole and one magnet connector tester. These parts summarize all tolerance/clearance classes so you can verify your printer capabilities.
+
+### Screw Hole Tolerance
+
+![Screw tolerance tester]({{ site.baseurl }}/images/tolerance-tester-screw.png){: width="800" }
+
+The screw hole tester is an oriented part that habors ten holes with increasing diameter in 0.05mm increments. A side hole marks the imperically found best hole size for the average printer and the typical size of self-tapping M2 screws. 
+
+Screw in M2 screws in every hole and determine which screw size feels best. *When to tight*, the screw strips or the screwdriver cams out and rounds the screw head. *When too loose*, the screw  strips the plastic when over tightening the PCB down to the printable base.
+
+### Connector Pocket Tolerance
+
+![Connector tolerance tester]({{ site.baseurl }}/images/tolerance-tester-connector.png){: width="800" }
+
+
+Four tolerance classes are provided per default for the PCB cavity and magnet holes:
+
+| Dimension | Clearance | 
+|-------|-----------|
+| 0.10 mm | tight fit, for very precise printers or when underextruding happens |
+| 0.15 mm | normal, **start here** |
+| 0.20 mm | looser fit, easier insertion |
+| 0.25 mm | loose fit, when printer overextrudes when printhead is cornering |
+
+If none of those clearances work for you, you should first look into calibrating your printer.
+
+### Base Alignment Nose Tolerance
+
+The hexagonal protrusion and indentation helps aligning the bases, so the magnetic connectors connect flush. Therefore, the tolerance should be chosen small enough for excellent alignment and wide enough so the parts can slide virtually frictionless. A tolerance of 0.15mm is ideal (making it 0.3mm gap in total) and is in reach of all recent printers.
+
+## Batch printing
+
+A standard size printer can carry 20 bases on one print plate. One base is printed in less than an hour, thus, one print plate is printed in less than a day.
 
 
 ---

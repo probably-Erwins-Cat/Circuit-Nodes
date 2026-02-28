@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=">
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Sourcing &amp; Manufacturing | Circuit Nodes</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Sourcing &amp; Manufacturing" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Modular Electronics Building Blocks - An Educational Tool" />
+<meta property="og:description" content="Modular Electronics Building Blocks - An Educational Tool" />
+<link rel="canonical" href="http://localhost:4000/06-design-manufacturing.html" />
+<meta property="og:url" content="http://localhost:4000/06-design-manufacturing.html" />
+<meta property="og:site_name" content="Circuit Nodes" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Sourcing &amp; Manufacturing" />
+<script type="application/ld+json">
+{"headline":"Sourcing &amp; Manufacturing","url":"http://localhost:4000/06-design-manufacturing.html","@type":"WebPage","description":"Modular Electronics Building Blocks - An Educational Tool","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+    <!-- end custom head snippets -->
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        <h1 id="project_title">Circuit Nodes</h1>
+        <h2 id="project_tagline">Modular Electronics Building Blocks - An Educational Tool</h2>
+      </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <div class="inner layout-with-sidebar">
+        <aside class="chapter-sidebar" aria-label="Chapter overview">
+          <div class="sidebar-title">Chapters</div>
+          
+          <nav class="chapter-nav">
+            <a href="/" class="">Home</a>
+            <a href="/01-introduction" class="">1. Introduction</a>
+            <a href="/02-getting-started" class="">2. Getting Started</a>
+            <a href="/03-printable-bases" class="">3. Printable Bases</a>
+            <a href="/04-assembly-instructions" class="">4. Assembly Instructions</a>
+            <a href="/05-component-guide" class="">5. Component Guide</a>
+            <a href="/06-design-manufacturing" class="is-active">6. Sourcing & Manufacturing</a>
+          </nav>
+        </aside>
+        <section id="main_content" class="content-with-sidebar">
+          <h1 id="sourcing-production--educational-rationale">Sourcing, Production &amp; Educational Rationale</h1>
+
+<p>This combined article explains where to obtain or produce Circuit Nodes parts, components, and complete sets, and why the system is well suited for classrooms. It brings together practical manufacturing guidance and research evidence from teacher evaluations.</p>
+
+<h2 id="procuring-parts-and-sets">Procuring Parts and Sets</h2>
+
+<p>You can acquire components in three ways:</p>
+
+<ol>
+  <li><strong>Download and produce yourself</strong> – use the open-source design files to order PCBs and 3D print bases, then assemble kits.</li>
+  <li><strong>Order from a central hub</strong> – some educators or makerspaces batch-produce complete sets for local schools.</li>
+  <li><strong>Pre‑made kits</strong> – occasional community bundles may be sold or shared; check the project README or contact maintainers.</li>
+</ol>
+
+<p>The remainder of this page describes the technical steps for self‑production, cost considerations, and the evidence that these efforts pay off in educational settings.</p>
+
+<h2 id="pcb-design--ordering">PCB Design &amp; Ordering</h2>
+
+<h3 id="design-tools">Design Tools</h3>
+
+<p><strong>KiCAD</strong> is the recommended CAD tool:</p>
+<ul>
+  <li>Open-source, free, and industry standard.</li>
+  <li>All Circuit Nodes PCBs were created in KiCAD; source files are in the repository.</li>
+</ul>
+
+<h3 id="specifications">Specifications</h3>
+
+<ul>
+  <li><strong>Footprint</strong>: 40 mm × 40 mm for compatibility across all pieces. Multiple of this footprint work to and won’t break the pattern</li>
+  <li><strong>Thickness</strong>: 1.6 mm typical.</li>
+  <li><strong>Solder mask</strong>: black is preferred for durability.</li>
+  <li><strong>Silkscreen</strong>: white, ≥0.6 mm line width for legibility.</li>
+  <li><strong>Finish</strong>: lead‑free HASL or ENIG.</li>
+</ul>
+
+<h3 id="ordering-services">Ordering Services</h3>
+
+<p>Budget‑minded providers:</p>
+<ul>
+  <li><strong>JLCPCB</strong> – very low cost and fast turnaround.</li>
+  <li><strong>PCBWay</strong> – competitive pricing and quality.</li>
+  <li><strong>Aisler</strong> – European option with local support.</li>
+</ul>
+
+<p>When placing an order, specify the mask, silkscreen, and finish above; most have no minimum order quantity or offer low MOQ.</p>
+
+<h4 id="cost-estimates">Cost Estimates</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Quantity</th>
+      <th>Unit Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>$1–5</td>
+    </tr>
+    <tr>
+      <td>10–50</td>
+      <td>$0.50–2</td>
+    </tr>
+    <tr>
+      <td>100+</td>
+      <td>$0.25–1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Some vendors provide <strong>educational discounts</strong> when you supply a school letter or student ID.</p>
+
+<h2 id="3d-base-production">3D Base Production</h2>
+
+<h3 id="tools--formats">Tools &amp; Formats</h3>
+
+<ul>
+  <li><strong>FreeCAD</strong> is the default for base designs (files in <code class="language-plaintext highlighter-rouge">printable-bases/</code>).</li>
+  <li>various printable file formats are already provided in various tolerance classes</li>
+</ul>
+
+<h3 id="batch-efficiency">Batch Efficiency</h3>
+
+<ul>
+  <li><strong>Plate yield</strong>: about 20–25 bases on a medium FDM printer plate.</li>
+  <li><strong>Print time</strong>: ~23 h for full plate; single base ≈45–60 min.</li>
+  <li><strong>Cost per unit</strong> drops to ~$0.30 at scale.</li>
+</ul>
+
+<h3 id="assembly">Assembly</h3>
+
+<ol>
+  <li>Insert magnetic connectors (&lt;1 min).</li>
+  <li>Screw base parts together (1–2 min).</li>
+  <li>Solder contact pads if not pre‑assembled (&lt;1 min).</li>
+</ol>
+
+<p>With two people working, 100+ bases can be ready in an afternoon.</p>
+
+<h3 id="design-specs">Design Specs</h3>
+
+<ul>
+  <li><em>Size</em>: 40 mm × 40 mm to match PCBs.</li>
+  <li><em>Height</em>: 20 mm.</li>
+  <li><em>Wall thickness</em>: 1.2–1.5 mm minimum.</li>
+</ul>
+
+<h2 id="building-and-sourcing-complete-sets">Building and Sourcing Complete Sets</h2>
+
+<p>For classrooms, assembling full kits of components can be managed in-house or outsourced:</p>
+
+<ul>
+  <li>Teachers or students print and assemble bases, order PCBs, and package components into sets.</li>
+  <li><strong>Central manufacturing hubs</strong> (university departments, makerspaces, regional labs) can produce batches and distribute at cost.</li>
+  <li>Community initiatives may sell or donate pre‑assembled kits.</li>
+</ul>
+
+<p>This approach keeps per‑student cost low while providing high-quality, customizable equipment.</p>
+
+<hr />
+
+<h2 id="contributing-designs">Contributing Designs</h2>
+
+<h3 id="submission-guidelines">Submission Guidelines</h3>
+
+<p>Want to contribute new components or improvements?</p>
+
+<ol>
+  <li><strong>Fork</strong> the repository on GitHub</li>
+  <li><strong>Create a branch</strong> for your component</li>
+  <li><strong>Add design files</strong>:
+    <ul>
+      <li>KiCAD schematic and PCB files</li>
+      <li>FreeCAD or STL files (if base improvements)</li>
+      <li>Gerber files (optional but helpful)</li>
+    </ul>
+  </li>
+  <li><strong>Document</strong>: README with specifications and usage</li>
+  <li><strong>Create pull request</strong> with description</li>
+  <li><strong>License</strong>: Ensure CC-BY-NC-SA compliance</li>
+</ol>
+
+<h3 id="design-requirements-for-contributions">Design Requirements for Contributions</h3>
+
+<ul>
+  <li>Compatibility with 40×40mm footprint</li>
+  <li>Standard magnetic connector pads on edges</li>
+  <li>Readable schematic on silkscreen</li>
+  <li>Educational value or practical function</li>
+  <li>Cost-effective using common components</li>
+  <li>CC-BY-NC-SA license compatibility</li>
+</ul>
+
+        </section>
+        <aside class="toc-sidebar" aria-label="Table of contents">
+          <div class="sidebar-title">On this page</div>
+          <nav id="toc" class="toc"></nav>
+        </aside>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    <script src="/assets/js/toc.js"></script>
+  </body>
+</html>

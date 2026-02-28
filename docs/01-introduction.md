@@ -1,28 +1,16 @@
 ---
 layout: default
-title: Introduction
+title: Introduction to Circuit Nodes
 ---
 
-# Introduction to Circuit Nodes
+# Introduction
 
-![Circuit Nodes Logo]({{ site.baseurl }}/../logo.png){: width="300" }
-
-Circuit Nodes is an open‑source, 3‑D‑printed modular system for teaching
-electric circuits in schools.  The idea and evaluation appear in a peer‑reviewed
-paper: **"Modular 3D‑printed Circuit Nodes for low‑cost and hands‑on Electricity
-Education"** (Phys. Educ. 61 015010, 2024, [DOI 10.1088/1361-6552/ae1abd](https://doi.org/10.1088/1361-6552/ae1abd)).
-
-## What’s in this repository?
-
-- Schematics and Gerber files for every PCB module.
-- FreeCAD models plus STL/STEP exports for the 3‑D printed bases.
-- Assembly instructions, example circuits and documentation.
-- A bill‑of‑materials and production notes for magnets, screws, etc.
-- Source images such as `assembly.png` used throughout the docs.
-
-![Assembly overview]({{ site.baseurl }}/../assembly.png){: width="800" }
+![Circuit Nodes Logo]({{ site.baseurl }}/../logo.png){: width="400" }
 
 ## Why Circuit Nodes?
+
+Circuit Nodes is an open‑source, 3D‑printed modular system for teaching
+electric circuits in schools.  
 
 Secondary‑school students learn best when the tools they use resemble the
 textbook diagrams they are taught.  Conventional kits (breadboards, loose
@@ -37,13 +25,26 @@ incorrect wiring virtually impossible, so pupils can concentrate on the physics.
 The system can be summarised as
 inexpensive, easy to adapt to lesson plans and effective at reducing abstraction.
 
-## Research summary
+The idea and evaluation is further outline in a peer‑reviewed
+paper: **"Modular 3D‑printed Circuit Nodes for low‑cost and hands‑on Electricity
+Education"** (Phys. Educ. 61 015010, 2024, [DOI 10.1088/1361-6552/ae1abd](https://doi.org/10.1088/1361-6552/ae1abd)).
 
-The associated paper provides details of the design rationale, cost analysis
-and teacher feedback; the full text is linked above.  In brief, teachers found
-that the nodes cleared up confusion, lowered material costs by an order of
-magnitude and allowed sets to be customised to school curricula.  Damage tests
-with twelve‑year‑olds showed the modules withstand routine classroom use.
+
+## Practical Examples
+
+**images**
+
+## What’s in this repository?
+
+- Schematics and Gerber files for every PCB module.
+- FreeCAD models plus STL/STEP exports for the 3‑D printed bases.
+- Assembly instructions, example circuits and documentation.
+- A bill‑of‑materials and production notes for magnets, screws, etc.
+- Source images such as `assembly.png` used throughout the docs.
+
+![Assembly overview]({{ site.baseurl }}/../assembly.png){: width="800" }
+
+
 
 ---
 

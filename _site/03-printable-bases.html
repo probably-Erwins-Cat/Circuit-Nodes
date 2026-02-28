@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=">
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Printable Bases | Circuit Nodes</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Printable Bases" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Modular Electronics Building Blocks - An Educational Tool" />
+<meta property="og:description" content="Modular Electronics Building Blocks - An Educational Tool" />
+<link rel="canonical" href="http://localhost:4000/03-printable-bases.html" />
+<meta property="og:url" content="http://localhost:4000/03-printable-bases.html" />
+<meta property="og:site_name" content="Circuit Nodes" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Printable Bases" />
+<script type="application/ld+json">
+{"headline":"Printable Bases","url":"http://localhost:4000/03-printable-bases.html","@type":"WebPage","description":"Modular Electronics Building Blocks - An Educational Tool","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+    <!-- end custom head snippets -->
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        <h1 id="project_title">Circuit Nodes</h1>
+        <h2 id="project_tagline">Modular Electronics Building Blocks - An Educational Tool</h2>
+      </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <div class="inner layout-with-sidebar">
+        <aside class="chapter-sidebar" aria-label="Chapter overview">
+          <div class="sidebar-title">Chapters</div>
+          
+          <nav class="chapter-nav">
+            <a href="/" class="">Home</a>
+            <a href="/01-introduction" class="">1. Introduction</a>
+            <a href="/02-getting-started" class="">2. Getting Started</a>
+            <a href="/03-printable-bases" class="is-active">3. Printable Bases</a>
+            <a href="/04-assembly-instructions" class="">4. Assembly Instructions</a>
+            <a href="/05-component-guide" class="">5. Component Guide</a>
+            <a href="/06-design-manufacturing" class="">6. Sourcing & Manufacturing</a>
+          </nav>
+        </aside>
+        <section id="main_content" class="content-with-sidebar">
+          <h1 id="printable-bases">Printable Bases</h1>
+
+<p>The printable base provides mounting for all parts and helps aligning the puzzle pieces.</p>
+
+<p><img src="/images/printable-base.png" alt="Printable base preview" width="800" /></p>
+
+<h2 id="files--tools">Files &amp; Tools</h2>
+
+<ul>
+  <li>All base models are in <strong>FreeCAD</strong> format (<code class="language-plaintext highlighter-rouge">.FCStd</code>) in the
+<code class="language-plaintext highlighter-rouge">printable-bases</code> folder of the repository.</li>
+  <li>All common parts already exported as STL and STEP for immediate printing</li>
+  <li>The <em>Open</em> design is for easier repairability without disassembly and better stackability</li>
+  <li>The <em>Magnetic</em> variant is for enclosing sensitive components in the inside of the part and for optional magnet holder (black board use)</li>
+</ul>
+
+<h2 id="print-parameters">Print Parameters</h2>
+
+<p>The printable base is highly optimized for perimeter printing, i.e. the slicer will print 90% of the time perimeters, thus, many settings are unimportant. Use these general settings for PLA or PETG:</p>
+
+<p>Layer height:   0.20 mm
+Wall (perimeter): 2 shells
+Infill:         100 % (for filling the few small non-perimeter-wall sections)
+Suppor:         not required, only short bridging section</p>
+
+<h2 id="preparation-before-batch-printing-tolerances--test-print">Preparation before Batch Printing: Tolerances &amp; Test Print</h2>
+
+<p><strong>FIRST PRINT</strong> a tolerance tester piece (folder <a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/tolerance-tester"><code class="language-plaintext highlighter-rouge">tolerance-tester/</code></a>)
+containing one screw hole and one magnet connector tester. These parts summarize all tolerance/clearance classes so you can verify your printer capabilities.</p>
+
+<h3 id="screw-hole-tolerance">Screw Hole Tolerance</h3>
+
+<p><img src="/images/tolerance-tester-screw.png" alt="Screw tolerance tester" width="800" /></p>
+
+<p>The screw hole tester is an oriented part that habors ten holes with increasing diameter in 0.05mm increments. A side hole marks the imperically found best hole size for the average printer and the typical size of self-tapping M2 screws.</p>
+
+<p>Screw in M2 screws in every hole and determine which screw size feels best. <em>When to tight</em>, the screw strips or the screwdriver cams out and rounds the screw head. <em>When too loose</em>, the screw  strips the plastic when over tightening the PCB down to the printable base.</p>
+
+<h3 id="connector-pocket-tolerance">Connector Pocket Tolerance</h3>
+
+<p><img src="/images/tolerance-tester-connector.png" alt="Connector tolerance tester" width="800" /></p>
+
+<p>Four tolerance classes are provided per default for the PCB cavity and magnet holes:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dimension</th>
+      <th>Clearance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0.10 mm</td>
+      <td>tight fit, for very precise printers or when underextruding happens</td>
+    </tr>
+    <tr>
+      <td>0.15 mm</td>
+      <td>normal, <strong>start here</strong></td>
+    </tr>
+    <tr>
+      <td>0.20 mm</td>
+      <td>looser fit, easier insertion</td>
+    </tr>
+    <tr>
+      <td>0.25 mm</td>
+      <td>loose fit, when printer overextrudes when printhead is cornering</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>If none of those clearances work for you, you should first look into calibrating your printer.</p>
+
+<h3 id="base-alignment-nose-tolerance">Base Alignment Nose Tolerance</h3>
+
+<p>The hexagonal protrusion and indentation helps aligning the bases, so the magnetic connectors connect flush. Therefore, the tolerance should be chosen small enough for excellent alignment and wide enough so the parts can slide virtually frictionless. A tolerance of 0.15mm is ideal (making it 0.3mm gap in total) and is in reach of all recent printers.</p>
+
+<h2 id="batch-printing">Batch printing</h2>
+
+<p>A standard size printer can carry 20 bases on one print plate. One base is printed in less than an hour, thus, one print plate is printed in less than a day.</p>
+
+<hr />
+
+<p>That’s all you need for the “printable bases” step.  Next, move on to
+<a href="04-assembly-instructions">Assembly Instructions</a> where the PCBs, magnets and
+screws are brought together.</p>
+
+
+        </section>
+        <aside class="toc-sidebar" aria-label="Table of contents">
+          <div class="sidebar-title">On this page</div>
+          <nav id="toc" class="toc"></nav>
+        </aside>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    <script src="/assets/js/toc.js"></script>
+  </body>
+</html>
