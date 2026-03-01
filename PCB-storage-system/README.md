@@ -4,7 +4,7 @@ Circuit Nodes are much cheaper when ordered in bulk. Buying in bulk also means y
 Here, a parametric PCB storage system is provided. It features a storage compartment, where all unused PCBs can be stored and a window where the stored PCB is displayed. 
 Further, it is stackable, for compact storing all PCBs and still having all Circuit Nodes at a glance.
 
-<img src="storage-system-example.png" alt="Circuit Diagram" width="500">
+<img src="../docs/images/storage-system-example.png" alt="Circuit Diagram" width="500">
 
 ## Parametric Sizing
 

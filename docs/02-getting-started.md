@@ -14,7 +14,7 @@ Research shows that translating between flat schematics and messy physical build
 
 ## Components
 
-![Assembly overview]({{ site.baseurl }}/../assembly.png){: width="800" }
+![Assembly overview]({{ site.baseurl }}/images/assembly.png){: width="800" }
 
 
 ### 1. **Puzzle Pieces (PCBs)**
@@ -34,7 +34,7 @@ Frame that holds the PCB with:
 - Various style options (open-bottom, magnetic-bottom)
 - also provided here as STL, STEP and FreeCAD source file
 
-![3D-printed base preview placeholder]({{ site.baseurl }}/images/printed-base-placeholder.svg){: width="400" }
+![Printable base preview]({{ site.baseurl }}/images/printable-base.png){: width="400" }
 
 ### 3. **Magnetic Connectors**
 Small magnetig connectors found in detachable charging cables that:
@@ -88,7 +88,7 @@ To start using Circuit Nodes:
 - **To build circuits**: Continue to [Assembly Instructions](04-assembly-instructions)
 - **To explore components**: Check out [Component Guide](05-component-guide)
 - **To understand base options**: See [Printable Bases](03-printable-bases)
-- **To learn manufacturing**: Read [Design & Manufacturing](06-design-manufacturing)
+- **To learn manufacturing**: Read [Sourcing & Manufacturing](06-sourcing-manufacturing)
 
 ---
 

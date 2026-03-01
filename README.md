@@ -26,7 +26,7 @@ Complete guides, examples, research insights, and best practices are available i
 | **Printable Bases** | https://probably-erwins-cat.github.io/Circuit-Nodes/03-printable-bases |
 | **Assembly Instructions** | https://probably-erwins-cat.github.io/Circuit-Nodes/04-assembly-instructions |
 | **Component Guide** | https://probably-erwins-cat.github.io/Circuit-Nodes/05-component-guide |
-| **Sourcing & Manufacturing** | https://probably-erwins-cat.github.io/Circuit-Nodes/06-design-manufacturing |
+| **Sourcing & Manufacturing** | https://probably-erwins-cat.github.io/Circuit-Nodes/06-sourcing-manufacturing |
 | **Kits & Experiments** | https://probably-erwins-cat.github.io/Circuit-Nodes/07-advanced-topics |
 
 ---
@@ -56,7 +56,7 @@ more details, see below*
 
 # Getting Started, Assembly Instructions
 
-<img src="assembly.png" alt="assembly" width="1000">
+<img src="docs/images/assembly.png" alt="assembly" width="1000">
 
 - Refer to the repository contents below for a dedicated list and example circuits. 
 - Plan what puzzle pieces you need and how many. An entry electronics kit for school settings needs less than 40 to cover most grounds.

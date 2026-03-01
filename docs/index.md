@@ -3,9 +3,9 @@ layout: default
 title: Circuit Nodes - Modular Electronics Building Blocks
 ---
 
-[![Circuit Diagram]({{ site.baseurl }}/logo.png){: width="800" }](https://github.com/probably-erwins-cat/Circuit-Nodes)
+![Circuit Diagram]({{ site.baseurl }}/images/logo.png){: width="800" }
 
-[![Assembly Image]({{ site.baseurl }}/assembly.png){: width="800" }](04-assembly-instructions)
+![Assembly Image]({{ site.baseurl }}/images/assembly-finished.png){: width="800" }
 
 Circuit Nodes is a CC-licensed educational tool designed to help students understand electronic circuits by physically building them. Each module consists of a small PCB mounted on a 3D-printed base with puzzle-like notches, allowing users to create circuits in a grid-based structure.
 
@@ -22,7 +22,7 @@ Explore the chapters using the links below:
 - **[Printable Bases](03-printable-bases)** – Base styles and printing
 - **[Assembly Instructions](04-assembly-instructions)** – Build your components
 - **[Component Guide](05-component-guide)** – Full component catalogue
-- **[Sourcing & Manufacturing](06-design-manufacturing)** – Production and educational research
+- **[Sourcing & Manufacturing](06-sourcing-manufacturing)** – Production and educational research
 
 ---
 
@@ -50,4 +50,4 @@ Explore the chapters using the links below:
 
 For questions or collaboration, please open a discussion in the repository or reach out directly.
 
-[![DOI](https://zenodo.org/badge/944617067.svg)](https://doi.org/10.5281/zenodo.17569829)
+![DOI](https://zenodo.org/badge/944617067.svg)

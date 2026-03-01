@@ -11,13 +11,7 @@ This guide walks you through assembling Circuit Nodes from individual components
 
 Below are the three parts that come together: the printed base, a magnetic connector, and a populated PCB.
 
-<p align="center">
-  <img src="{{ site.baseurl }}/../printable-bases/print-time-single-printable-base.png" alt="Printed base" width="200" />
-  <img src="{{ site.baseurl }}/../pogo-connector/connector-concept.png" alt="Magnetic connector" width="200" />
-  <img src="{{ site.baseurl }}/../puzzle-pieces/wire-X-crossing_blank/wire-X-crossing_blank_TOP.png" alt="Example PCB" width="200" />
-</p>
-
-
+![Assembly explosion view]({{ site.baseurl }}/images/assembly-explosion-view.png){: width="800" }
 
 ## Pre‑Assembly
 

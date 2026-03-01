@@ -5,7 +5,7 @@ title: Introduction to Circuit Nodes
 
 # Introduction
 
-![Circuit Nodes Logo]({{ site.baseurl }}/../logo.png){: width="400" }
+![Circuit Nodes]({{ site.baseurl }}/images/logo.png){: width="400" }
 
 ## Why Circuit Nodes?
 
@@ -32,7 +32,15 @@ Education"** (Phys. Educ. 61 015010, 2024, [DOI 10.1088/1361-6552/ae1a
 
 ## Practical Examples
 
-**images**
+Here are some practical examples of node layouts and module sets:
+
+![Functional node set]({{ site.baseurl }}/images/CN-functional.png){: width="800" }
+
+![Various node modules]({{ site.baseurl }}/images/CN-various-nodes.png){: width="800" }
+
+![Wire segment examples]({{ site.baseurl }}/images/CN-wire-segments.png){: width="800" }
+
+![Circuit protection example]({{ site.baseurl }}/images/CN-circuit-protection.png){: width="800" }
 
 ## What’s in this repository?
 
@@ -42,12 +50,13 @@ Education"** (Phys. Educ. 61 015010, 2024, [DOI 10.1088/1361-6552/ae1a
 - A bill‑of‑materials and production notes for magnets, screws, etc.
 - Source images such as `assembly.png` used throughout the docs.
 
-![Assembly overview]({{ site.baseurl }}/../assembly.png){: width="800" }
+![Assembly overview]({{ site.baseurl }}/images/assembly.png){: width="800" }
 
 
 
 ---
 
 **Ready to get started?** → [Getting Started Guide](02-getting-started)
+
 
 
