@@ -742,6 +742,14 @@ Small Device Styles
   height: auto;
 }
 
+/* Use block-style text alignment in the main article content. */
+#main_content p,
+#main_content li {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
 .chapter-sidebar,
 .toc-sidebar {
   padding: 16px;
@@ -816,6 +824,22 @@ Small Device Styles
   }
   .chapter-sidebar {
     width: 100%;
+  }
+}
+/* 50% larger base body text than the Slate default (16px -> 24px). */
+body {
+  font-size: 24px;
+}
+
+/* Keep the same 50% scale on small screens (14px -> 21px). */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 21px;
+  }
+}
+@media screen and (max-width: 320px) {
+  body {
+    font-size: 21px;
   }
 }
 
