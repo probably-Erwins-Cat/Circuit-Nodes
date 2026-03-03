@@ -1,0 +1,315 @@
+(footprint "Magentic_Connector_1x02_P2.5mm_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
+	(tags "Through hole pin header THT 1x02 2.54mm single row")
+	(property "Reference" "REF**"
+		(at -2 0 90)
+		(layer "F.SilkS")
+		(uuid "9f449d09-37db-4679-b4e5-533258de06b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Magentic_Connector_1x02_P2.5mm_Horizontal"
+		(at 3.25 0 90)
+		(layer "F.Fab")
+		(uuid "38fef59b-958b-45b7-8820-2d51d2463f7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d1723c4-acc6-4ac0-835f-d9b143827939")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c87e0a3b-63ae-4ecb-b227-2bbf2ccba894")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce3ed0a2-6c46-44b2-a801-b1ad2178e2b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.33 -2.6)
+		(end 0 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c8d9f458-d8ec-4ce7-837b-0c157bcfe850")
+	)
+	(fp_line
+		(start -1.33 -1.27)
+		(end -1.33 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17065d0c-b729-4411-a0ba-609477102cae")
+	)
+	(fp_line
+		(start 0.75 -1.25)
+		(end 6 -1.25)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "22743e62-68ab-480d-a4b3-d01f47078422")
+	)
+	(fp_line
+		(start 0.75 1.25)
+		(end 6 1.25)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4d69a822-9ed9-4e60-a02f-d74b42737145")
+	)
+	(fp_poly
+		(pts
+			(xy 1.5 6.25) (xy 2.5 6.25) (xy 2.5 7.25) (xy 3.5 7.25) (xy 3.5 6.25) (xy 5.5 6.25) (xy 5.5 -6.25)
+			(xy 3.5 -6.25) (xy 3.5 -7.25) (xy 2.5 -7.25) (xy 2.5 -6.25) (xy 1.5 -6.25)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d11c5c71-1b69-439a-b8ae-7dba401b9f70")
+	)
+	(fp_line
+		(start -1.5 -2.75)
+		(end -1.5 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c579f0c-22ef-46f1-9321-ced1932e9de8")
+	)
+	(fp_line
+		(start -1.5 2.75)
+		(end 1.5 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bbe4fc65-e3ef-4f3e-a8f2-a145d26dd2d0")
+	)
+	(fp_line
+		(start 1.5 -7.25)
+		(end 1.5 -2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4e0d3794-83ce-4d46-ae76-b86f3e8b19bd")
+	)
+	(fp_line
+		(start 1.5 -2.75)
+		(end -1.5 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0431df18-ccfa-43ed-988f-ccfa94f64588")
+	)
+	(fp_line
+		(start 1.5 7.25)
+		(end 1.5 2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b3f3b53-5f01-4847-9547-1fbe1eb93eda")
+	)
+	(fp_line
+		(start 5.5 -7.25)
+		(end 1.5 -7.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3165c5f0-42ec-4717-805d-9b45338d7783")
+	)
+	(fp_line
+		(start 5.5 7.25)
+		(end 1.5 7.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1c9a3f4f-ed6a-4e3f-923c-9e514ee42444")
+	)
+	(fp_line
+		(start 5.5 7.25)
+		(end 5.5 -7.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "39e4174d-3678-46b7-8a86-e101b522ee01")
+	)
+	(fp_line
+		(start -1.27 -1.905)
+		(end -0.635 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "568e96c1-5e2a-4c04-bbbf-fe7e31835e6c")
+	)
+	(fp_line
+		(start -1.27 2.54)
+		(end -1.27 -1.905)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56968ee9-c95b-4291-bcb7-1793b34b76a2")
+	)
+	(fp_line
+		(start -0.635 -2.54)
+		(end 1.27 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6febb08f-4976-439b-a073-38d3b74479d4")
+	)
+	(fp_line
+		(start 1.27 -2.54)
+		(end 1.27 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eecb46da-29c2-41e8-8b5f-45913974fea0")
+	)
+	(fp_line
+		(start 1.27 2.54)
+		(end -1.27 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4862cb63-0472-41cc-a8df-0b9bad363bce")
+	)
+	(fp_text user "S"
+		(at 3.5 -4.5 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "024aea17-80f6-45f4-b449-38c4205ad08f")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.2)
+			)
+		)
+	)
+	(fp_text user "N"
+		(at 3.5 4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6a5e8f1f-4d38-488c-bc1a-77860f75aa9b")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.2)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "37dcc22b-aaa5-40bf-8441-c3e442439a19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -1.27)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2b0a2100-e129-47ab-bd5f-042914e5b9df")
+	)
+	(pad "2" thru_hole oval
+		(at 0 1.23)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "09ceeb43-9fac-40b4-a3bb-4f36cdd20ed2")
+	)
+	(model "C:/Users/hansk/Physito/Privat/KiCAD/magnetic-connector.step"
+		(offset
+			(xyz 3.5 0 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
