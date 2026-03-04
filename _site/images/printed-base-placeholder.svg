@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="3D-printed base preview placeholder">
-  <rect width="1200" height="800" fill="#d9dee3"/>
-  <rect x="40" y="40" width="1120" height="720" fill="#eef1f4" stroke="#b8c1ca" stroke-width="6" rx="20"/>
-  <text x="600" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="56" fill="#3a4652">3D-Printed Base Preview</text>
-  <text x="600" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" fill="#5d6a77">Placeholder image</text>
-</svg>

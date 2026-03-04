@@ -33,3 +33,24 @@ fp-info-cache
 *.csv
 *-options.json
 *.ipc
+
+# Jekyll build/cache output
+/_site/
+/.jekyll-cache/
+docs/.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Local run logs
+jekyll-local.out.log
+jekyll-local.err.log
+*.log
+
+# OS/editor noise (optional but common)
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# FreeCAD extra backup variant (optional)
+*.FCStd1

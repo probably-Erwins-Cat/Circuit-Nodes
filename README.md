@@ -29,7 +29,6 @@ Complete guides, examples, research insights, and best practices are available i
 | **Sourcing & Manufacturing** | https://probably-erwins-cat.github.io/Circuit-Nodes/06-sourcing-manufacturing |
 | **Kits & Experiments** | https://probably-erwins-cat.github.io/Circuit-Nodes/07-advanced-topics |
 
----
 
 # Features
 
