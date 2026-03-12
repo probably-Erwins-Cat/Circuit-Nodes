@@ -842,5 +842,20 @@ body {
     font-size: 21px;
   }
 }
+/* Component guide table: compact names and side-by-side preview images. */
+#main_content table td {
+  vertical-align: top;
+}
+
+#main_content table td:nth-child(2) {
+  white-space: nowrap;
+}
+
+#main_content table td:nth-child(2) img {
+  display: inline-block;
+  margin: 0 8px 0 0;
+  width: 140px;
+  height: auto;
+}
 
 /*# sourceMappingURL=style.css.map */

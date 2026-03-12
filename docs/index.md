@@ -17,12 +17,12 @@ The pedagogical value lies in reinforcing the connection between abstract circui
 
 Explore the chapters using the links below:
 
-- **[Introduction](01-introduction)** – Overview and design principles
-- **[Getting Started](02-getting-started)** – Quick start guide
-- **[Printable Bases](03-printable-bases)** – Base styles and printing
-- **[Assembly Instructions](04-assembly-instructions)** – Build your components
-- **[Component Guide](05-component-guide)** – Full component catalogue
-- **[Sourcing & Manufacturing](06-sourcing-manufacturing)** – Production and educational research
+- **[Introduction](introduction)** – Overview and design principles
+- **[Getting Started](getting-started)** – Quick start guide
+- **[Printable Bases](printable-bases)** – Base styles and printing
+- **[Assembly Instructions](assembly-instructions)** – Build your components
+- **[Component Guide](component-guide)** – Full component catalogue
+- **[Sourcing & Manufacturing](sourcing-manufacturing)** – Production and educational research
 
 ---
 

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "USB-PD-Sink")(type "KiCad")(uri "${KIPRJMOD}/breadboard_grid-2.54mm_2x2.pretty")(options "")(descr ""))
+)

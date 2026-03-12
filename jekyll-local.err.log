@@ -1,0 +1,2736 @@
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "jekyll-theme-slate";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "rouge-github";
+  │         ^^^^^^^^^^^^^^
+  ╵
+    jekyll-theme-slate.scss 1:9                             @import
+    C:\GitHub\Circuit-Nodes\docs\assets\css\style.scss 1:9  root stylesheet

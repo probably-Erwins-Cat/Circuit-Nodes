@@ -21,12 +21,12 @@ Complete guides, examples, research insights, and best practices are available i
 
 | Chapter | Link |
 |---------|------|
-| **Introduction** | https://probably-erwins-cat.github.io/Circuit-Nodes/01-introduction |
-| **Getting Started** | https://probably-erwins-cat.github.io/Circuit-Nodes/02-getting-started |
-| **Printable Bases** | https://probably-erwins-cat.github.io/Circuit-Nodes/03-printable-bases |
-| **Assembly Instructions** | https://probably-erwins-cat.github.io/Circuit-Nodes/04-assembly-instructions |
-| **Component Guide** | https://probably-erwins-cat.github.io/Circuit-Nodes/05-component-guide |
-| **Sourcing & Manufacturing** | https://probably-erwins-cat.github.io/Circuit-Nodes/06-sourcing-manufacturing |
+| **Introduction** | https://probably-erwins-cat.github.io/Circuit-Nodes/introduction |
+| **Getting Started** | https://probably-erwins-cat.github.io/Circuit-Nodes/getting-started |
+| **Printable Bases** | https://probably-erwins-cat.github.io/Circuit-Nodes/printable-bases |
+| **Assembly Instructions** | https://probably-erwins-cat.github.io/Circuit-Nodes/assembly-instructions |
+| **Component Guide** | https://probably-erwins-cat.github.io/Circuit-Nodes/component-guide |
+| **Sourcing & Manufacturing** | https://probably-erwins-cat.github.io/Circuit-Nodes/sourcing-manufacturing |
 | **Kits & Experiments** | https://probably-erwins-cat.github.io/Circuit-Nodes/07-advanced-topics |
 
 
