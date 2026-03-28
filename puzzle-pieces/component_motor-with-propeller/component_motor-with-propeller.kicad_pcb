@@ -2135,38 +2135,6 @@
 		(layer "Edge.Cuts")
 		(uuid "f3673f22-c1db-42ff-848d-94194d277972")
 	)
-	(gr_circle
-		(center 25 33)
-		(end 26 33)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "0fb6bd87-f255-4152-85e8-4dc79928b575")
-	)
-	(gr_line
-		(start 25 33)
-		(end 81 33)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "244d122a-9531-465d-aeec-3b4e16b8a937")
-	)
-	(gr_circle
-		(center 81 33)
-		(end 82 33)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "bd4a544d-0c98-4aa0-8a30-70302891656f")
-	)
 	(segment
 		(start 41.67 40)
 		(end 34.27 47.4)
