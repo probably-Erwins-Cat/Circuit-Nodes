@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "USB-PD-Sink")(type "KiCad")(uri "${KIPRJMOD}/component_lamp-LED-module_ruggedized.pretty")(options "")(descr ""))
+)
