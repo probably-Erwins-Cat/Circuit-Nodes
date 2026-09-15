@@ -12,6 +12,7 @@
 **/backup/
 **/backups/
 *.kicad_prl
+*.history
 
 *.sch-bak
 *~
