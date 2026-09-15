@@ -1,0 +1,20 @@
+title: Circuit Nodes
+description: Modular Electronics Building Blocks
+url: "https://probably-erwins-cat.github.io"
+baseurl: "/Circuit-Nodes"
+
+theme: jekyll-theme-slate
+
+exclude:
+  - _site
+  - .jekyll-cache
+  - jekyll-local.pid
+  - scripts
+  - PCB-storage-system
+  - tolerance-tester
+  - "**/*.FCStd"
+  - "**/*.FCBak"
+  - "**/*.step"
+  - "**/*.kicad_pro"
+  - "**/*.kicad_sch"
+  - "**/*.kicad_pcb"

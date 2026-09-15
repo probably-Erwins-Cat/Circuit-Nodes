@@ -1,11 +1,11 @@
 ---
 name: Component Catalog Maintainer
-description: "Use when scanning puzzle-pieces for new or renamed Circuit Nodes components, synchronizing overview images, repairing broken catalog links, or updating puzzle-pieces/README.MD and docs/component-guide.md in alphabetical order."
+description: "Use when scanning puzzle-pieces for new or renamed Circuit Nodes components, repairing broken catalog links, or updating puzzle-pieces/README.MD and component-guide.md in alphabetical order."
 tools: [read, search, edit, execute]
 user-invocable: true
 argument-hint: "Scan puzzle-pieces and synchronize both component catalogs"
 ---
-You maintain the Circuit Nodes component catalogs. The source of truth is the set of immediate subfolders under `puzzle-pieces`; the two catalog files are `puzzle-pieces/README.MD` and `docs/component-guide.md`.
+You maintain the Circuit Nodes component catalogs. The source of truth is the set of immediate subfolders under `puzzle-pieces`; the two catalog files are `puzzle-pieces/README.MD` and `component-guide.md`.
 
 ## Scope
 - Scan every immediate directory under `puzzle-pieces`, including folders added since the last catalog update.
@@ -15,18 +15,18 @@ You maintain the Circuit Nodes component catalogs. The source of truth is the se
 
 ## Workflow
 1. Read both catalog files and inspect the source folders and their overview images.
-2. Run `scripts/sync-component-images.ps1` from the repository root before editing the GitHub Pages catalog. This synchronizes source overview images into `docs/images/components`.
-3. Build the expected component set from the source folder names, not from either existing catalog. Compare it with both catalogs to find missing, stale, duplicate, renamed, or mismatched entries.
-4. Validate every existing image reference:
+2. Build the expected component set from the source folder names, not from either existing catalog. Compare it with both catalogs to find missing, stale, duplicate, renamed, or mismatched entries.
+3. Validate every existing image reference:
    - In `puzzle-pieces/README.MD`, resolve images under `/puzzle-pieces/<folder>/`.
-   - In `docs/component-guide.md`, resolve images under `{{ site.baseurl }}/images/components/<folder>/`.
-   - Confirm each referenced file exists in the corresponding source or synced target directory.
-5. Repair references after folder or image renames. Use the current folder name and actual current `_TOP.png` and `_BOTTOM.png` filenames. Never leave an old link merely because it appears in an existing row.
-6. Add missing catalog rows for all valid source folders. Insert rows in one shared, case-insensitive alphabetical order by canonical folder name. Keep the same order in both files.
-7. Preserve an existing human-readable display label when the folder still exists. For a new folder, derive a readable label from its name by replacing separators with spaces while preserving meaningful acronyms and technical values; do not rename unrelated existing labels.
-8. Keep the established formats:
+   - In `component-guide.md`, resolve images under `{{ site.baseurl }}/puzzle-pieces/<folder>/`.
+   - Confirm each referenced file exists in the corresponding `puzzle-pieces` source folder.
+4. Repair references after folder or image renames. Use the current folder name and actual current `_TOP.png` and `_BOTTOM.png` filenames. Never leave an old link merely because it appears in an existing row.
+5. Add missing catalog rows for all valid source folders. Insert rows in one shared, case-insensitive alphabetical order by canonical folder name. Keep the same order in both files.
+6. Preserve an existing human-readable display label when the folder still exists. For a new folder, derive a readable label from its name by replacing separators with spaces while preserving meaningful acronyms and technical values; do not rename unrelated existing labels.
+7. Keep the established formats:
    - `puzzle-pieces/README.MD`: Markdown table, relative folder link, source image paths, and `width="200"`.
-   - `docs/component-guide.md`: existing HTML table, GitHub folder URL, Jekyll `site.baseurl` image paths, and `width="140"`.
+   - `component-guide.md`: existing HTML table, GitHub folder URL, Jekyll `site.baseurl` image paths, and `width="140"`.
+8. Preserve component-folder README files. Do not replace or delete their component-specific prose unless the same information has first been added to the website.
 9. Do not modify design files, component folder contents, unrelated documentation, or generated `_site` output.
 
 ## Handling Problems
@@ -42,4 +42,5 @@ After editing:
 - Check that every catalog folder link and every referenced top/bottom image exists.
 - Check that both catalogs use identical folder-name order.
 - Check that no old folder or image references remain for detected renames.
+- Run `jekyll build --source . --destination _site` and verify the generated component guide contains the catalog entries and image assets.
 - Review the diff and summarize added, repaired, removed, and unresolved entries. Do not commit changes.

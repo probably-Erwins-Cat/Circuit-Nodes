@@ -1,6 +1,6 @@
 # Circuit Nodes - Modular Electronics Building Blocks
 
-<img src="logo.png" alt="Circuit Diagram" width="1000">
+<img src="images/logo.png" alt="Circuit Diagram" width="1000">
 
 
 Circuit Nodes is an CC licenced educational tool designed to help students understand electronic circuits by physically building them. 
@@ -27,7 +27,7 @@ Complete guides, examples, research insights, and best practices are available i
 | **Assembly Instructions** | https://probably-erwins-cat.github.io/Circuit-Nodes/assembly-instructions |
 | **Component Guide** | https://probably-erwins-cat.github.io/Circuit-Nodes/component-guide |
 | **Sourcing & Manufacturing** | https://probably-erwins-cat.github.io/Circuit-Nodes/sourcing-manufacturing |
-| **Kits & Experiments** | https://probably-erwins-cat.github.io/Circuit-Nodes/07-advanced-topics |
+| **Getting Started** | https://probably-erwins-cat.github.io/Circuit-Nodes/getting-started |
 
 
 # Features
@@ -55,7 +55,7 @@ more details, see below*
 
 # Getting Started, Assembly Instructions
 
-<img src="docs/images/assembly.png" alt="assembly" width="1000">
+<img src="images/assembly.png" alt="assembly" width="1000">
 
 - Refer to the repository contents below for a dedicated list and example circuits. 
 - Plan what puzzle pieces you need and how many. An entry electronics kit for school settings needs less than 40 to cover most grounds.
@@ -137,7 +137,7 @@ The paper includes:
 - Teacher evaluation and feedback from 8 German secondary school physics teachers
 - Learning outcome research and student perception studies
 
-[Read the research foundations chapter](https://yourusername.github.io/Circuit-Nodes/08-research-educational-foundations) for detailed insights.
+[Read the research publication](https://doi.org/10.1088/1361-6552/ae1abd) for detailed insights.
 
 This project is licensed under the Creative Commons Attribution-ShareAlike (CC
 BY-SA) Non-Commercial license. You are free to share and adapt the designs as

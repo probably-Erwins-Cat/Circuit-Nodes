@@ -3,7 +3,7 @@
 
 An NPN BJT controls a larger current using a smaller base current and is commonly used in switching and low-power amplification tasks. It is a useful device to teach the difference between current-driven and voltage-driven control.
 
-<img src="component_NPN-BJT_TO-92_TOP.png" alt="NPN BJT top view" width="400"> <img src="component_NPN-BJT_TO-92__BOTTOM.png" alt="NPN BJT bottom view" width="400">
+<img src="component_NPN-BJT_TO-92_TOP.png" alt="NPN BJT top view" width="400"> <img src="component_NPN-BJT_TO-92_BOTTOM.png" alt="NPN BJT bottom view" width="400">
 
 ## Functional description
 Terminals:
