@@ -43,12 +43,12 @@ The table below lists every component currently available in the repository; cli
       <td><img src="{{ site.baseurl }}/images/components/component_charge-pump-inverter/component_charge-pump-inverter_TOP.png" width="140"/><img src="{{ site.baseurl }}/images/components/component_charge-pump-inverter/component_charge-pump-inverter_BOTTOM.png" width="140"/></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_diode-Zener_THT">Diode Zener THT</a></td>
-      <td><img src="{{ site.baseurl }}/images/components/component_diode-Zener_THT/component_diode-Zener_THT_TOP.png" width="140"/><img src="{{ site.baseurl }}/images/components/component_diode-Zener_THT/component_diode-Zener_THT_BOTTOM.png" width="140"/></td>
-    </tr>
-    <tr>
       <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_diode_THT">Diode THT</a></td>
       <td><img src="{{ site.baseurl }}/images/components/component_diode_THT/component_diode_THT_TOP.png" width="140"/><img src="{{ site.baseurl }}/images/components/component_diode_THT/component_diode_THT_BOTTOM.png" width="140"/></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_diode-Zener_THT">Diode Zener THT</a></td>
+      <td><img src="{{ site.baseurl }}/images/components/component_diode-Zener_THT/component_diode-Zener_THT_TOP.png" width="140"/><img src="{{ site.baseurl }}/images/components/component_diode-Zener_THT/component_diode-Zener_THT_BOTTOM.png" width="140"/></td>
     </tr>
     <tr>
       <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_fuse-PolyFuse_SMT">Fuse Polyfuse SMT</a></td>
@@ -59,8 +59,16 @@ The table below lists every component currently available in the repository; cli
       <td><img src="{{ site.baseurl }}/images/components/component_inductance_THT/component_inductance_THT_TOP.png" width="140"/><img src="{{ site.baseurl }}/images/components/component_inductance_THT/component_inductance_THT_BOTTOM.png" width="140"/></td>
     </tr>
     <tr>
+      <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_lamp-E10_screw-socket">Lamp E10 Screw Socket</a></td>
+      <td><img src="{{ site.baseurl }}/images/components/component_lamp-E10_screw-socket/component_lamp-E10_screw-socket_TOP.png" width="140"/><img src="{{ site.baseurl }}/images/components/component_lamp-E10_screw-socket/component_lamp-E10_screw-socket_BOTTOM.png" width="140"/></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_lamp-E10_THT">Lamp E10 THT</a></td>
       <td><img src="{{ site.baseurl }}/images/components/component_lamp-E10_THT/component_lamp-E10_THT_TOP.png" width="140"/><img src="{{ site.baseurl }}/images/components/component_lamp-E10_THT/component_lamp-E10_THT_BOTTOM.png" width="140"/></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_lamp-LED-module_ruggedized">Lamp LED Module Ruggedized</a></td>
+      <td><img src="{{ site.baseurl }}/images/components/component_lamp-LED-module_ruggedized/component_lamp-LED-module_ruggedized_TOP.png" width="140"/><img src="{{ site.baseurl }}/images/components/component_lamp-LED-module_ruggedized/component_lamp-LED-module_ruggedized_BOTTOM.png" width="140"/></td>
     </tr>
     <tr>
       <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_LED_THT">LED THT</a></td>
@@ -77,6 +85,10 @@ The table below lists every component currently available in the repository; cli
     <tr>
       <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_mosfet_n-channel_TO-92">Mosfet N Channel TO 92</a></td>
       <td><img src="{{ site.baseurl }}/images/components/component_mosfet_n-channel_TO-92/component_mosfet_n-channel_TO-92_TOP.png" width="140"/><img src="{{ site.baseurl }}/images/components/component_mosfet_n-channel_TO-92/component_mosfet_n-channel_TO-92_BOTTOM.png" width="140"/></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_motor-with-propeller">Motor With Propeller</a></td>
+      <td><img src="{{ site.baseurl }}/images/components/component_motor-with-propeller/component_motor-with-propeller_TOP.png" width="140"/><img src="{{ site.baseurl }}/images/components/component_motor-with-propeller/component_motor-with-propeller_BOTTOM.png" width="140"/></td>
     </tr>
     <tr>
       <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_NPN-BJT_TO-92">NPN BJT TO 92</a></td>
@@ -123,16 +135,20 @@ The table below lists every component currently available in the repository; cli
       <td><img src="{{ site.baseurl }}/images/components/component_switch-micro-Normally-Open_THT/component_switch-micro-Normally-Open_THT_TOP.png" width="140"/><img src="{{ site.baseurl }}/images/components/component_switch-micro-Normally-Open_THT/component_switch-micro-Normally-Open_THT_BOTTOM.png" width="140"/></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_switch-On-OFF_THT">Switch ON OFF THT</a></td>
-      <td><img src="{{ site.baseurl }}/images/components/component_switch-On-OFF_THT/component_switch-On-OFF_THT_TOP.png" width="140"/><img src="{{ site.baseurl }}/images/components/component_switch-On-OFF_THT/component_switch-On-OFF_THT_BOTTOM.png" width="140"/></td>
-    </tr>
-    <tr>
       <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_switch-On1-OFF-On2_THT">Switch On1 OFF On2 THT</a></td>
       <td><img src="{{ site.baseurl }}/images/components/component_switch-On1-OFF-On2_THT/component_switch-On1-OFF-On2_THT_TOP.png" width="140"/><img src="{{ site.baseurl }}/images/components/component_switch-On1-OFF-On2_THT/component_switch-On1-OFF-On2_THT_BOTTOM.png" width="140"/></td>
     </tr>
     <tr>
       <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_switch-On1-On2_THT">Switch On1 On2 THT</a></td>
       <td><img src="{{ site.baseurl }}/images/components/component_switch-On1-On2_THT/component_switch-On1-On2_THT_TOP.png" width="140"/><img src="{{ site.baseurl }}/images/components/component_switch-On1-On2_THT/component_switch-On1-On2_THT_BOTTOM.png" width="140"/></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_switch-On-OFF_THT">Switch ON OFF THT</a></td>
+      <td><img src="{{ site.baseurl }}/images/components/component_switch-On-OFF_THT/component_switch-On-OFF_THT_TOP.png" width="140"/><img src="{{ site.baseurl }}/images/components/component_switch-On-OFF_THT/component_switch-On-OFF_THT_BOTTOM.png" width="140"/></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_switch-tactile-Normally-Open_THT">Switch Tactile Normally Open THT</a></td>
+      <td><img src="{{ site.baseurl }}/images/components/component_switch-tactile-Normally-Open_THT/component_switch-tactile-Normally-Open_THT_TOP.png" width="140"/><img src="{{ site.baseurl }}/images/components/component_switch-tactile-Normally-Open_THT/component_switch-tactile-Normally-Open_THT_BOTTOM.png" width="140"/></td>
     </tr>
     <tr>
       <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/end-node-double_AC">End Node Double AC</a></td>
