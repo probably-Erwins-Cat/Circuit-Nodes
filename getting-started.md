@@ -16,6 +16,20 @@ Research shows that translating between flat schematics and messy physical build
 
 ![Assembly overview]({{ site.baseurl }}/images/assembly.png){: width="800" }
 
+## Practical Examples
+
+Circuit Nodes can be combined from individual modules into complete circuits:
+
+![Various node modules]({{ site.baseurl }}/images/CN-various-nodes.png){: width="800" }
+
+Wire segments and junctions make it easy to shape the circuit layout:
+
+![Wire segment examples]({{ site.baseurl }}/images/CN-wire-segments.png){: width="800" }
+
+Functional elements such as switches, lamps, LEDs, capacitors, and advanced components complete the circuit:
+
+![Functional node set]({{ site.baseurl }}/images/CN-functional.png){: width="800" }
+
 
 ### 1. **Puzzle Pieces (PCBs)**
 Small circuit boards with:
@@ -52,6 +66,7 @@ Additional modules introduce core circuit elements:
 - **Magnets** for optional magnetic base, ideal for blackboard use
 
 Together, these parts let you build a wide range of beginner and intermediate analog circuit examples.
+
 
 ## Getting Your First Kit
 
