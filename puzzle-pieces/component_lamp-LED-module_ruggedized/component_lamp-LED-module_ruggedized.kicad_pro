@@ -197,6 +197,7 @@
       "track_widths": [
         0.0,
         0.5,
+        0.75,
         1.0,
         1.5,
         2.0
@@ -649,7 +650,7 @@
       {
         "filename": "component_lamp-LED-module_ruggedized.kicad_sch",
         "name": "component_lamp-LED-module_ruggedized",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "5d897b24-6d66-4f0a-be8a-d3125c24425a"
       }
     ],
     "used_designators": "",
@@ -658,7 +659,7 @@
   "sheets": [
     [
       "5d897b24-6d66-4f0a-be8a-d3125c24425a",
-      "Root"
+      "component_lamp-LED-module_ruggedized"
     ]
   ],
   "text_variables": {},
