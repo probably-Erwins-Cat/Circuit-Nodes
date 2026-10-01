@@ -3,7 +3,7 @@
 <img src="images/logo.png" alt="Circuit Diagram" width="1000">
 
 
-Circuit Nodes is an CC licenced educational tool designed to help students understand electronic circuits by physically building them. 
+Circuit Nodes is an educational tool shared under CC BY-NC-SA 4.0 to help students understand electronic circuits by physically building them.
 Each module consists of a small PCB mounted on a 3D-printed base with puzzle-like notches, allowing users to create circuits in a grid-based structure. 
 The PCBs include simple circuit elements such as resistors, capacitors, wire traces, switches, LEDs, lamps, and voltage or current measurement points, with their schematic representations printed directly on them. 
 Magnetic connectors enable both physical attachment and electrical connection.
@@ -106,6 +106,10 @@ KiCAD skills to design them, I am happy to assist with the schematic design
 process. Just reach out with your requirements, and I can help bring them to
 life for your students.
 
+Before submitting files, read [CONTRIBUTING.md](CONTRIBUTING.md). It explains
+how contributed designs remain available for future Circuit Nodes kits while
+contributors keep ownership of their work.
+
 # Contact
 
 For questions or collaboration, please open an discussion or reach out to me.
@@ -116,9 +120,16 @@ For questions or collaboration, please open an discussion or reach out to me.
 
 # License
 
-Circuit Nodes is licensed under **CC-BY-NC-SA 4.0** (Creative Commons Attribution-NonCommercial-ShareAlike).
-
-See LICENSE files for details.
+Circuit Nodes material is offered under **CC BY-NC-SA 4.0** (Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International) where the project holds
+the necessary rights. You may use the design files to make your own Circuit
+Nodes for noncommercial purposes. Schools may be able to commission ordinary
+fabrication and assembly services for that use. The public license does not
+permit use of licensed material primarily for commercial advantage. The project
+creator retains the right to manufacture and sell products based on material
+for which they hold the necessary rights. See
+[LICENSING.md](LICENSING.md) for scope and
+[LICENSE](LICENSE) for the full license.
 
 ---
 
@@ -138,18 +149,3 @@ The paper includes:
 - Learning outcome research and student perception studies
 
 [Read the research publication](https://doi.org/10.1088/1361-6552/ae1abd) for detailed insights.
-
-This project is licensed under the Creative Commons Attribution-ShareAlike (CC
-BY-SA) Non-Commercial license. You are free to share and adapt the designs as
-long as you provide attribution and distribute any modifications under the same
-license. Commercial use is not permitted.
-
-[![CC BY-NC-SA
-4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-
-This work is licensed under a [Creative Commons
-Attribution-NonCommercial-ShareAlike 4.0 International
-License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
-
-[![CC BY-NC-SA
-4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)

@@ -21,8 +21,9 @@ Unfortunately, this is typically *not* the way how such an electric circuit is b
 
 ![Ideal Breadboard Wiring]({{ site.baseurl }}/images/LED-parallel-tinkercad-breadboard.png){: width="800" }
 
-*Circuit Nodes* is an open‑source, 3D‑printed modular system for teaching
-electric circuits in schools.  
+*Circuit Nodes* is a 3D-printed modular system for teaching electric circuits
+in schools. Its designs are shared for noncommercial use under
+[CC BY-NC-SA 4.0](https://github.com/probably-erwins-cat/Circuit-Nodes/blob/main/LICENSING.md).
 
 Secondary‑school students learn best when the tools they use resemble the
 textbook diagrams they are taught. Conventional kits (breadboards, loose

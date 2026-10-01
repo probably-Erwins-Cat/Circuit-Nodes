@@ -70,7 +70,10 @@ Together, these parts let you build a wide range of beginner and intermediate an
 
 ## Getting Your First Kit
 
-Circuit Nodes are Open Source and all manufacturing files are included in this repository. Since there are many different puzzle pieces available and some are needed multiple times, e.g. wires and measuring nodes, starting with a curated kit is recommended.
+Circuit Nodes design and manufacturing files are shared in this repository for
+noncommercial use under [CC BY-NC-SA 4.0](https://github.com/probably-erwins-cat/Circuit-Nodes/blob/main/LICENSING.md).
+Since there are many puzzle pieces and some are needed multiple times, such as
+wires and measuring nodes, starting with a curated kit is recommended.
 
 The DIY path is:
 - Download Gerber files from the repository

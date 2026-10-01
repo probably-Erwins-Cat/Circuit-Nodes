@@ -40,8 +40,8 @@ Explore the chapters using the links below:
 # Quick Links
 
 - [GitHub Repository](https://github.com/probably-erwins-cat/Circuit-Nodes)
-- [License Information](LICENSE)
-- [Contributing Guidelines](https://github.com/probably-erwins-cat/Circuit-Nodes#contributing)
+- [License Information](https://github.com/probably-erwins-cat/Circuit-Nodes/blob/main/LICENSING.md)
+- [Contributing Guidelines](https://github.com/probably-erwins-cat/Circuit-Nodes/blob/main/CONTRIBUTING.md)
 - [Contact & Support](#contact)
 
 ---

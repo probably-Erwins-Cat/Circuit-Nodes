@@ -11,9 +11,9 @@ This combined article explains where to obtain or produce Circuit Nodes parts, c
 
 You can acquire components in three ways:
 
-1. **Download and produce yourself** – use the open-source design files to order PCBs and 3D print bases, then assemble kits.
-2. **Order from a central hub** – some educators or makerspaces batch-produce complete sets for local schools.
-3. **Pre‑made kits** – occasional community bundles may be sold or shared; check the project README or contact maintainers.
+1. **Download and produce yourself** – use the design files to order PCBs and 3D print bases, then assemble kits for noncommercial use under [CC BY-NC-SA 4.0](https://github.com/probably-erwins-cat/Circuit-Nodes/blob/main/LICENSING.md).
+2. **Order from a central hub** – schools and educators may be able to commission ordinary fabrication or assembly services for their noncommercial educational use. A business independently offering Circuit Nodes kits for sale should seek separate permission from the relevant rights holders.
+3. **Pre‑made kits** – obtain kits offered by the project creator or another authorized seller.
 
 The remainder of this page describes the technical steps for self‑production, cost considerations, and the evidence that these efforts pay off in educational settings.
 
@@ -84,8 +84,8 @@ With two people working, 100+ bases can be ready in an afternoon.
 For classrooms, assembling full kits of components can be managed in-house or outsourced:
 
 - Teachers or students print and assemble bases, order PCBs, and package components into sets.
-- **Central manufacturing hubs** (university departments, makerspaces, regional labs) can produce batches and distribute at cost.
-- Community initiatives may sell or donate pre‑assembled kits.
+- **Central manufacturing hubs** (university departments, makerspaces, regional labs) may help schools coordinate production for educational use. Charging only costs does not by itself determine whether an activity is noncommercial.
+- Community initiatives may donate pre-assembled kits for noncommercial purposes. A school may be able to hire fabrication or assembly help for its permitted educational use; independent commercial kit sales require separate permission from the relevant rights holders.
 
 This approach keeps per‑student cost low while providing high-quality, customizable equipment.
 
@@ -105,7 +105,7 @@ Want to contribute new components or improvements?
    - Gerber files (optional but helpful)
 4. **Document**: README with specifications and usage
 5. **Create pull request** with description
-6. **License**: Ensure CC-BY-NC-SA compliance
+6. **Contributing**: Read [CONTRIBUTING.md](https://github.com/probably-erwins-cat/Circuit-Nodes/blob/main/CONTRIBUTING.md) before submitting design files.
 
 ### Design Requirements for Contributions
 
@@ -114,4 +114,4 @@ Want to contribute new components or improvements?
 - Readable schematic on silkscreen
 - Educational value or practical function
 - Cost-effective using common components
-- CC-BY-NC-SA license compatibility
+- Clear sources and permissions for any third-party parts of the submission
