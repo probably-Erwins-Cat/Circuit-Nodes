@@ -1,0 +1,29 @@
+{
+  "meta": { "version": 4 },
+  "use_stackup_colors": true,
+  "render": {
+    "raytrace_anti_aliasing": true,
+    "raytrace_backfloor": false,
+    "raytrace_post_processing": true,
+    "raytrace_procedural_textures": false,
+    "plated_and_bare_copper": true,
+    "raytrace_recursivelevel_reflections": 3,
+    "raytrace_recursivelevel_refractions": 2,
+    "raytrace_reflections": true,
+    "raytrace_refractions": true,
+    "raytrace_shadows": true,
+    "raytrace_nrsamples_reflections": 3,
+    "raytrace_nrsamples_refractions": 4,
+    "raytrace_nrsamples_shadows": 3,
+    "show_board_body": true,
+    "show_copper_bottom": true,
+    "show_copper_top": true,
+    "show_silkscreen_bottom": true,
+    "show_silkscreen_top": true,
+    "show_soldermask_bottom": true,
+    "show_soldermask_top": true,
+    "show_footprints_normal": true,
+    "show_footprints_insert": true,
+    "show_footprints_not_in_posfile": true
+  }
+}

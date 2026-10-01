@@ -1,0 +1,159 @@
+{
+  "notes": "Edit the values here, then run render.ps1. Choose one of left-bottom, left-top, right-bottom, right-top for tilt_direction.",
+  "kicad": {
+    "executable": "C:/Program Files/KiCad/10.0/bin/kicad-cli.exe",
+    "easyeda_model_library": "~/Documents/Kicad/easyeda2kicad",
+    "quality": "user",
+    "viewer_settings": "kicad-viewer.json"
+  },
+  "camera": {
+    "tilt_direction": "left-bottom",
+    "vertical_tilt_degrees": 35,
+    "horizontal_tilt_degrees": 25,
+    "edge_level_degrees": 16,
+    "zoom": 0.83,
+    "sides": {
+      "TOP": "bottom",
+      "BOTTOM": "top"
+    }
+  },
+  "image": {
+    "pixels_per_short_side": 1200,
+    "background_hex": "#506B5A",
+    "output_directory": "scripts/catalog-render/.work/batch-review"
+  },
+  "board": {
+    "solder_mask_hex_rgba": "#000000B3",
+    "substrate_hex_rgba": "#454950FF"
+  },
+  "lighting": {
+    "top": 0.25,
+    "bottom": 0.25,
+    "side": 0.12,
+    "camera": 0.30,
+    "side_elevation_degrees": 45
+  },
+  "branding": {
+    "enabled": true,
+    "logo_file": "logo.png",
+    "logo_width_px": 240,
+    "corner_padding_px": 22,
+    "badge_padding_px": 12,
+    "badge_color_hex": "#182D26"
+  },
+  "examples": [
+    {
+      "name": "component_potentiometer_slider_THT",
+      "board_file": "puzzle-pieces/component_potentiometer_slider_THT/component_potentiometer_slider_THT.kicad_pcb",
+      "board_width_mm": 80,
+      "board_height_mm": 40,
+      "board_rotation_degrees": 180,
+      "zoom_multiplier": 2.25,
+      "bottom_rotation_degrees": 180,
+      "bottom_zoom_multiplier": 0.95
+    },
+    {
+      "name": "breadboard_grid-2.54mm_1x1",
+      "board_file": "puzzle-pieces/breadboard_grid-2.54mm_1x1/breadboard_grid-2.54mm_1x1.kicad_pcb",
+      "board_width_mm": 40,
+      "board_height_mm": 40
+    },
+    {
+      "name": "breadboard_grid-2.54mm_2x2",
+      "board_file": "puzzle-pieces/breadboard_grid-2.54mm_2x2/breadboard_grid-2.54mm_2x2.kicad_pcb",
+      "board_width_mm": 80,
+      "board_height_mm": 80
+    },
+    {
+      "name": "breadboard_grid-2.54mm_1x2",
+      "board_file": "puzzle-pieces/breadboard_grid-2.54mm_1x2/breadboard_grid-2.54mm_1x2.kicad_pcb",
+      "board_width_mm": 80,
+      "board_height_mm": 40,
+      "zoom_multiplier": 2.25
+    },
+    {
+      "name": "component_capacitor-unpolarized-MLCC_SMT",
+      "board_file": "puzzle-pieces/component_capacitor-unpolarized-MLCC_SMT/component_capacitor-unpolarized-MLCC_SMT.kicad_pcb",
+      "board_width_mm": 40,
+      "board_height_mm": 40,
+      "solder_mask_thickness_mm": 0.01
+    },
+    {
+      "name": "component_charge-pump-inverter",
+      "board_file": "puzzle-pieces/component_charge-pump-inverter/component_charge-pump-inverter.kicad_pcb",
+      "board_width_mm": 40,
+      "board_height_mm": 40,
+      "board_rotation_degrees": 180,
+      "bottom_rotation_degrees": 180
+    },
+    {
+      "name": "component_lamp-E10_screw-socket",
+      "board_file": "puzzle-pieces/component_lamp-E10_screw-socket/component_lamp-E10_screw-socket.kicad_pcb",
+      "board_width_mm": 40,
+      "board_height_mm": 40
+    },
+    {
+      "name": "component_lamp-LED-module_ruggedized",
+      "board_file": "puzzle-pieces/component_lamp-LED-module_ruggedized/component_lamp-LED-module_ruggedized.kicad_pcb",
+      "board_width_mm": 40,
+      "board_height_mm": 40
+    },
+    {
+      "name": "component_mosfet_n-channel_ruggedized",
+      "board_file": "puzzle-pieces/component_mosfet_n-channel_ruggedized/component_mosfet_n-channel_ruggedized.kicad_pcb",
+      "board_width_mm": 40,
+      "board_height_mm": 40
+    },
+    {
+      "name": "component_motor-with-propeller",
+      "board_file": "puzzle-pieces/component_motor-with-propeller/component_motor-with-propeller.kicad_pcb",
+      "board_width_mm": 80,
+      "board_height_mm": 40,
+      "canvas_width_px": 1600,
+      "canvas_height_px": 1400,
+      "zoom_multiplier": 0.75
+    },
+    {
+      "name": "component_potentiometer_high-power",
+      "board_file": "puzzle-pieces/component_potentiometer_high-power/component_potentiometer_high-power.kicad_pcb",
+      "board_width_mm": 80,
+      "board_height_mm": 40,
+      "zoom_multiplier": 1.45,
+      "board_rotation_degrees": 180,
+      "bottom_rotation_degrees": 180
+    },
+    {
+      "name": "component_potentiometer_slider_screw-mounted",
+      "board_file": "puzzle-pieces/component_potentiometer_slider_screw-mounted/component_potentiometer_slider_screw-mounted.kicad_pcb",
+      "board_width_mm": 80,
+      "board_height_mm": 40,
+      "zoom_multiplier": 2.25,
+      "board_rotation_degrees": 180,
+      "bottom_rotation_degrees": 180
+    },
+    {
+      "name": "component_resistor_SMT_top-mount",
+      "board_file": "puzzle-pieces/component_resistor_SMT_top-mount/component_resistor_SMT_top-mount.kicad_pcb",
+      "board_width_mm": 40,
+      "board_height_mm": 40
+    },
+    {
+      "name": "component_resistor_SMT_with-printed-value",
+      "board_file": "puzzle-pieces/component_resistor_SMT_with-printed-value/component_resistor_SMT_with-printed-value.kicad_pcb",
+      "board_width_mm": 40,
+      "board_height_mm": 40
+    },
+    {
+      "name": "component_resistor_THT_3W_with-printed-value",
+      "board_file": "puzzle-pieces/component_resistor_THT_3W_with-printed-value/component_resistor_THT_3W_with-printed-value.kicad_pcb",
+      "board_width_mm": 40,
+      "board_height_mm": 40
+    },
+    {
+      "name": "component_switch-tactile-Normally-Open_THT",
+      "board_file": "puzzle-pieces/component_switch-tactile-Normally-Open_THT/component_switch-tactile-Normally-Open_THT.kicad_pcb",
+      "board_width_mm": 40,
+      "board_height_mm": 40
+    }
+  ]
+}
