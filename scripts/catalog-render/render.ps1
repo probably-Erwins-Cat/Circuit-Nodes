@@ -94,6 +94,18 @@ try {
         $name = $example.name
         $renderBoard = Join-Path $workDir "$name-render-only.kicad_pcb"
         $board = [IO.File]::ReadAllText($source)
+        if ($null -ne $example.hidden_3d_model_references) {
+            $hiddenReferences = @($example.hidden_3d_model_references)
+            $board = [regex]::Replace($board, '(?ms)^\t\(footprint .*?^\t\)', [Text.RegularExpressions.MatchEvaluator]{
+                param($match)
+                $footprint = $match.Value
+                $reference = [regex]::Match($footprint, '\(property "Reference" "([^"]+)"').Groups[1].Value
+                if ($hiddenReferences -contains $reference) {
+                    return [regex]::Replace($footprint, '(?ms)^\t\t\(model .*?^\t\t\)\r?\n', '')
+                }
+                return $footprint
+            })
+        }
         $board = $board -replace '\(color "(?:Black|#000000CC|#000000FF)"\)', ('(color "' + $style.board.solder_mask_hex_rgba + '")')
         $board = $board.Replace('(color "FR4 natural")', ('(color "' + $style.board.substrate_hex_rgba + '")'))
         if ($null -ne $example.solder_mask_thickness_mm) {

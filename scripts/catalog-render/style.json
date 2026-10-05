@@ -43,6 +43,13 @@
   },
   "examples": [
     {
+      "name": "component_capacitor-polarized_ruggedized",
+      "board_file": "puzzle-pieces/component_capacitor-polarized_ruggedized/component_capacitor-polarized_ruggedized.kicad_pcb",
+      "board_width_mm": 40,
+      "board_height_mm": 40,
+      "hidden_3d_model_references": ["C1"]
+    },
+    {
       "name": "component_potentiometer_slider_THT",
       "board_file": "puzzle-pieces/component_potentiometer_slider_THT/component_potentiometer_slider_THT.kicad_pcb",
       "board_width_mm": 80,

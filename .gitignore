@@ -1,57 +1,70 @@
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
+# Shared design inputs belong in Git: .kicad_pcb, .kicad_sch, .kicad_pro,
+# .kicad_dru, custom libraries/models, and populated library tables.
+# Keep released manufacturing ZIPs and catalog PNGs too.
 
-# Temporary files
-*.000
-*.bak
-*.bck
-*.FCBak
-*.kicad_pcb-bak
-*.kicad_sch-bak
-*-backups
+# KiCad local editor state, caches, and open-project locks.
+# These are regenerated and do not describe the shared circuit design.
+*.kicad_prl
+fp-info-cache
+~*.lck
+*.kicad_pcb.lck
+*.kicad_sch.lck
+*.kicad_pro.lck
+
+# KiCad recovery snapshots and autosaves: retain locally, exclude from Git.
+.history/
+*-backups/
 **/backup/
 **/backups/
-*.kicad_prl
-*.history
-
+*.kicad_pcb-bak
+*.kicad_sch-bak
 *.sch-bak
-*~
 _autosave-*
-*.tmp
 *-save.pro
 *-save.kicad_pcb
-fp-info-cache
+*-save.kicad_sch
 
-# Netlist files (exported from Eeschema)
+# Local KiCad plugin preferences. Geometry is saved in the PCB itself.
+*.round-tracks-config
+fabrication-toolkit-options.json
+
+# Reproducible fabrication-toolkit exports, separate from release ZIPs.
+# Scope CSV/XML exclusions to production folders so unrelated data stays visible.
+**/production/*.csv
+**/production/*.xml
+**/production/*.ipc
+
+# Generated netlists and autorouter exchange/session files.
 *.net
-
-# Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
 
-# Exported BOM files
-*.xml
-*.csv
-*-options.json
-*.ipc
+# FreeCAD recovery files; preserve the editable .FCStd source and STEP/STL exports.
+*.FCBak
+*.FCStd[0-9]*
 
-# Jekyll build/cache output
+# General application/editor recovery files.
+*.000
+*.bak
+*.bck
+*.tmp
+*~
+
+# Jekyll generated website and caches; source Markdown and assets stay tracked.
 /_site/
 /.jekyll-cache/
 docs/.jekyll-cache/
 .jekyll-metadata
 .sass-cache/
 
-# Local run logs
-jekyll-local.out.log
-jekyll-local.err.log
+# Local server state and application logs.
+/jekyll-local.pid
 *.log
 
-# OS/editor noise (optional but common)
-.DS_Store
-Thumbs.db
+# Machine-specific editor settings and OS metadata.
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
 
-# FreeCAD extra backup variant (optional)
-*.FCStd1
+# Renderer scratch files are excluded by scripts/catalog-render/.gitignore.

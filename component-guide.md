@@ -27,6 +27,10 @@ The table below lists every component currently available in the repository; cli
       <td><img src="{{ site.baseurl }}/puzzle-pieces/breadboard_grid-2.54mm_2x2/breadboard_grid-2.54mm_2x2_TOP.png" width="140"/><img src="{{ site.baseurl }}/puzzle-pieces/breadboard_grid-2.54mm_2x2/breadboard_grid-2.54mm_2x2_BOTTOM.png" width="140"/></td>
     </tr>
     <tr>
+      <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_capacitor-polarized_ruggedized">Capacitor Polarized Ruggedized</a></td>
+      <td><img src="{{ site.baseurl }}/puzzle-pieces/component_capacitor-polarized_ruggedized/component_capacitor-polarized_ruggedized_TOP.png" width="140"/><img src="{{ site.baseurl }}/puzzle-pieces/component_capacitor-polarized_ruggedized/component_capacitor-polarized_ruggedized_BOTTOM.png" width="140"/></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_capacitor-polarized_THT">Capacitor Polarized THT</a></td>
       <td><img src="{{ site.baseurl }}/puzzle-pieces/component_capacitor-polarized_THT/component_capacitor-polarized_THT_TOP.png" width="140"/><img src="{{ site.baseurl }}/puzzle-pieces/component_capacitor-polarized_THT/component_capacitor-polarized_THT_BOTTOM.png" width="140"/></td>
     </tr>

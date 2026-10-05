@@ -63,6 +63,7 @@ All routine decisions are in `style.json`:
 | `image.background_hex` | Background colour. |
 | `board.solder_mask_hex_rgba` | Board mask colour and opacity; the last two hex digits set opacity. |
 | `examples[].solder_mask_thickness_mm` | Optional render-only mask thickness for boards whose thick stackup mask obscures silkscreen. The MLCC board uses 0.01 mm. |
+| `examples[].hidden_3d_model_references` | Optional component references whose models are hidden in the render-only board copy. Use for overlapping alternative footprints; the ruggedized capacitor shows C2 (SMD) and hides C1 (THT). |
 | `lighting` | Fixed lighting strengths and side light elevation. |
 | `branding.enabled` | Shows or hides a small logo badge in the lower-left image corner. |
 | `branding.logo_file`, `logo_width_px`, `corner_padding_px` | Logo source, size, and placement. Replace the file path when a simpler logo is available. |
