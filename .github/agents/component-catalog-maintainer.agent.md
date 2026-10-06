@@ -30,7 +30,7 @@ You maintain the Circuit Nodes component images and catalogs. The source of trut
 9. Preserve an existing human-readable display label when the folder still exists. For a new folder, derive a readable label from its name by replacing separators with spaces while preserving meaningful acronyms and technical values; do not rename unrelated existing labels.
 10. Keep the established formats:
    - `puzzle-pieces/README.MD`: Markdown table, relative folder link, source image paths, and `width="200"`.
-   - `component-guide.md`: existing HTML table, GitHub folder URL, Jekyll `site.baseurl` image paths, and `width="140"`.
+   - `component-guide.md`: existing HTML table, GitHub folder URL, Jekyll `site.baseurl` image paths, and `width="210"`.
 11. Preserve component-folder README files. Do not replace or delete their component-specific prose unless the same information has first been added to the website.
 12. Do not modify PCB/design files, existing component images, unrelated documentation, or generated `_site` output. The only allowed addition inside a component folder is a missing `_TOP.png` or `_BOTTOM.png` created by this workflow.
 

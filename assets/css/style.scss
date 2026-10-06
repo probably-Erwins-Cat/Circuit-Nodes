@@ -127,17 +127,39 @@ body {
 
 
 /* Component guide table: compact names and side-by-side preview images. */
-#main_content table td {
+#main_content .component-table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+#main_content .component-table td {
   vertical-align: top;
 }
 
-#main_content table td:nth-child(2) {
+#main_content .component-table th:first-child,
+#main_content .component-table td:first-child {
+  width: 25%;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+#main_content .component-table td:nth-child(2) {
   white-space: nowrap;
 }
 
-#main_content table td:nth-child(2) img {
+#main_content .component-table td:nth-child(2) img {
   display: inline-block;
   margin: 0 8px 0 0;
-  width: 140px;
+  width: 210px;
   height: auto;
+}
+
+@media (max-width: 700px) {
+  #main_content .component-table td:nth-child(2) {
+    white-space: normal;
+  }
+
+  #main_content .component-table td:nth-child(2) img {
+    max-width: 100%;
+  }
 }
