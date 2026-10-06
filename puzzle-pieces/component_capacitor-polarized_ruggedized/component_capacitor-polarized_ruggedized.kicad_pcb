@@ -1961,7 +1961,7 @@
 				)
 			)
 		)
-		(property "Value" "1MΩ"
+		(property "Value" "1MΩ+"
 			(at 0 1.83 90)
 			(layer "F.Fab")
 			(uuid "0bb6b5ad-0d3a-49f5-a38a-16091b58c6e9")
@@ -2003,6 +2003,19 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C7250"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de7c4d79-191b-4e7f-a8a3-3a17fb800d61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.005)
 				)
 			)
 		)

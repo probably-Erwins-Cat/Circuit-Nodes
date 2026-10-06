@@ -1918,7 +1918,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1MΩ"
+		(property "Value" "1MΩ+"
 			(at 110.49 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1952,6 +1952,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 107.95 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7250"
 			(at 107.95 44.45 0)
 			(hide yes)
 			(show_name no)
