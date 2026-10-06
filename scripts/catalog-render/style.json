@@ -24,7 +24,8 @@
   },
   "board": {
     "solder_mask_hex_rgba": "#000000B3",
-    "substrate_hex_rgba": "#454950FF"
+    "substrate_hex_rgba": "#454950FF",
+    "silkscreen_hex_rgba": "#FFFFFFFF"
   },
   "lighting": {
     "top": 0.25,
@@ -47,7 +48,7 @@
       "board_file": "puzzle-pieces/component_capacitor-polarized_ruggedized/component_capacitor-polarized_ruggedized.kicad_pcb",
       "board_width_mm": 40,
       "board_height_mm": 40,
-      "hidden_3d_model_references": ["C1"]
+      "hidden_3d_model_files": ["CP_Radial_D8.0mm_P5.00mm.step"]
     },
     {
       "name": "component_potentiometer_slider_THT",

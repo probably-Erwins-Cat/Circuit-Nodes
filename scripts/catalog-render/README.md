@@ -5,6 +5,10 @@ human-editable design brief; `render.ps1` applies it; `kicad-viewer.json` holds
 the KiCad raytracer settings. Review renders go to the ignored
 `scripts/catalog-render/.work/batch-review/` directory.
 
+See [PALETTE.md](PALETTE.md) for the shared color language. The renderer overrides
+source mask, silkscreen, and dielectric colors in its temporary copy, including
+layers without explicit colors. Every board uses the same catalog palette.
+
 From the repository root on Windows:
 
 ```powershell
@@ -49,6 +53,10 @@ transparent renders, and the isolated KiCad configuration live in `scripts/catal
 and are ignored by Git. The renderer does not modify the PCB source files or
 the current catalog images under `puzzle-pieces/`.
 
+The render command explicitly passes `--use-board-stackup-colors` so KiCad applies
+the black solder mask and substrate colors from `style.json` to the render-only
+board copy, rather than using the appearance preset's default green colors.
+
 ## Edit the appearance
 
 All routine decisions are in `style.json`:
@@ -63,7 +71,8 @@ All routine decisions are in `style.json`:
 | `image.background_hex` | Background colour. |
 | `board.solder_mask_hex_rgba` | Board mask colour and opacity; the last two hex digits set opacity. |
 | `examples[].solder_mask_thickness_mm` | Optional render-only mask thickness for boards whose thick stackup mask obscures silkscreen. The MLCC board uses 0.01 mm. |
-| `examples[].hidden_3d_model_references` | Optional component references whose models are hidden in the render-only board copy. Use for overlapping alternative footprints; the ruggedized capacitor shows C2 (SMD) and hides C1 (THT). |
+| `examples[].hidden_3d_model_references` | Optional component references whose models are hidden in the render-only board copy. Use for overlapping alternative footprints. |
+| `examples[].hidden_3d_model_files` | Optional model filenames to hide in the render-only board copy. The ruggedized capacitor uses this to hide its THT model while showing the SMD model on the combined footprint. |
 | `lighting` | Fixed lighting strengths and side light elevation. |
 | `branding.enabled` | Shows or hides a small logo badge in the lower-left image corner. |
 | `branding.logo_file`, `logo_width_px`, `corner_padding_px` | Logo source, size, and placement. Replace the file path when a simpler logo is available. |

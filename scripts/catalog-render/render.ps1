@@ -94,6 +94,15 @@ try {
         $name = $example.name
         $renderBoard = Join-Path $workDir "$name-render-only.kicad_pcb"
         $board = [IO.File]::ReadAllText($source)
+        if ($null -ne $example.hidden_3d_model_files) {
+            $hiddenModelFiles = @($example.hidden_3d_model_files)
+            $board = [regex]::Replace($board, '(?ms)^\t\t\(model "([^"]+)".*?^\t\t\)\r?\n', [Text.RegularExpressions.MatchEvaluator]{
+                param($match)
+                $modelFile = ($match.Groups[1].Value -split '[/\\]')[-1]
+                if ($hiddenModelFiles -contains $modelFile) { return '' }
+                return $match.Value
+            })
+        }
         if ($null -ne $example.hidden_3d_model_references) {
             $hiddenReferences = @($example.hidden_3d_model_references)
             $board = [regex]::Replace($board, '(?ms)^\t\(footprint .*?^\t\)', [Text.RegularExpressions.MatchEvaluator]{
@@ -106,8 +115,21 @@ try {
                 return $footprint
             })
         }
-        $board = $board -replace '\(color "(?:Black|#000000CC|#000000FF)"\)', ('(color "' + $style.board.solder_mask_hex_rgba + '")')
-        $board = $board.Replace('(color "FR4 natural")', ('(color "' + $style.board.substrate_hex_rgba + '")'))
+        # Normalize render-only stackup layers regardless of their source colors.
+        $board = [regex]::Replace($board, '(?ms)^\t\t\t\(layer "([^"]+)".*?^\t\t\t\)', [Text.RegularExpressions.MatchEvaluator]{
+            param($match)
+            $layer = $match.Groups[1].Value
+            $color = if ($layer -match '^[FB]\.Mask$') { $style.board.solder_mask_hex_rgba }
+                elseif ($layer -match '^[FB]\.SilkS$') { $style.board.silkscreen_hex_rgba }
+                elseif ($layer -match '^dielectric ') { $style.board.substrate_hex_rgba }
+                else { $null }
+            if (-not $color) { return $match.Value }
+            $colorEntry = '(color "' + $color + '")'
+            if ($match.Value -match '\(color "[^"]*"\)') {
+                return [regex]::Replace($match.Value, '\(color "[^"]*"\)', $colorEntry)
+            }
+            return $match.Value -replace '(\(layer "[^"]+"\r?\n)', ('$1' + "`t`t`t`t" + $colorEntry + "`n")
+        })
         if ($null -ne $example.solder_mask_thickness_mm) {
             $maskThickness = Invariant-Number $example.solder_mask_thickness_mm
             $maskPattern = '(\(layer "[FB]\.Mask"\s+\(type "[^"]+"\)\s+\(color "[^"]+"\)\s+\(thickness )[-\d.]+(\))'
@@ -145,7 +167,7 @@ try {
             $imagePath = Join-Path $outputDir "${name}_$face.png"
             $renderArgs = @('pcb', 'render', '--output', $transparentPath, '--width', "$width", '--height', "$height",
                 '--side', $side, '--rotate', $rotation, '--zoom', (Invariant-Number $zoom),
-                '--background', 'transparent', '--quality', $style.kicad.quality,
+                '--background', 'transparent', '--quality', $style.kicad.quality, '--use-board-stackup-colors',
                 '--light-top', (Invariant-Number $lighting.top), '--light-bottom', (Invariant-Number $lighting.bottom),
                 '--light-side', (Invariant-Number $lighting.side), '--light-camera', (Invariant-Number $lighting.camera),
                 '--light-side-elevation', [string]$lighting.side_elevation_degrees, $renderBoard)

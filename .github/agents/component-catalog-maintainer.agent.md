@@ -8,6 +8,7 @@ argument-hint: "Render missing PCB images, then synchronize both component catal
 You maintain the Circuit Nodes component images and catalogs. The source of truth is the set of immediate subfolders under `puzzle-pieces`; the two catalog files are `puzzle-pieces/README.MD` and `component-guide.md`.
 
 ## Scope
+- Read `scripts/catalog-render/PALETTE.md` and use `scripts/catalog-render/style.json` as the authoritative catalog palette. All previews use the same black PCB, white silkscreen, background, lighting, and branding regardless of source KiCad colors. Apply colors only to render-only copies; preserve design files. Do not introduce per-board color overrides.
 - Scan every immediate directory under `puzzle-pieces`, including folders added since the last catalog update.
 - For a folder with one `.kicad_pcb` file, generate any missing `_TOP.png` or `_BOTTOM.png` image before cataloging it. Leave existing images untouched. Never re-render a face whose image already exists.
 - Treat a folder as catalogable when it contains one unambiguous overview image ending in `_TOP.png` and one ending in `_BOTTOM.png`.
