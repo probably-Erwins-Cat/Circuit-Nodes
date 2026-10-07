@@ -103,8 +103,8 @@ silkscreen, correct orientation, sufficient margins, and size relative to the
 same-aspect-ratio reference. Correct any per-board rotation or KiCad zoom in
 the config.
 
-The current checkout has PCB sources for 17 puzzle-piece folders. The other
-36 folders, including the end-node and wire pieces, have images but no
+The current checkout has PCB sources for 18 puzzle-piece folders. The other
+35 folders, including the end-node and wire pieces, have images but no
 `.kicad_pcb` source here. They cannot be regenerated until their PCB files
 and any external 3D model libraries are available. Existing published images
 are only replaced during an explicit migration, never by the missing-image

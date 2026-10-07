@@ -35,10 +35,6 @@ The table below lists every component currently available in the repository; cli
       <td><img src="{{ site.baseurl }}/puzzle-pieces/component_capacitor-polarized_ruggedized_replacable/component_capacitor-polarized_ruggedized_replacable_TOP.png" width="210"/><img src="{{ site.baseurl }}/puzzle-pieces/component_capacitor-polarized_ruggedized_replacable/component_capacitor-polarized_ruggedized_replacable_BOTTOM.png" width="210"/></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_capacitor-polarized_THT_replacable_SMT">Capacitor Polarized THT Replacable SMT</a></td>
-      <td><img src="{{ site.baseurl }}/puzzle-pieces/component_capacitor-polarized_THT_replacable_SMT/component_capacitor_THT_2.5mm-spacing_replacable_SMT_TOP.png" width="210"/><img src="{{ site.baseurl }}/puzzle-pieces/component_capacitor-polarized_THT_replacable_SMT/component_capacitor_THT_2.5mm-spacing_replacable_SMT_BOTTOM.png" width="210"/></td>
-    </tr>
-    <tr>
       <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_capacitor-unpolarized-MLCC_SMT">Capacitor Unpolarized MLCC SMT</a></td>
       <td><img src="{{ site.baseurl }}/puzzle-pieces/component_capacitor-unpolarized-MLCC_SMT/component_capacitor-unpolarized-MLCC_SMT_TOP.png" width="210"/><img src="{{ site.baseurl }}/puzzle-pieces/component_capacitor-unpolarized-MLCC_SMT/component_capacitor-unpolarized-MLCC_SMT_BOTTOM.png" width="210"/></td>
     </tr>
