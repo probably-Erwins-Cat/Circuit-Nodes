@@ -58,6 +58,15 @@ $outputDir = Resolve-RepoPath $style.image.output_directory $repo
 $viewerSettings = Join-Path $PSScriptRoot $style.kicad.viewer_settings
 if (-not (Test-Path -LiteralPath $kicadCli)) { throw "KiCad CLI missing: $kicadCli" }
 if (-not (Test-Path -LiteralPath $viewerSettings)) { throw "Viewer settings missing: $viewerSettings" }
+$viewer = Get-Content -LiteralPath $viewerSettings -Raw | ConvertFrom-Json
+$catalogPreset = @($viewer.layer_presets | Where-Object { $_.name -eq 'Circuit Nodes catalog' })
+if ($catalogPreset.Count -ne 1) { throw 'Exactly one Circuit Nodes catalog layer preset is required.' }
+foreach ($requiredMaterial in @('', 'copper', 'copper_bottom', 'solderpaste', 'plated_barrels')) {
+    $material = @($catalogPreset[0].colors | Where-Object { $_.layer -eq $requiredMaterial })
+    if ($material.Count -ne 1 -or -not $material[0].color -or $material[0].color -match '^rgb\(0,\s*0,\s*0\)$') {
+        throw "Catalog metallic material '$requiredMaterial' needs an explicit non-black color in kicad-viewer.json."
+    }
+}
 if ($style.branding.enabled -and -not (Test-Path -LiteralPath $logoPath)) {
     throw "Logo missing: $logoPath"
 }
@@ -167,7 +176,8 @@ try {
             $imagePath = Join-Path $outputDir "${name}_$face.png"
             $renderArgs = @('pcb', 'render', '--output', $transparentPath, '--width', "$width", '--height', "$height",
                 '--side', $side, '--rotate', $rotation, '--zoom', (Invariant-Number $zoom),
-                '--background', 'transparent', '--quality', $style.kicad.quality, '--use-board-stackup-colors',
+                '--background', 'transparent', '--quality', $style.kicad.quality,
+                '--preset', 'Circuit Nodes catalog', '--use-board-stackup-colors',
                 '--light-top', (Invariant-Number $lighting.top), '--light-bottom', (Invariant-Number $lighting.bottom),
                 '--light-side', (Invariant-Number $lighting.side), '--light-camera', (Invariant-Number $lighting.camera),
                 '--light-side-elevation', [string]$lighting.side_elevation_degrees, $renderBoard)

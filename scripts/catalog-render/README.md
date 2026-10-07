@@ -8,6 +8,10 @@ the KiCad raytracer settings. Review renders go to the ignored
 See [PALETTE.md](PALETTE.md) for the shared color language. The renderer overrides
 source mask, silkscreen, and dielectric colors in its temporary copy, including
 layers without explicit colors. Every board uses the same catalog palette.
+The fixed `Circuit Nodes catalog` preset in `kicad-viewer.json` enables both
+copper layers independently of source fabrication plot settings, preserving
+their visibility through the translucent mask. Inspect this on both faces
+before publishing.
 
 From the repository root on Windows:
 

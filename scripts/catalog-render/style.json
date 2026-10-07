@@ -44,6 +44,12 @@
   },
   "examples": [
     {
+      "name": "component_capacitor-polarized_ruggedized_replacable",
+      "board_file": "puzzle-pieces/component_capacitor-polarized_ruggedized_replacable/component_capacitor-polarized_ruggedized_replacable.kicad_pcb",
+      "board_width_mm": 40,
+      "board_height_mm": 40
+    },
+    {
       "name": "component_capacitor-polarized_ruggedized",
       "board_file": "puzzle-pieces/component_capacitor-polarized_ruggedized/component_capacitor-polarized_ruggedized.kicad_pcb",
       "board_width_mm": 40,

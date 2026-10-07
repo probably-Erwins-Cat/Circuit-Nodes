@@ -1,6 +1,30 @@
 {
   "meta": { "version": 4 },
   "use_stackup_colors": true,
+  "layer_presets": [
+    {
+      "name": "Circuit Nodes catalog",
+      "colors": [
+        { "layer": "", "color": "rgb(194, 194, 194)" },
+        { "layer": "background_bottom", "color": "rgb(80, 107, 90)" },
+        { "layer": "background_top", "color": "rgb(80, 107, 90)" },
+        { "layer": "board", "color": "rgb(69, 73, 80)" },
+        { "layer": "copper", "color": "rgb(191, 156, 59)" },
+        { "layer": "copper_bottom", "color": "rgb(191, 156, 59)" },
+        { "layer": "silkscreen_bottom", "color": "rgb(255, 255, 255)" },
+        { "layer": "silkscreen_top", "color": "rgb(255, 255, 255)" },
+        { "layer": "soldermask_bottom", "color": "rgba(0, 0, 0, 0.702)" },
+        { "layer": "soldermask_top", "color": "rgba(0, 0, 0, 0.702)" },
+        { "layer": "solderpaste", "color": "rgb(128, 128, 128)" },
+        { "layer": "user_comments", "color": "rgb(217, 217, 217)" },
+        { "layer": "user_drawings", "color": "rgb(217, 217, 217)" },
+        { "layer": "user_eco1", "color": "rgb(179, 26, 26)" },
+        { "layer": "user_eco2", "color": "rgb(179, 26, 26)" },
+        { "layer": "plated_barrels", "color": "rgb(194, 194, 194)" }
+      ],
+      "layers": ["board", "copper", "copper_bottom", "silkscreen_top", "silkscreen_bottom", "soldermask_top", "soldermask_bottom", "solderpaste", "th_models", "smd_models", "virtual_models", "plated_barrels"]
+    }
+  ],
   "render": {
     "raytrace_anti_aliasing": true,
     "raytrace_backfloor": false,
