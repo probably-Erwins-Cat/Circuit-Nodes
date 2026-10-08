@@ -1,22 +1,36 @@
-
 # Unpolarized capacitor (MLCC SMT)
 
-An unpolarized capacitor is agnostic of the applied voltage polarity and stores electrical energy and releases it when needed. It is commonly used for smoothing supply voltages, filtering signals, and temporary energy storage. 
+This node uses parallel multilayer ceramic capacitors (MLCCs) for charge storage, filtering, and RC or "slow AC" experiments. Either terminal can be positive.
 
-Multi-layer ceramic capacitors (MLCCs) are unpolarized and come with a few pros and cons compared to polar electrolytic capacitors. Being unpolar is a huge upside in educational settings – they cannot be connected wrong and no explosion risk – but usually require many capacitors in parallel for high capacitance and can show aging on decade-long time scales.
+<img src="component_capacitor-unpolarized-MLCC_SMT_TOP.png" alt="Unpolarized MLCC capacitor diagram face" width="400"> <img src="component_capacitor-unpolarized-MLCC_SMT_BOTTOM.png" alt="Unpolarized MLCC capacitor component face" width="400">
 
-<img src="component_capacitor-unpolarized-MLCC_SMT_TOP.png" alt="Polarized capacitor top view" width="400"> <img src="component_capacitor-unpolarized-MLCC_SMT_BOTTOM.png" alt="Polarized capacitor bottom view" width="400">
+## Capacitance and assembly
 
-## Capacitance and Soldering Remarks
+The silkscreen specifies **1206, 10–22 µF, 25 V** capacitors. There are 25 parallel positions; populate fewer positions if less capacitance is needed. Empty capacitor positions require no bridges.
+The footprints allow hand soldering, but a stencil and reflow process make a fully populated bank much easier to assemble. Fewer populated positions also reduce manual work.
 
-The capacitance of parallel capacitors is additive. MLCCs capacitance is DC voltage bias; the higher the DC voltage applied, the lower the effective capacitance gets, relative to the given voltage rating. Further, physically larger capacitors typically have thicker dielectric are are preferred. Lastly, the price per capacitor is increasing non-linearly with its quality. Thus, the recommended capcitors are **1206 22µF 25V**.
+| Population | Nominal total capacitance |
+| --- | --- |
+| 25 × 10 µF | 250 µF |
+| 25 × 22 µF | 550 µF |
 
-Soldering many MLCCs is teadious with a soldering iron! While the component size and spacing is wide enough for a soldering iron, this puzzle piece benefits highly when soldering via a hot plate, i.e. **reflow soldering**. 
 
-## Safety Features
+## Series resistor: 0–10 Ω
 
-This PCB is ruggedized, i.e. some safety features are included to prevent potential misuse in school settings.
+R1 is marked **0–10 Ω**. **10 Ω is the default** to limit connection and charging-current peaks. This resistor does not provide complete fault protection, only current limiting
 
-- *In-series resistor*: limiting the charging current to reasonable values that can be handled by the magentic connectors, traces and power supplies
-- *bleed resistor*: very slowly discharging the capacitor array when no supply is connected
-- *ESD protective diode*: protection "Human Body Model" (HBM) ESD event, up to ±8 kV contact discharge, very fast rise time (ns), low total energy, very high peak current
+Fit a **0 Ω link** when bypassing the resistor is appropriate for the experiment, with current limiting provided elsewhere. Leaving R1 unpopulated disconnects the capacitor bank.
+
+For the nominal 550 µF bank, capacitive reactance is approximately 300 Ω at 1 Hz and 3 kΩ at 0.1 Hz. A 10 Ω series resistor therefore has little influence on slow sinusoidal experiments. Abrupt square-wave transitions can still cause current peaks.
+
+## Bleeder resistor: 1 MΩ or greater
+
+R2 is marked **1 MΩ+**, meaning a bleeder resistance of **1 MΩ or greater**. 
+
+Choose the fitted resistance to balance discharge time against loading of the experiment. With the nominal 550 µF bank, the resistor-only time constant `τ = RC` is about **550 seconds at 1 MΩ** or **5,500 seconds at 10 MΩ**. These are gradual discharge paths, not immediate discharge. The capacitors and TVS have also tiny internal leaking paths, so the effective bleed resistance is likely approx. 0.5–2 MΩ.
+
+## Transient protection and operating notes
+
+D1, marked **TVS**, is the bidirectional ESD protection device , e.g. Nexperia **PESD1IVN24-A**. It suppresses brief transients; it is not a regulator or protection against sustained overvoltage.
+
+Use voltages within the ratings of the fitted parts and limit source current. Disconnect the supply and check the terminal voltage before changing connections or handling the board. Avoid shorting the charged bank.

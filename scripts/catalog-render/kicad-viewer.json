@@ -22,7 +22,7 @@
         { "layer": "user_eco2", "color": "rgb(179, 26, 26)" },
         { "layer": "plated_barrels", "color": "rgb(194, 194, 194)" }
       ],
-      "layers": ["board", "copper", "copper_bottom", "silkscreen_top", "silkscreen_bottom", "soldermask_top", "soldermask_bottom", "solderpaste", "th_models", "smd_models", "virtual_models", "plated_barrels"]
+      "layers": ["fp_text", "fp_values", "board", "copper", "copper_bottom", "silkscreen_top", "silkscreen_bottom", "soldermask_top", "soldermask_bottom", "solderpaste", "th_models", "smd_models", "virtual_models", "plated_barrels"]
     }
   ],
   "render": {
