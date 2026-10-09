@@ -44,6 +44,12 @@
   },
   "examples": [
     {
+      "name": "component_diode_general_silicon",
+      "board_file": "puzzle-pieces/component_diode_general_silicon/component_diode_general_silicon.kicad_pcb",
+      "board_width_mm": 40,
+      "board_height_mm": 40
+    },
+    {
       "name": "component_capacitor-polarized_ruggedized_replacable",
       "board_file": "puzzle-pieces/component_capacitor-polarized_ruggedized_replacable/component_capacitor-polarized_ruggedized_replacable.kicad_pcb",
       "board_width_mm": 40,
@@ -53,8 +59,7 @@
       "name": "component_capacitor-polarized_ruggedized",
       "board_file": "puzzle-pieces/component_capacitor-polarized_ruggedized/component_capacitor-polarized_ruggedized.kicad_pcb",
       "board_width_mm": 40,
-      "board_height_mm": 40,
-      "hidden_3d_model_files": ["CP_Radial_D8.0mm_P5.00mm.step"]
+      "board_height_mm": 40
     },
     {
       "name": "component_potentiometer_slider_THT",

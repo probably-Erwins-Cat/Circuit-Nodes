@@ -39,6 +39,7 @@ ignored board copy, inserting missing color entries when needed. It explicitly
 enables KiCad stackup colors. Source PCB files remain unchanged.
 
 Keep the camera, lighting, canvas sizing, and branding settings in `style.json`.
-Per-board framing and model-visibility adjustments are allowed; color variation
+All source-board models must remain visible, including alternative assembly parts.
+Explain either/or assembly in bold README text. Per-board framing adjustments are allowed; color variation
 is not. Inspect both faces against the established references before publishing.
 Any future palette change should be a deliberate catalog-wide migration.

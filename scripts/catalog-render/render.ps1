@@ -103,27 +103,7 @@ try {
         $name = $example.name
         $renderBoard = Join-Path $workDir "$name-render-only.kicad_pcb"
         $board = [IO.File]::ReadAllText($source)
-        if ($null -ne $example.hidden_3d_model_files) {
-            $hiddenModelFiles = @($example.hidden_3d_model_files)
-            $board = [regex]::Replace($board, '(?ms)^\t\t\(model "([^"]+)".*?^\t\t\)\r?\n', [Text.RegularExpressions.MatchEvaluator]{
-                param($match)
-                $modelFile = ($match.Groups[1].Value -split '[/\\]')[-1]
-                if ($hiddenModelFiles -contains $modelFile) { return '' }
-                return $match.Value
-            })
-        }
-        if ($null -ne $example.hidden_3d_model_references) {
-            $hiddenReferences = @($example.hidden_3d_model_references)
-            $board = [regex]::Replace($board, '(?ms)^\t\(footprint .*?^\t\)', [Text.RegularExpressions.MatchEvaluator]{
-                param($match)
-                $footprint = $match.Value
-                $reference = [regex]::Match($footprint, '\(property "Reference" "([^"]+)"').Groups[1].Value
-                if ($hiddenReferences -contains $reference) {
-                    return [regex]::Replace($footprint, '(?ms)^\t\t\(model .*?^\t\t\)\r?\n', '')
-                }
-                return $footprint
-            })
-        }
+        # Preserve every source model, including alternative assembly parts.
         # Normalize render-only stackup layers regardless of their source colors.
         $board = [regex]::Replace($board, '(?ms)^\t\t\t\(layer "([^"]+)".*?^\t\t\t\)', [Text.RegularExpressions.MatchEvaluator]{
             param($match)

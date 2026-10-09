@@ -43,8 +43,8 @@ The table below lists every component currently available in the repository; cli
       <td><img src="{{ site.baseurl }}/puzzle-pieces/component_charge-pump-inverter/component_charge-pump-inverter_TOP.png" width="210"/><img src="{{ site.baseurl }}/puzzle-pieces/component_charge-pump-inverter/component_charge-pump-inverter_BOTTOM.png" width="210"/></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_diode_THT">Diode THT</a></td>
-      <td><img src="{{ site.baseurl }}/puzzle-pieces/component_diode_THT/component_diode_THT_TOP.png" width="210"/><img src="{{ site.baseurl }}/puzzle-pieces/component_diode_THT/component_diode_THT_BOTTOM.png" width="210"/></td>
+      <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_diode_general_silicon">Diode General Silicon</a></td>
+      <td><img src="{{ site.baseurl }}/puzzle-pieces/component_diode_general_silicon/component_diode_general_silicon_TOP.png" width="210"/><img src="{{ site.baseurl }}/puzzle-pieces/component_diode_general_silicon/component_diode_general_silicon_BOTTOM.png" width="210"/></td>
     </tr>
     <tr>
       <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_diode-Zener_THT">Diode Zener THT</a></td>

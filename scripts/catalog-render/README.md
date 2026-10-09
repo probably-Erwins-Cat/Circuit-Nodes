@@ -75,8 +75,6 @@ All routine decisions are in `style.json`:
 | `image.background_hex` | Background colour. |
 | `board.solder_mask_hex_rgba` | Board mask colour and opacity; the last two hex digits set opacity. |
 | `examples[].solder_mask_thickness_mm` | Optional render-only mask thickness for boards whose thick stackup mask obscures silkscreen. The MLCC board uses 0.01 mm. |
-| `examples[].hidden_3d_model_references` | Optional component references whose models are hidden in the render-only board copy. Use for overlapping alternative footprints. |
-| `examples[].hidden_3d_model_files` | Optional model filenames to hide in the render-only board copy. The ruggedized capacitor uses this to hide its THT model while showing the SMD model on the combined footprint. |
 | `lighting` | Fixed lighting strengths and side light elevation. |
 | `branding.enabled` | Shows or hides a small logo badge in the lower-left image corner. |
 | `branding.logo_file`, `logo_width_px`, `corner_padding_px` | Logo source, size, and placement. Replace the file path when a simpler logo is available. |
@@ -103,8 +101,8 @@ silkscreen, correct orientation, sufficient margins, and size relative to the
 same-aspect-ratio reference. Correct any per-board rotation or KiCad zoom in
 the config.
 
-The current checkout has PCB sources for 18 puzzle-piece folders. The other
-35 folders, including the end-node and wire pieces, have images but no
+The current checkout has PCB sources for 19 puzzle-piece folders. The other
+34 folders, including the end-node and wire pieces, have images but no
 `.kicad_pcb` source here. They cannot be regenerated until their PCB files
 and any external 3D model libraries are available. Existing published images
 are only replaced during an explicit migration, never by the missing-image

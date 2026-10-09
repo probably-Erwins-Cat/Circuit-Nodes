@@ -17,6 +17,8 @@ You maintain the Circuit Nodes component images and catalogs. The source of trut
 - Do not inspect nested folders as separate components.
 - Keep the two catalogs synchronized with the same component set and the same canonical folder-name order.
 
+- Show every source-board 3D model, including mutually exclusive assembly alternatives. Never hide parts to select an assembly option, even when alternative models overlap. Explain the either/or assembly relation in a bold component README note; the catalog image must show all parts. Keep the shared corporate design fixed across nodes.
+
 ## Workflow
 1. Read both catalog files and inspect the source folders, PCB files, and overview images. Run `powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/catalog-render/publish-missing.ps1 -DryRun` to list missing faces without launching KiCad.
 2. For each folder with one PCB and a missing face, add exactly one entry to `scripts/catalog-render/style.json` whose `name` is the folder name, `board_file` is the sole PCB file, and `board_width_mm` and `board_height_mm` are the physical outline dimensions (usually 40 x 40, 80 x 40, or 80 x 80 mm). Determine dimensions from the board outline or trustworthy design documentation; do not guess from the folder name alone. Use the established camera, colors, lighting, and branding. Add per-board rotation or zoom overrides only when the preview needs them. If there are multiple PCBs or uncertain dimensions, report the folder instead of rendering it.
