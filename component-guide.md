@@ -63,7 +63,7 @@ The table below lists every component currently available in the repository; cli
       <td><img src="{{ site.baseurl }}/puzzle-pieces/component_lamp-E10_screw-socket/component_lamp-E10_screw-socket_TOP.png" width="210"/><img src="{{ site.baseurl }}/puzzle-pieces/component_lamp-E10_screw-socket/component_lamp-E10_screw-socket_BOTTOM.png" width="210"/></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_lamp-E10_THT">Lamp E10 THT</a></td>
+      <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_lamp-E10_THT">Lamp E10 THT (Solder Socket)</a></td>
       <td><img src="{{ site.baseurl }}/puzzle-pieces/component_lamp-E10_THT/component_lamp-E10_THT_TOP.png" width="210"/><img src="{{ site.baseurl }}/puzzle-pieces/component_lamp-E10_THT/component_lamp-E10_THT_BOTTOM.png" width="210"/></td>
     </tr>
     <tr>

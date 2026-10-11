@@ -1,0 +1,7 @@
+(footprint "SolderHole_D2.1mm_OD3.9mm"
+ (version 20260206) (generator "pcbnew") (layer "F.Cu")
+ (descr "Generic E10 socket solder terminal; 2.1 mm drill, 3.9 mm pad") (attr through_hole)
+ (property "Reference" "REF**" (at 0 -3 0) (layer "F.SilkS") (hide yes) (effects (font (size 1 1) (thickness 0.15))))
+ (property "Value" "SolderHole_D2.1mm_OD3.9mm" (at 0 3 0) (layer "F.Fab") (hide yes) (effects (font (size 1 1) (thickness 0.15))))
+ (pad "1" thru_hole circle (at 0 0) (size 3.9 3.9) (drill 2.1) (layers "*.Cu" "*.Mask"))
+)

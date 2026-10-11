@@ -44,6 +44,12 @@
   },
   "examples": [
     {
+      "name": "component_lamp-E10_THT",
+      "board_file": "puzzle-pieces/component_lamp-E10_THT/component_lamp-E10_THT.kicad_pcb",
+      "board_width_mm": 40,
+      "board_height_mm": 40
+    },
+    {
       "name": "component_fuse-PolyFuse",
       "board_file": "puzzle-pieces/component_fuse-PolyFuse/component_fuse-PolyFuse.kicad_pcb",
       "board_width_mm": 40,
