@@ -44,6 +44,12 @@
   },
   "examples": [
     {
+      "name": "component_diode_zener",
+      "board_file": "puzzle-pieces/component_diode_zener/component_diode_zener.kicad_pcb",
+      "board_width_mm": 40,
+      "board_height_mm": 40
+    },
+    {
       "name": "component_diode_general_silicon",
       "board_file": "puzzle-pieces/component_diode_general_silicon/component_diode_general_silicon.kicad_pcb",
       "board_width_mm": 40,
