@@ -44,6 +44,12 @@
   },
   "examples": [
     {
+      "name": "component_fuse-PolyFuse",
+      "board_file": "puzzle-pieces/component_fuse-PolyFuse/component_fuse-PolyFuse.kicad_pcb",
+      "board_width_mm": 40,
+      "board_height_mm": 40
+    },
+    {
       "name": "component_diode_zener",
       "board_file": "puzzle-pieces/component_diode_zener/component_diode_zener.kicad_pcb",
       "board_width_mm": 40,

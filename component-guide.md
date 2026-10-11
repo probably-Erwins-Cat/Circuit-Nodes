@@ -51,8 +51,8 @@ The table below lists every component currently available in the repository; cli
       <td><img src="{{ site.baseurl }}/puzzle-pieces/component_diode_zener/component_diode_zener_TOP.png" width="210"/><img src="{{ site.baseurl }}/puzzle-pieces/component_diode_zener/component_diode_zener_BOTTOM.png" width="210"/></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_fuse-PolyFuse_SMT">Fuse Polyfuse SMT</a></td>
-      <td><img src="{{ site.baseurl }}/puzzle-pieces/component_fuse-PolyFuse_SMT/component_fuse-PolyFuse_SMT_TOP.png" width="210"/><img src="{{ site.baseurl }}/puzzle-pieces/component_fuse-PolyFuse_SMT/component_fuse-PolyFuse_SMT_BOTTOM.png" width="210"/></td>
+      <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_fuse-PolyFuse">Fuse Polyfuse (SMT or THT)</a></td>
+      <td><img src="{{ site.baseurl }}/puzzle-pieces/component_fuse-PolyFuse/component_fuse-PolyFuse_TOP.png" width="210"/><img src="{{ site.baseurl }}/puzzle-pieces/component_fuse-PolyFuse/component_fuse-PolyFuse_BOTTOM.png" width="210"/></td>
     </tr>
     <tr>
       <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_inductance_THT">Inductance THT</a></td>

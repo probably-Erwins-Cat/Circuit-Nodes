@@ -94,6 +94,16 @@ keep rear text upright and the board within the frame.
 
 ## Handoff for a future catalog agent
 
+For LCSC imports, import the complete part (symbol, footprint, and available
+STEP/VRML models) into the shared `easyeda2kicad` library. Keep library and
+directory names lowercase and match path-variable case to the user's KiCad
+configuration; this machine uses `${EASYEDA2KICAD}`. When using an imported
+part, link its symbol's Footprint field to `easyeda2kicad:<footprint-name>`
+and register the shared symbol and footprint libraries in the project's
+library tables. Check the imported pads against the datasheet; they can
+differ from KiCad's standard footprints. Preserve existing library entries
+and keep models out of individual circuit-node folders.
+
 Read `style.json` as the rendering specification. Add each new board to its
 `examples` array with the source `.kicad_pcb` path, dimensions in millimetres,
 and a stable output name. Render it, inspect for missing 3D models, readable
@@ -101,8 +111,8 @@ silkscreen, correct orientation, sufficient margins, and size relative to the
 same-aspect-ratio reference. Correct any per-board rotation or KiCad zoom in
 the config.
 
-The current checkout has PCB sources for 20 puzzle-piece folders. The other
-33 folders, including the end-node and wire pieces, have images but no
+The current checkout has PCB sources for 21 puzzle-piece folders. The other
+32 folders, including the end-node and wire pieces, have images but no
 `.kicad_pcb` source here. They cannot be regenerated until their PCB files
 and any external 3D model libraries are available. Existing published images
 are only replaced during an explicit migration, never by the missing-image
