@@ -1,6 +1,6 @@
-# Zener diode (THT or SMT)
+# Zener diode
 
-A Zener diode conducts in reverse once its breakdown voltage is reached. This node supports voltage-regulation, reference, and clipping experiments.
+A Zener diode conducts in reverse once its breakdown voltage is reached. In contrast to other diodes, a Zener diode can endure constant reverse currents without getting destroyed. Thus, this node supports voltage-regulation, reference, and clipping experiments.
 
 <img src="component_diode_zener_TOP.png" alt="Zener diode diagram face" width="400"> <img src="component_diode_zener_BOTTOM.png" alt="Zener diode component face" width="400">
 

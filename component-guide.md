@@ -47,12 +47,8 @@ The table below lists every component currently available in the repository; cli
       <td><img src="{{ site.baseurl }}/puzzle-pieces/component_diode_general_silicon/component_diode_general_silicon_TOP.png" width="210"/><img src="{{ site.baseurl }}/puzzle-pieces/component_diode_general_silicon/component_diode_general_silicon_BOTTOM.png" width="210"/></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_diode_zener">Diode Zener THT or SMT</a></td>
+      <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_diode_zener">Diode Zener</a></td>
       <td><img src="{{ site.baseurl }}/puzzle-pieces/component_diode_zener/component_diode_zener_TOP.png" width="210"/><img src="{{ site.baseurl }}/puzzle-pieces/component_diode_zener/component_diode_zener_BOTTOM.png" width="210"/></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_diode-Zener_THT">Diode Zener THT</a></td>
-      <td><img src="{{ site.baseurl }}/puzzle-pieces/component_diode-Zener_THT/component_diode-Zener_THT_TOP.png" width="210"/><img src="{{ site.baseurl }}/puzzle-pieces/component_diode-Zener_THT/component_diode-Zener_THT_BOTTOM.png" width="210"/></td>
     </tr>
     <tr>
       <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_fuse-PolyFuse_SMT">Fuse Polyfuse SMT</a></td>

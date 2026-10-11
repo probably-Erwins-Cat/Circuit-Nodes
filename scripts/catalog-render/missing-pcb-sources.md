@@ -1,13 +1,12 @@
 # Puzzle pieces without PCB sources
 
-These 34 immediate `puzzle-pieces` folders had `_TOP.png` and `_BOTTOM.png`
+These 33 immediate `puzzle-pieces` folders had `_TOP.png` and `_BOTTOM.png`
 images but no `.kicad_pcb` file during the October 2026 catalog migration. Their
 existing images were left unchanged. Add the matching PCB sources before asking
 the renderer to replace them.
 
-## Components (15)
+## Components (14)
 
-- `component_diode-Zener_THT`
 - `component_fuse-PolyFuse_SMT`
 - `component_inductance_THT`
 - `component_lamp-E10_THT`
