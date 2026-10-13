@@ -75,8 +75,8 @@ The table below lists every component currently available in the repository; cli
       <td><img src="{{ site.baseurl }}/puzzle-pieces/component_LED_THT/component_LED_THT_TOP.png" width="210"/><img src="{{ site.baseurl }}/puzzle-pieces/component_LED_THT/component_LED_THT_BOTTOM.png" width="210"/></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_LED_THT_replacable_SMT">LED THT Replacable SMT</a></td>
-      <td><img src="{{ site.baseurl }}/puzzle-pieces/component_LED_THT_replacable_SMT/component_LED_THT_replacable_SMT_TOP.png" width="210"/><img src="{{ site.baseurl }}/puzzle-pieces/component_LED_THT_replacable_SMT/component_LED_THT_replacable_SMT_BOTTOM.png" width="210"/></td>
+      <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_LED_replacable">LED Replaceable</a></td>
+      <td><img src="{{ site.baseurl }}/puzzle-pieces/component_LED_replacable/component_LED_replacable_TOP.png" width="210"/><img src="{{ site.baseurl }}/puzzle-pieces/component_LED_replacable/component_LED_replacable_BOTTOM.png" width="210"/></td>
     </tr>
     <tr>
       <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_mosfet_n-channel_ruggedized">Mosfet N Channel Ruggedized</a></td>

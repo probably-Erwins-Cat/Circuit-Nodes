@@ -44,6 +44,12 @@
   },
   "examples": [
     {
+      "name": "component_LED_replacable",
+      "board_file": "puzzle-pieces/component_LED_replacable/component_LED_replacable.kicad_pcb",
+      "board_width_mm": 40,
+      "board_height_mm": 40
+    },
+    {
       "name": "component_lamp-E10_THT",
       "board_file": "puzzle-pieces/component_lamp-E10_THT/component_lamp-E10_THT.kicad_pcb",
       "board_width_mm": 40,
