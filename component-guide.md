@@ -83,8 +83,8 @@ The table below lists every component currently available in the repository; cli
       <td><img src="{{ site.baseurl }}/puzzle-pieces/component_mosfet_n-channel_ruggedized/component_mosfet_n-channel_ruggedized_TOP.png" width="210"/><img src="{{ site.baseurl }}/puzzle-pieces/component_mosfet_n-channel_ruggedized/component_mosfet_n-channel_ruggedized_BOTTOM.png" width="210"/></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_mosfet_n-channel_TO-92">Mosfet N Channel TO 92</a></td>
-      <td><img src="{{ site.baseurl }}/puzzle-pieces/component_mosfet_n-channel_TO-92/component_mosfet_n-channel_TO-92_TOP.png" width="210"/><img src="{{ site.baseurl }}/puzzle-pieces/component_mosfet_n-channel_TO-92/component_mosfet_n-channel_TO-92_BOTTOM.png" width="210"/></td>
+      <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_mosfet_n-channel_TO-92_replacable">Mosfet N Channel TO 92 Replacable</a></td>
+      <td><img src="{{ site.baseurl }}/puzzle-pieces/component_mosfet_n-channel_TO-92_replacable/component_mosfet_n-channel_TO-92_replacable_TOP.png" width="210"/><img src="{{ site.baseurl }}/puzzle-pieces/component_mosfet_n-channel_TO-92_replacable/component_mosfet_n-channel_TO-92_replacable_BOTTOM.png" width="210"/></td>
     </tr>
     <tr>
       <td><a href="https://github.com/probably-erwins-cat/Circuit-Nodes/tree/main/puzzle-pieces/component_motor-with-propeller">Motor With Propeller</a></td>

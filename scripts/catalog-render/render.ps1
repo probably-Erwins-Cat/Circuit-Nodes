@@ -131,6 +131,20 @@ try {
             $board = $board.Replace('${KICAD' + $version + '_3DMODEL_DIR}', $modelRoot)
         }
         $board = $board.Replace('${EASYEDA2KICAD}', $easyEdaLibrary.Replace('\', '/'))
+        # Older KiCad boards may name standard WRL models now supplied as STEP.
+        # Resolve the equivalent in the render-only copy and reject missing models.
+        $board = [regex]::Replace($board, '\(model "([^"]+)"', [Text.RegularExpressions.MatchEvaluator]{
+            param($match)
+            $modelPath = $match.Groups[1].Value
+            if (-not (Test-Path -LiteralPath $modelPath)) {
+                $stepPath = [IO.Path]::ChangeExtension($modelPath, '.step')
+                if ($modelPath.StartsWith($modelRoot) -and $modelPath.EndsWith('.wrl') -and (Test-Path -LiteralPath $stepPath)) {
+                    return '(model "' + $stepPath + '"'
+                }
+                throw "3D model missing for ${name}: $modelPath"
+            }
+            return $match.Value
+        })
         [IO.File]::WriteAllText($renderBoard, $board, [Text.UTF8Encoding]::new($false))
 
         $shortSideMm = [Math]::Min([double]$example.board_width_mm, [double]$example.board_height_mm)

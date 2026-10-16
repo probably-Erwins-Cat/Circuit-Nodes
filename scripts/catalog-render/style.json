@@ -44,6 +44,12 @@
   },
   "examples": [
     {
+      "name": "component_mosfet_n-channel_TO-92_replacable",
+      "board_file": "puzzle-pieces/component_mosfet_n-channel_TO-92_replacable/component_mosfet_n-channel_TO-92_replacable.kicad_pcb",
+      "board_width_mm": 40,
+      "board_height_mm": 40
+    },
+    {
       "name": "component_LED_replacable",
       "board_file": "puzzle-pieces/component_LED_replacable/component_LED_replacable.kicad_pcb",
       "board_width_mm": 40,
