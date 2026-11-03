@@ -3,7 +3,7 @@
 
 An N‑channel MOSFET is a semiconductor switch controlled by a gate voltage. It is widely used for efficient switching of currents in low-side configurations and is an excellent device to introduce switching concepts in class.
 
-<img src="component_mosfet_n-channel_ruggedized_TOP.png" alt="N-channel MOSFET top view" width="400"> <img src="component_mosfet_n-channel_ruggedized_BOTTOM.png" alt="N-channel MOSFET bottom view" width="400">
+<img src="component_transistor_mosfet_n-channel_ruggedized_TOP.png" alt="N-channel MOSFET top view" width="400"> <img src="component_transistor_mosfet_n-channel_ruggedized_BOTTOM.png" alt="N-channel MOSFET bottom view" width="400">
 
 ## Functional description
 The device has three terminals:

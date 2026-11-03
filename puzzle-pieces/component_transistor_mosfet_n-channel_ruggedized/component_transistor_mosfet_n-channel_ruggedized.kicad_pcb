@@ -191,7 +191,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d7ca8f00-f2b4-48b6-be1c-3e921e8685ec")
 		(sheetname "/")
-		(sheetfile "component_mosfet_n-channel_ruggedized.kicad_sch")
+		(sheetfile "component_transistor_mosfet_n-channel_ruggedized.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 0.75 -1.25)
@@ -495,7 +495,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fcabad48-4adc-4912-9822-e71e7cb9275d")
 		(sheetname "/")
-		(sheetfile "component_mosfet_n-channel_ruggedized.kicad_sch")
+		(sheetfile "component_transistor_mosfet_n-channel_ruggedized.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -869,7 +869,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/ff161353-df7f-43f9-90b6-32debe670aad")
 		(sheetname "/")
-		(sheetfile "component_mosfet_n-channel_ruggedized.kicad_sch")
+		(sheetfile "component_transistor_mosfet_n-channel_ruggedized.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.4 0.95)
@@ -1154,7 +1154,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/679ef49e-cd15-458d-9fa9-1028404cf58c")
 		(sheetname "/")
-		(sheetfile "component_mosfet_n-channel_ruggedized.kicad_sch")
+		(sheetfile "component_transistor_mosfet_n-channel_ruggedized.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.51 1.65)
@@ -1442,7 +1442,7 @@
 		(property ki_fp_filters "SOT?223*")
 		(path "/c73f7dd8-156c-459d-bda4-ca8836123278")
 		(sheetname "/")
-		(sheetfile "component_mosfet_n-channel_ruggedized.kicad_sch")
+		(sheetfile "component_transistor_mosfet_n-channel_ruggedized.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.36 2.36)
@@ -1722,7 +1722,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/68ba5895-63f0-4761-8a8a-d7db5c7b66cb")
 		(sheetname "/")
-		(sheetfile "component_mosfet_n-channel_ruggedized.kicad_sch")
+		(sheetfile "component_transistor_mosfet_n-channel_ruggedized.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 0.75 -1.25)
@@ -2139,7 +2139,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/eaaf1614-b5b2-44f8-aaad-02c9e0dc2f36")
 		(sheetname "/")
-		(sheetfile "component_mosfet_n-channel_ruggedized.kicad_sch")
+		(sheetfile "component_transistor_mosfet_n-channel_ruggedized.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -2341,7 +2341,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e43e9ada-c75c-47b1-a98a-9854eb02ae29")
 		(sheetname "/")
-		(sheetfile "component_mosfet_n-channel_ruggedized.kicad_sch")
+		(sheetfile "component_transistor_mosfet_n-channel_ruggedized.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 0.75 1.25)
@@ -2648,7 +2648,7 @@
 		(property ki_fp_filters "SOT?223*")
 		(path "/2ca0870c-6c8b-4792-8813-84d025943b1f")
 		(sheetname "/")
-		(sheetfile "component_mosfet_n-channel_ruggedized.kicad_sch")
+		(sheetfile "component_transistor_mosfet_n-channel_ruggedized.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.91 3.41)
@@ -2925,7 +2925,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/03af4d47-6a04-499f-b03a-712aa46b8808")
 		(sheetname "/")
-		(sheetfile "component_mosfet_n-channel_ruggedized.kicad_sch")
+		(sheetfile "component_transistor_mosfet_n-channel_ruggedized.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -3140,7 +3140,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/8271b7ee-6a54-4b53-b628-db9492b4f203")
 		(sheetname "/")
-		(sheetfile "component_mosfet_n-channel_ruggedized.kicad_sch")
+		(sheetfile "component_transistor_mosfet_n-channel_ruggedized.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.4 0.95)
@@ -3551,7 +3551,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ed5c7499-c46c-41e9-a948-f475620af051")
 		(sheetname "/")
-		(sheetfile "component_mosfet_n-channel_ruggedized.kicad_sch")
+		(sheetfile "component_transistor_mosfet_n-channel_ruggedized.kicad_sch")
 		(clearance 2)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -3659,7 +3659,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/0c3c11b5-f20e-46e0-a748-7f93356f829f")
 		(sheetname "/")
-		(sheetfile "component_mosfet_n-channel_ruggedized.kicad_sch")
+		(sheetfile "component_transistor_mosfet_n-channel_ruggedized.kicad_sch")
 		(clearance 2)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -3767,7 +3767,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/59c9ed92-4413-4d73-9b72-b93c02791a63")
 		(sheetname "/")
-		(sheetfile "component_mosfet_n-channel_ruggedized.kicad_sch")
+		(sheetfile "component_transistor_mosfet_n-channel_ruggedized.kicad_sch")
 		(clearance 2)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -3875,7 +3875,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/9d15ed9f-784c-4043-a3fd-2160e9ab247f")
 		(sheetname "/")
-		(sheetfile "component_mosfet_n-channel_ruggedized.kicad_sch")
+		(sheetfile "component_transistor_mosfet_n-channel_ruggedized.kicad_sch")
 		(clearance 2)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle

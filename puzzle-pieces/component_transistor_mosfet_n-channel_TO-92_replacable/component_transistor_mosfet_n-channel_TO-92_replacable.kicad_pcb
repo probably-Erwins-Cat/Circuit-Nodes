@@ -1087,6 +1087,32 @@
 				(justify mirror)
 			)
 		)
+		(property "Socket alternative" "HCTL PM254-1-03-Z-3.0-C; LCSC C5159935"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "32bb98d2-fe4d-4c0c-9e18-9b4302332734")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Socket 3D model" "Samtec SL-103-T-19; CADENAS; CC BY-ND 4.0; https://www.samtec.com/products/sl-103-t-19"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "48e122de-9411-4e55-8d56-e6f6ead118bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/39b5244d-7ae8-47aa-87b0-bd4b26e201dc")
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -1250,20 +1276,20 @@
 			(uuid "fd6ed2dd-5a3f-4c62-9d87-fb016d1f660b")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/HDR-TH_3P-P2.54-V-F-3.wrl"
+		(model "${KIPRJMOD}/../../assets/3dmodels/SL-103-T-19.stp"
 			(offset
-				(xyz 0 0 0.5)
+				(xyz 0 0 0.4318)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
 			(offset
-				(xyz -2.54 0 8)
+				(xyz -2.54 0 2.6082)
 			)
 			(scale
 				(xyz 1 1 1)

@@ -470,7 +470,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "component_mosfet_n-channel_ruggedized.kicad_pro",
+    "filename": "component_transistor_mosfet_n-channel_ruggedized.kicad_pro",
     "version": 3
   },
   "net_settings": {

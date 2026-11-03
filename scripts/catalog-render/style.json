@@ -44,8 +44,14 @@
   },
   "examples": [
     {
-      "name": "component_mosfet_n-channel_TO-92_replacable",
-      "board_file": "puzzle-pieces/component_mosfet_n-channel_TO-92_replacable/component_mosfet_n-channel_TO-92_replacable.kicad_pcb",
+      "name": "component_transistor_bjt_npn_TO-92_replacable",
+      "board_file": "puzzle-pieces/component_transistor_bjt_npn_TO-92_replacable/component_transistor_bjt_npn_TO-92_replacable.kicad_pcb",
+      "board_width_mm": 40,
+      "board_height_mm": 40
+    },
+    {
+      "name": "component_transistor_mosfet_n-channel_TO-92_replacable",
+      "board_file": "puzzle-pieces/component_transistor_mosfet_n-channel_TO-92_replacable/component_transistor_mosfet_n-channel_TO-92_replacable.kicad_pcb",
       "board_width_mm": 40,
       "board_height_mm": 40
     },
@@ -148,8 +154,8 @@
       "board_height_mm": 40
     },
     {
-      "name": "component_mosfet_n-channel_ruggedized",
-      "board_file": "puzzle-pieces/component_mosfet_n-channel_ruggedized/component_mosfet_n-channel_ruggedized.kicad_pcb",
+      "name": "component_transistor_mosfet_n-channel_ruggedized",
+      "board_file": "puzzle-pieces/component_transistor_mosfet_n-channel_ruggedized/component_transistor_mosfet_n-channel_ruggedized.kicad_pcb",
       "board_width_mm": 40,
       "board_height_mm": 40
     },

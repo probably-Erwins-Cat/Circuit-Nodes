@@ -849,7 +849,7 @@
 			)
 		)
 		(instances
-			(project "component_mosfet_n-channel_TO-92_replacable"
+			(project "component_transistor_mosfet_n-channel_TO-92_replacable"
 				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
 					(reference "H4")
 					(unit 1)
@@ -937,7 +937,7 @@
 			(uuid "04319495-149f-4837-9941-4c38b3eb3ad4")
 		)
 		(instances
-			(project "component_mosfet_n-channel_TO-92_replacable"
+			(project "component_transistor_mosfet_n-channel_TO-92_replacable"
 				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
 					(reference "Q1")
 					(unit 1)
@@ -1013,7 +1013,7 @@
 			)
 		)
 		(instances
-			(project "component_mosfet_n-channel_TO-92_replacable"
+			(project "component_transistor_mosfet_n-channel_TO-92_replacable"
 				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
 					(reference "H1")
 					(unit 1)
@@ -1095,7 +1095,7 @@
 			(uuid "37eed39b-944e-438b-8b90-28d75b72f87f")
 		)
 		(instances
-			(project "component_mosfet_n-channel_TO-92_replacable"
+			(project "component_transistor_mosfet_n-channel_TO-92_replacable"
 				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
 					(reference "J2")
 					(unit 1)
@@ -1171,7 +1171,7 @@
 			)
 		)
 		(instances
-			(project "component_mosfet_n-channel_TO-92_replacable"
+			(project "component_transistor_mosfet_n-channel_TO-92_replacable"
 				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
 					(reference "H2")
 					(unit 1)
@@ -1253,7 +1253,7 @@
 			(uuid "0f070395-d9c2-4b02-9734-63615c32bf34")
 		)
 		(instances
-			(project "component_mosfet_n-channel_TO-92_replacable"
+			(project "component_transistor_mosfet_n-channel_TO-92_replacable"
 				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
 					(reference "J1")
 					(unit 1)
@@ -1335,7 +1335,7 @@
 			(uuid "38c3eabb-bb8b-4a99-a437-9519532a5336")
 		)
 		(instances
-			(project "component_mosfet_n-channel_TO-92_replacable"
+			(project "component_transistor_mosfet_n-channel_TO-92_replacable"
 				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
 					(reference "J5")
 					(unit 1)
@@ -1411,7 +1411,7 @@
 			)
 		)
 		(instances
-			(project "component_mosfet_n-channel_TO-92_replacable"
+			(project "component_transistor_mosfet_n-channel_TO-92_replacable"
 				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
 					(reference "H3")
 					(unit 1)

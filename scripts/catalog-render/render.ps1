@@ -131,6 +131,7 @@ try {
             $board = $board.Replace('${KICAD' + $version + '_3DMODEL_DIR}', $modelRoot)
         }
         $board = $board.Replace('${EASYEDA2KICAD}', $easyEdaLibrary.Replace('\', '/'))
+        $board = $board.Replace('${KIPRJMOD}', (Split-Path $source -Parent).Replace('\', '/'))
         # Older KiCad boards may name standard WRL models now supplied as STEP.
         # Resolve the equivalent in the render-only copy and reject missing models.
         $board = [regex]::Replace($board, '\(model "([^"]+)"', [Text.RegularExpressions.MatchEvaluator]{

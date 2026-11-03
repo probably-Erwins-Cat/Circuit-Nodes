@@ -489,7 +489,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "component_mosfet_n-channel_TO-92_replacable.kicad_pro",
+    "filename": "component_transistor_mosfet_n-channel_TO-92_replacable.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -643,8 +643,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "component_mosfet_n-channel_TO-92_replacable.kicad_sch",
-        "name": "component_mosfet_n-channel_TO-92_replacable",
+        "filename": "component_transistor_mosfet_n-channel_TO-92_replacable.kicad_sch",
+        "name": "component_transistor_mosfet_n-channel_TO-92_replacable",
         "uuid": "5d897b24-6d66-4f0a-be8a-d3125c24425a"
       }
     ],
@@ -654,7 +654,7 @@
   "sheets": [
     [
       "5d897b24-6d66-4f0a-be8a-d3125c24425a",
-      "component_mosfet_n-channel_TO-92_replacable"
+      "component_transistor_mosfet_n-channel_TO-92_replacable"
     ]
   ],
   "text_variables": {},

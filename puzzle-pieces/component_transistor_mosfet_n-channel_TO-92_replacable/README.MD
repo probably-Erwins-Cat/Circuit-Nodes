@@ -4,7 +4,7 @@ This node demonstrates how a gate voltage controls current through a transistor.
 
 **The MOSFET is unprotected, but replaceable using the precision socket.** There is no built-in protection against incorrect connections, excessive gate voltage, or excessive current. The socket makes it easy to replace a damaged MOSFET or compare different types; it does not provide electrical protection.
 
-<img src="component_mosfet_n-channel_TO-92_replacable_TOP.png" alt="N-channel MOSFET diagram face" width="400"> <img src="component_mosfet_n-channel_TO-92_replacable_BOTTOM.png" alt="N-channel MOSFET component face" width="400">
+<img src="component_transistor_mosfet_n-channel_TO-92_replacable_TOP.png" alt="N-channel MOSFET diagram face" width="400"> <img src="component_transistor_mosfet_n-channel_TO-92_replacable_BOTTOM.png" alt="N-channel MOSFET component face" width="400">
 
 ## Connections and classroom use
 

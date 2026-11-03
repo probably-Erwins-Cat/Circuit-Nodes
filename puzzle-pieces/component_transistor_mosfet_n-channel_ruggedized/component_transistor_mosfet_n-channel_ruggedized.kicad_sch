@@ -1754,7 +1754,7 @@
 			(uuid "faf3f70a-f3cd-4225-8234-f1dad44a66a4")
 		)
 		(instances
-			(project "component_mosfet_n-channel_ruggedized"
+			(project "component_transistor_mosfet_n-channel_ruggedized"
 				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
 					(reference "R2")
 					(unit 1)
@@ -2344,7 +2344,7 @@
 			(uuid "efe8ffe0-afdc-43d9-b8dd-e93502e8ba35")
 		)
 		(instances
-			(project "component_mosfet_n-channel_ruggedized"
+			(project "component_transistor_mosfet_n-channel_ruggedized"
 				(path "/5d897b24-6d66-4f0a-be8a-d3125c24425a"
 					(reference "Q2")
 					(unit 1)
